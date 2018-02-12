@@ -12,7 +12,7 @@
   text-align: left;
   border: none;
   outline: none;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   /* Transitions for smoother opening/closing of panels */
   -webkit-transition: 0.5s ease-in-out;
 }
@@ -35,10 +35,15 @@
 }
 
 /* Changes Accordion background colour on hover and when panel is open */
-.accordion.active, .accordion:hover {
+.accordion.active,
+.accordion:hover {
   background-color: #79bd9a
 }
 
 .Expand {
   width: 75%;
 }
+
+/* .firstaccordion {
+  margin-top: 40px;
+} */
