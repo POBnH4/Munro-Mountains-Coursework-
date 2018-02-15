@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Munro Map</title>
+    <link rel="stylesheet" href="css/mapstyle.css">
+
+    <!-- Leaflet Stylesheet & Script -->
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js"></script>
+
+    <!-- mapbox -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+
+
+  </head>
+  <body>
+    <h1>Munro Map</h1>
+    <p>Interactive Munro Map, using Leaflet</p>
+
+    <div id="mapid"></div>
+    <script>
+      var mymap = L.map('mapid').setView([57.1184584,-2.1429013], 13);
+      L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'pk.eyJ1IjoiZHI5OCIsImEiOiJjamRvY3FlZWowMTV6MnFxbGx6d2wzMnM4In0.ZU7d_lasqNE3eRJq3vol2Q'
+      }).addTo(mymap);
+
+      //var marker = L.marker([57.1184584,-2.1429013]).addTo(mymap);
+
+      var greenIcon = L.icon({
+        iconUrl: 'img/greenPin.png',
+        iconSize: [40,64],
+        iconAnchor: [20,63]
+      })
+
+      var greenMnts = L.icon({
+        iconUrl: 'img/greenMnts.png',
+        iconSize: [40,64],
+        iconAnchor: [20,63]
+      })
+
+      var greenHills = L.icon({
+        iconUrl: 'img/greenHills.png',
+        iconSize: [52,32],
+        iconAnchor: [34,31]
+      })
+
+      L.marker([57.1184584,-2.1429013], {icon:greenIcon}).addTo(mymap);
+      L.marker([57.1242826,-2.1434005], {icon: greenMnts}).addTo(mymap);
+      L.marker([57.1297273,-2.1361615], {icon: greenHills}).addTo(mymap);
+
+    </script>
+
+    <!-- MapBox Outdoor Map
+    <div id='map' style='width: 400px; height: 300px;'></div>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoiZHI5OCIsImEiOiJjamRvY3FlZWowMTV6MnFxbGx6d2wzMnM4In0.ZU7d_lasqNE3eRJq3vol2Q';
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/outdoors-v10'
+      });
+    </script>
+  -->
+
+
+  </body>
+</html>
