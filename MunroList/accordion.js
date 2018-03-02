@@ -20,3 +20,31 @@ function setClass(els,className,fnName) {
         els[i].classList[fnName](className);
     }
 }
+
+$(document).ready(function() {
+
+  $(acc).click(function() {
+    var displayMunros = $(panel);
+
+    $.ajax( {
+      type: "GET",
+      url: "munrodata.json",
+      success: function(result)
+      {
+        console.log(result.munros);
+        var munros = result.munros;
+
+        var output = "<table><tbody>";
+        for (var i in munros)
+        {
+          output+="<tr><td>" + munros[i].name + "</td><td>"
+          + munros[i].region + "</td><td>" + munros[i].height + "</td></tr>";
+        }
+        output+="</tbody></table>";
+
+        displayMunros.html(output);
+        $("table").addClass("table");
+      }
+    });
+  });
+});

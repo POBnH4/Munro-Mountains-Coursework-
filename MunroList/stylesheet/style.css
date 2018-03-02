@@ -23,6 +23,8 @@
   padding: 0;
   background-color: white;
   display: block;
+  font-family: Verdana;
+  font-size: 12px;
   /* max-height is the attribute that controls the show/hide of the panel */
   max-height: 0;
   -webkit-transition: 0.5s ease-in-out;
