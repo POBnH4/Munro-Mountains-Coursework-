@@ -9,21 +9,21 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 //var marker = L.marker([57.1184584,-2.1429013]).addTo(mymap);
 
 var greenIcon = L.icon({
-    iconUrl: 'img/greenPin.png',
-    iconSize: [40,64],
-    iconAnchor: [20,63]
+    iconUrl: 'img/greenPin_2.png',
+    iconSize: [25,38],
+    iconAnchor: [12.5,38]
 })
 
 var greenMnts = L.icon({
-    iconUrl: 'img/greenMnts.png',
-    iconSize: [40,64],
-    iconAnchor: [20,63]
+    iconUrl: 'img/greenPin_2.png',
+    iconSize: [25,38],
+    iconAnchor: [12.5,38]
 })
 
 var greenHills = L.icon({
-    iconUrl: 'img/greenHills.png',
-    iconSize: [52,32],
-    iconAnchor: [34,31]
+    iconUrl: 'img/greenPin_2.png',
+    iconSize: [25,38],
+    iconAnchor: [12.5,38]
 })
 
 L.marker([57.1184584,-2.1429013], {icon:greenIcon}).addTo(mymap);
