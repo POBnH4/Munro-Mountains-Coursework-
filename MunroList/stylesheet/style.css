@@ -14,8 +14,7 @@
   text-align: left;
   border: none;
   outline: none;
-  /* margin-top: 5px; */
-  /* Transitions for smoother opening/closing of panels */
+   /* Transitions for smoother opening/closing of panels  */
   -webkit-transition: 0.5s ease-in-out;
 }
 
@@ -25,7 +24,7 @@
   display: block;
   font-family: Verdana;
   font-size: 12px;
-  /* max-height is the attribute that controls the show/hide of the panel */
+   /* max-height is the attribute that controls the show/hide of the panel  */
   max-height: 0;
   -webkit-transition: 0.5s ease-in-out;
   overflow: hidden;
@@ -53,5 +52,4 @@ img {
   float: right;
   position: relative;
   right: 35%;
-  /* text-align: left; */
 }
