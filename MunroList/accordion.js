@@ -21,35 +21,61 @@ var i;
      }
  }
 
-$(function() {
-  $('.accordion').button(function() {
-    addItemToList("example item");
-    return false;
+// $(function() {
+//   $('#searchform').submit(function() {
+//     var searchterms = $("#searchterms").val();
+//     getResultsFromDB(searchterms);
+//     return false;
+//   });
+// });
+
+// function addItemToList(item) {
+//   $('#results').append("<li>" + item + "</li>");
+//   // $("div").append("<p>" + item + "</p>");
+// }
+
+// function getResultsFromDB(searchterms) {
+//   var url = "munrodata.json" + searchterms;
+//   $,getJSON(url, function(jsondata) {
+//     // prettyPrintJSON(jsondata);
+//     addResults(jsondata);
+//   });
+// }
+
+$(document).ready(function() {
+  $('.accordion').click(function() {
+    var displayResources = $('.panel');
+
+    $.ajax({
+      type: "GET",
+      url: "munrodata.json",
+      success: function(result)
+      {
+        console.log(result.munros);
+        var munros = result.munros;
+        var output = "<div>";
+        for(var i in munros)
+        {
+          output += "<ul>" + result[i].name + "</ul><ul>" + result[i].region + "</ul>";
+        }
+        output += "</div>";
+        displayResources.html(output);
+        $("div").addClass("div");
+      }
+    });
   });
 });
-
-function addItemToList(item) {
-  $('.results').append("<ul>" + item + "</ul>");
-}
-
-function getResultsFromDB(searchterms) {
-  var url = "munrodata.json" + searchterms;
-  $,getJSON(url, function(jsondata) {
-    // prettyPrintJSON(jsondata);
-    addResults(jsondata);
-  });
-}
 
 // function prettyPrintJSON(jsondata) {
 //   var pretty = JSON.stringify(jsondata, null, 4);
 //   $('.panel').append("<a>" + pretty + "</a>")
 // }
 
-function addResults(jsondata) {
-  var htmlstring = "";
-  for(var i = 0; i < 10; i++) {
-    var munro = jsondata.Search[i].Munro;
-    htmlstring += "<ul>" + name + "</ul>";
-  }
-  $(".results").html(htmlstring);
-}
+// function addResults(jsondata) {
+//   var htmlstring = "";
+//   for(var i = 0; i < 10; i++) {
+//     // var munro = jsondata.Search[i].Munro;
+//     htmlstring += "<div>" + "<p>" + name + "</p>" + "</div>";
+//   }
+//   $(".results").html(htmlstring);
+// }
