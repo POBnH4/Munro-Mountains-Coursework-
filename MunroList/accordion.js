@@ -56,7 +56,7 @@ $(document).ready(function() {
         var output = "<div>";
         for(var i in munros)
         {
-          output += "<ul>" + result[i].name + "</ul><ul>" + result[i].region + "</ul>";
+          output += "<p>" + munros[i].name + "</p><p>" + munros[i].region + "</p><p>" + munros[i] + "</p>";
         }
         output += "</div>";
         displayResources.html(output);
