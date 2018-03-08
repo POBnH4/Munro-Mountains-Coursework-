@@ -21,7 +21,6 @@
 h3 {
   color: white;
   background-color: #3b8686;
-  padding: 20px 10px 20px 10px;
 }
 
  .whiteback {
@@ -36,12 +35,12 @@ h3 {
   overflow: hidden;
 }
 
-.whiteback.show {
+/* #accordion.show {
   max-height: 5000px !important;
   position: relative;
   top: 80%;
   left: 0;
-}
+} */
 
 /* Changes Accordion background colour on hover and when panel is open */
 #accordion.active,
