@@ -41,7 +41,8 @@ h3 {
 }
 
 /* Changes Accordion background colour on hover and when panel is open */
-#accordion:hover {
+#accordion:hover,
+#accordion:active {
   background-color: #79bd9a
 }
 
