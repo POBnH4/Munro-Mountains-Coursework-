@@ -5,10 +5,10 @@
   padding-top: 25px;
 }
 
-#accordion, h3 {
+#accordion {
   background-color: #3b8686;
   font-size: 13px;
-  color: white;
+  color: black;
   padding: 10px;
   width: 75%;
   text-align: left;
@@ -16,6 +16,10 @@
   outline: none;
    /* Transitions for smoother opening/closing of panels  */
   -webkit-transition: 0.5s ease-in-out;
+}
+
+h3 {
+  color: white;
 }
 
  .whiteback {
