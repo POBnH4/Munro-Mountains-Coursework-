@@ -1,8 +1,8 @@
 /* Set width and position of accordion */
 .content {
   width: 60%;
-  margin: auto;
-  padding-top: 25px;
+  margin: 0;
+  padding-top: 0;
 }
 
 #accordion {
