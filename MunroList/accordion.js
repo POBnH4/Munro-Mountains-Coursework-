@@ -65,9 +65,7 @@ $(document).ready(function() {
 
 
         //$("div").addClass("div");
-        $(function() {
-          $( "#accordion" ).accordion();
-        })
+        $( "#accordion" ).accordion();
       }
     //});
   });
