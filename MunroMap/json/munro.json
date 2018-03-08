@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Ben Nevis",
+        "lat": "56.79685",
+        "lng": "-5.003508",
+        "location": "Lochaber, Highland"
+    },
+    
+    {
+        "name": "Ben Lomond",
+        "lat": "56.19063",
+        "lng": "-4.633177",
+        "location": "Loch Lomond"
+    },
+    
+    {
+        "name": "Ben Hope",
+        "lat": "58.414018",
+        "lng": "-4.607919",
+        "location": "Sutherland, Scotland"
+    },
+    
+    {
+        "name": "Ben Macdui",
+        "lat": "57.070453",
+        "lng": "-3.668262",
+        "location": "Moray/Aberdeenshire"
+    }
+]
