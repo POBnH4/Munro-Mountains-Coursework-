@@ -55,7 +55,7 @@ img {
 
 .float_center {
   float: right;
-  padding-top: 10px;
+  padding: 10px 0 10px 0;
   position: relative;
   right: 35%;
 }
