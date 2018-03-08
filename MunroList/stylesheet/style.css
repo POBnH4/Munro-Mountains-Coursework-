@@ -33,14 +33,11 @@ h3 {
   /* max-height: 0; */
   -webkit-transition: 0.15s ease-in-out;
   overflow: hidden;
-}
-
-/* #accordion.show {
   max-height: 5000px !important;
   position: relative;
   top: 80%;
   left: 0;
-} */
+}
 
 /* Changes Accordion background colour on hover and when panel is open */
 #accordion.active,
