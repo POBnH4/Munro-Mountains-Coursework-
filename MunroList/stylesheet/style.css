@@ -6,7 +6,7 @@
 }
 
 #accordion {
-  background-color: #3b8686;
+  background-color: white;
   font-size: 13px;
   color: black;
   padding: 10px;
@@ -30,7 +30,7 @@ h3 {
   font-family: Verdana;
   font-size: 12px;
    /* max-height is the attribute that controls the show/hide of the panel */
-  max-height: 0;
+  /* max-height: 0; */
   -webkit-transition: 0.5s ease-in-out;
   overflow: hidden;
 }
