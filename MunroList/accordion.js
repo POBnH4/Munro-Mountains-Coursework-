@@ -21,19 +21,19 @@ $(document).ready(function() {
   });
 });
 
-function getSortOrder(prop) {
-  return function(a, b) {
-    if(a[prop] > b[prop]) {
-      return 1;
-    } else if (a[prop] < b[prop]) {
-      return -1;
-    }
-    return 0;
-  }
-}
-$('#height').click(function() {
-  munros.sort(getSortOrder("height"));
-  for(var items in munros) {
-    document.write("<div>" + munros[item].height + "</div>");
-  }
-});
+// function getSortOrder(prop) {
+//   return function(a, b) {
+//     if(a[prop] > b[prop]) {
+//       return 1;
+//     } else if (a[prop] < b[prop]) {
+//       return -1;
+//     }
+//     return 0;
+//   }
+// }
+// $('#height').click(function() {
+//   munros.sort(getSortOrder("height"));
+//   for(var items in munros) {
+//     document.write("<div>" + munros[item].height + "</div>");
+//   }
+// });
