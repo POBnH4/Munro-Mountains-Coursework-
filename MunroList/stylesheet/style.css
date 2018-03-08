@@ -21,6 +21,7 @@
 h3 {
   color: white;
   background-color: #3b8686;
+  padding: 10px 0 10px 0;
 }
 
  .whiteback {
@@ -40,7 +41,6 @@ h3 {
 }
 
 /* Changes Accordion background colour on hover and when panel is open */
-#accordion.active,
 #accordion:hover {
   background-color: #79bd9a
 }
