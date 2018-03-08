@@ -55,7 +55,6 @@ $(document).ready(function() {
         console.log(result.munros);
         var munros = result.munros;
 
-
         for(var i in munros)
         {
           var output = "<div>";
@@ -66,7 +65,9 @@ $(document).ready(function() {
 
 
         //$("div").addClass("div");
-        $( "#accordion" ).accordion();
+        $(function() {
+          $( "#accordion" ).accordion();
+        })
       }
     //});
   });
