@@ -5,7 +5,7 @@
   padding-top: 25px;
 }
 
-#accordion {
+.accordion {
   background-color: #3b8686;
   font-size: 13px;
   color: white;
@@ -18,7 +18,7 @@
   -webkit-transition: 0.5s ease-in-out;
 }
 
- #accordion {
+ .accordion {
   padding: 0;
   background-color: white;
   display: block;
@@ -30,7 +30,7 @@
   overflow: hidden;
 }
 
-#accordion.show {
+.accordion.show {
   max-height: 5000px !important;
   position: relative;
   top: 80%;
@@ -38,8 +38,8 @@
 }
 
 /* Changes Accordion background colour on hover and when panel is open */
-#accordion.active,
-#accordion:hover {
+.accordion.active,
+.accordion:hover {
   background-color: #79bd9a
 }
 

@@ -1,12 +1,12 @@
 var acc = document.getElementsByClassName("accordion");
-var panel = document.getElementsByClassName('panel');
+// var panel = document.getElementsByClassName('panel');
 var i;
 
  for (i = 0; i < acc.length; i++) {
      acc[i].onclick = function() {
          var setClasses = !this.classList.contains('active');
          setClass(acc,'active','remove');
-         setClass(panel,'show','remove');
+         setClass(acc,'show','remove');
 
          if (setClasses) {
              this.classList.toggle("active");
@@ -45,7 +45,7 @@ var i;
 $(document).ready(function() {
 
   //$('#accordion').click(function() {
-    var displayResources = $('#accordion');
+    var displayResources = $('.accordion');
 
     $.ajax({
       type: "GET",
@@ -66,7 +66,7 @@ $(document).ready(function() {
 
 
         //$("div").addClass("div");
-        $( "#accordion" ).accordion();
+        $( ".accordion" ).accordion();
       }
     //});
   });
