@@ -43,6 +43,7 @@ var i;
 // }
 
 $(document).ready(function() {
+
   $('.accordion').click(function() {
     var displayResources = $('.panel');
 
@@ -53,10 +54,11 @@ $(document).ready(function() {
       {
         console.log(result.munros);
         var munros = result.munros;
+
         var output = "<div>";
         for(var i in munros)
         {
-          output += "<p>" + munros[i].name + "</p><p>" + munros[i].region + "</p><p>" + munros[i] + "</p>";
+          output += "<p>" + munros[i].name + "</p><p>" + munros[i].region + "</p><p>" + munros[i].height + "</p><p>" + munros[i].latitude + "</p><p>" + munros[i].longitude + "</p><p>" + munros[i].gridReference + "</p>";
         }
         output += "</div>";
         displayResources.html(output);
