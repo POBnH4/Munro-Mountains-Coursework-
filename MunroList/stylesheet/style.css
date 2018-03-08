@@ -5,7 +5,7 @@
   padding-top: 25px;
 }
 
-.whiteback {
+#accordion {
   background-color: #3b8686;
   font-size: 13px;
   color: white;
@@ -18,17 +18,17 @@
   -webkit-transition: 0.5s ease-in-out;
 }
 
- /* #accordion {
+ .whiteback {
   padding: 0;
   background-color: white;
   display: block;
   font-family: Verdana;
   font-size: 12px;
-   max-height is the attribute that controls the show/hide of the panel
+   /* max-height is the attribute that controls the show/hide of the panel */
   max-height: 0;
   -webkit-transition: 0.5s ease-in-out;
   overflow: hidden;
-} */
+}
 
 /* #accordion.show {
   max-height: 5000px !important;
