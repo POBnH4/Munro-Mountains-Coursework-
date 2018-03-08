@@ -15,7 +15,7 @@
   border: none;
   outline: none;
    /* Transitions for smoother opening/closing of panels  */
-  -webkit-transition: 0.5s ease-in-out;
+  /* -webkit-transition: 0.5s ease-in-out; */
 }
 
 h3 {
@@ -31,12 +31,12 @@ h3 {
   font-size: 12px;
    /* max-height is the attribute that controls the show/hide of the panel */
   /* max-height: 0; */
-  -webkit-transition: 0.15s ease-in-out;
+  /* -webkit-transition: 0.15s ease-in-out;
   overflow: hidden;
   max-height: 5000px !important;
   position: relative;
   top: 80%;
-  left: 0;
+  left: 0; */
 }
 
 /* Changes Accordion background colour on hover and when panel is open */
