@@ -18,7 +18,7 @@
   -webkit-transition: 0.5s ease-in-out;
 }
 
-/* .panel {
+ div {
   padding: 0;
   background-color: white;
   display: block;
@@ -28,7 +28,7 @@
   max-height: 0;
   -webkit-transition: 0.5s ease-in-out;
   overflow: hidden;
-} */
+}
 
 /* .panel.show {
   max-height: 5000px !important;
