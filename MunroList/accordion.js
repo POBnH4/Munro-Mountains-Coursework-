@@ -31,8 +31,9 @@ function getSortOrder(prop) {
     return 0;
   }
 }
-
-munros.sort(getSortOrder("height"));
-for(var items in munros) {
-  document.write("<div>" + munros[item].height + "</div>");
-}
+$('#height').click(function() {
+  munros.sort(getSortOrder("height"));
+  for(var items in munros) {
+    document.write("<div>" + munros[item].height + "</div>");
+  }
+});
