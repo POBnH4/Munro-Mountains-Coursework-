@@ -62,12 +62,11 @@ $(document).ready(function() {
           output += "<h3>" + munros[i].name + "</h3><p>Region: " + munros[i].region + "</p><p>Height: " + munros[i].height + "</p><p>Latitude: " + munros[i].latitude + "</p><p>Longitude: " + munros[i].longitude + "</p><p>Grid Reference: " + munros[i].gridReference + "</p>";
           output += "</div>";
           displayResources.append(output);
-          $( "#accordion" ).accordion();
         }
 
 
         //$("div").addClass("div");
-        // $( "#accordion" ).accordion();
+        $( "#accordion" ).accordion();
       }
     //});
   });
