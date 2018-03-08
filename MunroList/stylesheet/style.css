@@ -43,8 +43,8 @@ h4 {
 }
 
 /* Changes Accordion background colour on hover and when panel is open */
-h3:hover,
-h3:active {
+h4:hover,
+h4:active {
   background-color: #79bd9a;
 }
 
