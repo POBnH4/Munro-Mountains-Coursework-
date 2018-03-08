@@ -55,7 +55,7 @@ $(document).ready(function() {
         console.log(result.munros);
         var munros = result.munros;
 
-        for(var i =0;i<munros.length;i++)
+        for(var i = 0; i < munros.length; i++)
         {
           var output = "<h4>" + munros[i].name + "</h4>";
           output += "<div class='whiteback'><p>Region: " + munros[i].region + "</p><p>Height: " + munros[i].height + "</p><p>Latitude: " + munros[i].latitude + "</p><p>Longitude: " + munros[i].longitude + "</p><p>Grid Reference: " + munros[i].gridReference + "</p>";
