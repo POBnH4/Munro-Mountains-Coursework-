@@ -58,7 +58,7 @@ $(document).ready(function() {
         for(var i =0;i<munros.length;i++)
         {
           var output = "<h3>" + munros[i].name + "</h3>";
-          output += "<div><p>Region: " + munros[i].region + "</p><p>Height: " + munros[i].height + "</p><p>Latitude: " + munros[i].latitude + "</p><p>Longitude: " + munros[i].longitude + "</p><p>Grid Reference: " + munros[i].gridReference + "</p>";
+          output += "<div class='whiteback'><p>Region: " + munros[i].region + "</p><p>Height: " + munros[i].height + "</p><p>Latitude: " + munros[i].latitude + "</p><p>Longitude: " + munros[i].longitude + "</p><p>Grid Reference: " + munros[i].gridReference + "</p>";
           output += "</div>";
           displayMunros.append(output);
         }
