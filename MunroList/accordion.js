@@ -1,50 +1,4 @@
-// var acc = document.getElementsByClassName("accordion");
-// var panel = document.getElementsByClassName('panel');
-// var i;
-//
-//  for (i = 0; i < acc.length; i++) {
-//      acc[i].onclick = function() {
-//          var setClasses = !this.classList.contains('active');
-//          setClass(acc,'active','remove');
-//          setClass(panel,'show','remove');
-//
-//          if (setClasses) {
-//              this.classList.toggle("active");
-//              this.nextElementSibling.classList.toggle("show");
-//          }
-//      }
-//  }
-//
-//  function setClass(els,className,fnName) {
-//      for (i = 0; i < els.length; i++) {
-//          els[i].classList[fnName](className);
-//      }
-//  }
-
-// $(function() {
-//   $('#searchform').submit(function() {
-//     var searchterms = $("#searchterms").val();
-//     getResultsFromDB(searchterms);
-//     return false;
-//   });
-// });
-
-// function addItemToList(item) {
-//   $('#results').append("<li>" + item + "</li>");
-//   // $("div").append("<p>" + item + "</p>");
-// }
-
-// function getResultsFromDB(searchterms) {
-//   var url = "munrodata.json" + searchterms;
-//   $,getJSON(url, function(jsondata) {
-//     // prettyPrintJSON(jsondata);
-//     addResults(jsondata);
-//   });
-// }
-
 $(document).ready(function() {
-
-  //$('#accordion').click(function() {
     var displayMunros = $('#accordion');
 
     $.ajax({
@@ -62,25 +16,23 @@ $(document).ready(function() {
           output += "</div>";
           displayMunros.append(output);
         }
-
-
-        //$("div").addClass("div");
         $( "#accordion" ).accordion();
       }
-    //});
   });
 });
 
-// function prettyPrintJSON(jsondata) {
-//   var pretty = JSON.stringify(jsondata, null, 4);
-//   $('.panel').append("<a>" + pretty + "</a>")
-// }
+function getSortOrder(prop) {
+  return function(a, b) {
+    if(a[prop] > b[prop]) {
+      return 1;
+    } else if (a[prop] < b[prop]) {
+      return -1;
+    }
+    return 0;
+  }
+}
 
-// function addResults(jsondata) {
-//   var htmlstring = "";
-//   for(var i = 0; i < 10; i++) {
-//     // var munro = jsondata.Search[i].Munro;
-//     htmlstring += "<div>" + "<p>" + name + "</p>" + "</div>";
-//   }
-//   $(".results").html(htmlstring);
-// }
+munros.sort(getSortOrder("height"));
+for(var items in munros) {
+  document.write("<div>" + munros[item].height + "</div>");
+}

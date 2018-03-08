@@ -198,5 +198,15 @@
      "longitude": "-5.003684",
      "gridReference": "NN161583"
  },
- {}
+ {
+   "name": "Aonach Eagach (Sgorr nam Fiannaidh)",
+   "region": "Loch Leven to Connel Bridge and Glen Lochy",
+   "height": "967m (approx 3172ft)",
+   "latitude": "56.679395",
+   "longitude": "-5.037911",
+   "gridReference": "NN140583"
+ },
+ {
+   "name": ""
+ }
 ]}
