@@ -45,7 +45,7 @@
 $(document).ready(function() {
 
   //$('#accordion').click(function() {
-    var displayResources = $('#accordion');
+    var displayMunros = $('#accordion');
 
     $.ajax({
       type: "GET",
@@ -60,7 +60,7 @@ $(document).ready(function() {
           var output = "<div>";
           output += "<h3>" + munros[i].name + "</h3><p>Region: " + munros[i].region + "</p><p>Height: " + munros[i].height + "</p><p>Latitude: " + munros[i].latitude + "</p><p>Longitude: " + munros[i].longitude + "</p><p>Grid Reference: " + munros[i].gridReference + "</p>";
           output += "</div>";
-          displayResources.append(output);
+          displayMunros.append(output);
         }
 
 
