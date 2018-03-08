@@ -30,12 +30,12 @@
   overflow: hidden;
 }
 
-/* .panel.show {
+div.show {
   max-height: 5000px !important;
   position: relative;
   top: 80%;
   left: 0;
-} */
+}
 
 /* Changes Accordion background colour on hover and when panel is open */
 #accordion.active,
