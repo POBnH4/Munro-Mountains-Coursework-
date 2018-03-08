@@ -18,7 +18,7 @@
   -webkit-transition: 0.5s ease-in-out;
 }
 
- #accordion {
+ .panel {
   padding: 0;
   background-color: white;
   display: block;
@@ -30,12 +30,12 @@
   overflow: hidden;
 }
 
-#accordion.show {
+/* .panel.show {
   max-height: 5000px !important;
   position: relative;
   top: 80%;
   left: 0;
-}
+} */
 
 /* Changes Accordion background colour on hover and when panel is open */
 #accordion.active,
