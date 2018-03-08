@@ -44,8 +44,8 @@ var i;
 
 $(document).ready(function() {
 
-  $('.accordion').click(function() {
-    var displayResources = $('.panel');
+  //$('#accordion').click(function() {
+    var displayResources = $('#accordion');
 
     $.ajax({
       type: "GET",
@@ -55,16 +55,20 @@ $(document).ready(function() {
         console.log(result.munros);
         var munros = result.munros;
 
-        var output = "<div>";
+
         for(var i in munros)
         {
+          var output = "<div>";
           output += "<p>" + munros[i].name + "</p><p>" + munros[i].region + "</p><p>" + munros[i].height + "</p><p>" + munros[i].latitude + "</p><p>" + munros[i].longitude + "</p><p>" + munros[i].gridReference + "</p>";
+          output += "</div>";
+          displayResources.append(output);
         }
-        output += "</div>";
-        displayResources.html(output);
-        $("div").addClass("div");
+
+
+        //$("div").addClass("div");
+        $( "#accordion" ).accordion();
       }
-    });
+    //});
   });
 });
 
