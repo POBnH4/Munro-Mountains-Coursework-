@@ -1,29 +1,39 @@
-[
+{"munros":
+    [
     {
         "name": "Ben Nevis",
+        "height": "1,345m",
         "lat": "56.79685",
         "lng": "-5.003508",
-        "location": "Lochaber, Highland"
+        "location": "Lochaber, Highland",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Stob_Ban_from_Ben_Nevis.jpg"
     },
     
     {
         "name": "Ben Lomond",
+        "height": "974m",
         "lat": "56.19063",
         "lng": "-4.633177",
-        "location": "Loch Lomond"
+        "location": "Loch Lomond",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ben-Lomond-from-afar.jpg"
     },
     
     {
         "name": "Ben Hope",
+        "height": "927m",
         "lat": "58.414018",
         "lng": "-4.607919",
-        "location": "Sutherland, Scotland"
+        "location": "Sutherland, Scotland",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/BenHopefromLochEriboll.jpg/266px-BenHopefromLochEriboll.jpg"
     },
     
     {
         "name": "Ben Macdui",
+        "height": "1,309m",
         "lat": "57.070453",
         "lng": "-3.668262",
-        "location": "Moray/Aberdeenshire"
+        "location": "Moray/Aberdeenshire",
+        "image": "http://s0.geograph.org.uk/geophotos/03/73/12/3731278_9df00e90.jpg"
     }
 ]
+}
