@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <link rel="stylesheet" type="text/css" href="indexStyle.css">
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
 
@@ -9,6 +10,27 @@
     <title>Munro List</title>
   </head>
   <body>
+    <header id = "header_shrink" class="grid-container">
+      <section id="left-section" class="grid-30 tablet-grid-30 mobile-grid-30">
+      <img id = "logo" src = "logo.png"/>
+      <h1 class = "MunroHeader"> Munro Spotter </h1>
+    </section>
+    <section id="right-section" class="grid-70">
+      <nav>
+        <li class = "links"><a href= "index.html" accesskey="h">Home</a></li>
+        <li class = "links"><a href= "map.html" accesskey="l">Map</a></li>
+        <li class = "links"><a href= "munros.html" accesskey="m">Munros</a></li>
+        <li class = "links"><a href= "information.html" accesskey="t">Information</a></li>
+        <li class = "links"><a href= "contact.html" accesskey="c">Contact</a></li>
+        <li class = "links"><a href= "login.html" accesskey="l">Login</a></li>
+        <form id="search-form" name="search" action="/products" method="get">
+              <input id="search-input" name="search" type="search" placeholder= "Search..." onclick="clear(this)">
+              <button id = "searchButton" type = "button">
+            	<img id = "magnifyingGlass" src = "searchImage.png">
+        </form>
+      </nav>
+    </section>
+    </header>
     <div class="float_center">
       <label for="sort-by" class="inline">Sort by:</label>
     <select id="sort-by" class="all">
@@ -20,7 +42,7 @@
     </div>
     <section class="content">
       <div id="accordion">
-        
+
       </div>
         <!-- <img src="Mountain_Pins/yellowMnt.png" alt="Yellow Mountain" height="25" width="42"> -->
     </section>
