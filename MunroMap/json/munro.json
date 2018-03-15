@@ -6,7 +6,8 @@
         "lat": "56.79685",
         "lng": "-5.003508",
         "location": "Lochaber, Highland",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Stob_Ban_from_Ben_Nevis.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Stob_Ban_from_Ben_Nevis.jpg",
+        "bagged": "true"
     },
     
     {
@@ -15,7 +16,8 @@
         "lat": "56.19063",
         "lng": "-4.633177",
         "location": "Loch Lomond",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ben-Lomond-from-afar.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ben-Lomond-from-afar.jpg",
+        "bagged": "false"
     },
     
     {
@@ -24,7 +26,8 @@
         "lat": "58.414018",
         "lng": "-4.607919",
         "location": "Sutherland, Scotland",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/BenHopefromLochEriboll.jpg/266px-BenHopefromLochEriboll.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/BenHopefromLochEriboll.jpg/266px-BenHopefromLochEriboll.jpg",
+        "bagged": "false"
     },
     
     {
@@ -33,7 +36,8 @@
         "lat": "57.070453",
         "lng": "-3.668262",
         "location": "Moray/Aberdeenshire",
-        "image": "http://s0.geograph.org.uk/geophotos/03/73/12/3731278_9df00e90.jpg"
+        "image": "http://s0.geograph.org.uk/geophotos/03/73/12/3731278_9df00e90.jpg",
+        "bagged": "true"
     }
 ]
 }

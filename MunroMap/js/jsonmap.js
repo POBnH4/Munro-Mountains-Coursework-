@@ -34,7 +34,7 @@ blue.mName = "Ben Nevis";
 blue.addTo(mymap);
 */
 
-/*
+
 $(document).ready(function() {
     $.ajax({
         type: "GET",
@@ -54,6 +54,12 @@ $(document).ready(function() {
                 marker.mLocation = munros[i].location;
                 marker.mImage = munros[i].image;
 
+                //Test for "Bagged"
+                marker.mBag = munros[i].bagged;
+                if (munros[i].bagged == "true") {
+                    marker.setIcon(blueIcon);
+                }
+
                 marker.bindTooltip(munros[i].name,{direction:"top",offset:[0,-40]});
 
                 marker.on('click',openBox);
@@ -63,9 +69,9 @@ $(document).ready(function() {
         }
     })
 })
-*/
 
 
+/*
 $(document).ready(function() {
   $.ajax({
     type: "GET",
@@ -85,6 +91,7 @@ $(document).ready(function() {
           marker.mLocation = munros[i].region;
           // marker.mImage = munros[i].image;
 
+
           marker.bindTooltip(munros[i].name,{direction:"top",offset:[0,-40]});
 
           marker.on('click',openBox);
@@ -94,7 +101,7 @@ $(document).ready(function() {
   }
   })
 })
-
+*/
 
 /*
 //Add Name tooltip to marker
