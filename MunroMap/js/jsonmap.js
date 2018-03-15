@@ -34,6 +34,7 @@ blue.mName = "Ben Nevis";
 blue.addTo(mymap);
 */
 
+/*
 $(document).ready(function() {
     $.ajax({
         type: "GET",
@@ -42,27 +43,57 @@ $(document).ready(function() {
         {
             console.log(result.munros);
             var munros = result.munros;
-            
+
             for (var i = 0; i < munros.length; i++) {
                 var marker = L.marker([munros[i].lat,munros[i].lng], {icon:greenIcon});
-                
+
                 marker.mName = munros[i].name;
                 marker.mHeight = munros[i].height;
                 marker.mLat = munros[i].lat;
                 marker.mLng = munros[i].lng;
                 marker.mLocation = munros[i].location;
                 marker.mImage = munros[i].image;
-                
+
                 marker.bindTooltip(munros[i].name,{direction:"top",offset:[0,-40]});
-                
+
                 marker.on('click',openBox);
-                
+
                 marker.addTo(mymap);
             }
         }
     })
-}) 
+})
+*/
 
+
+$(document).ready(function() {
+  $.ajax({
+    type: "GET",
+    url: "json/munrodata.json",
+    success: function(result)
+    {
+      console.log(result.munros);
+      var munros = result.munros;
+
+      for (var i = 0; i < munros.length; i++) {
+          var marker = L.marker([munros[i].latitude,munros[i].longitude], {icon:greenIcon});
+
+          marker.mName = munros[i].name;
+          marker.mHeight = munros[i].height;
+          marker.mLat = munros[i].latitude;
+          marker.mLng = munros[i].longitude;
+          marker.mLocation = munros[i].region;
+          // marker.mImage = munros[i].image;
+
+          marker.bindTooltip(munros[i].name,{direction:"top",offset:[0,-40]});
+
+          marker.on('click',openBox);
+
+          marker.addTo(mymap);
+    }
+  }
+  })
+})
 
 
 /*
@@ -79,24 +110,25 @@ blue.on('click',openBox);
 //MODAL BOX - OPEN FUNCTION (ON MARKER)
 
 function openBox(e) {
-    
+
     var m = e.target;
-    
+
     var munro = document.getElementById("mName");
     munro.innerHTML = m.mName;
-    
+
+/*
     var img = document.getElementById("mImg");
     img.src = m.mImage;
-    
+*/
     var info = document.getElementById("mText");
-    
+
     var output = "<table><tr><td>Height</td><td>" + m.mHeight + "</td></tr>";
     output += "<tr><td>Location</td><td>" + m.mLocation + "</td></tr>";
     output += "<tr><td>Latitude</td><td>" + m.mLat + "</td></tr>";
     output += "<tr><td>Longitude</td><td>" + m.mLng + "</td></tr></table>";
-    
+
     info.innerHTML = output;
-    
+
     var modal = document.getElementById("popup");
     modal.style.display = "flex";
 }
@@ -117,12 +149,3 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
-
-
-
-
-
-
-
-
