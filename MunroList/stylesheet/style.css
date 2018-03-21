@@ -2,7 +2,7 @@
 .content {
   width: 60%;
   margin: auto;
-  padding-top: 25px;
+  padding-top: 38px;
 }
 
 #accordion {
@@ -58,4 +58,27 @@ img {
   padding: 10px 0 10px 0;
   position: relative;
   right: 35%;
+}
+
+/* header */
+
+li {
+  display: inline-block;
+  padding: 15px;
+  font-weight: bold;
+}
+
+header li:hover{
+  border-bottom: #ADD8E6;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#right-section{
+  margin-top:30px;
 }
