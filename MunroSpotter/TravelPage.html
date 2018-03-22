@@ -6,7 +6,7 @@
     <title>Munro Spotter Travel Page</title>
   </head>
   <body>
-    <header id="PageHeader">
+  <!--  <header id="PageHeader">
         <h1 id="SiteTitle">Travel</h1>
     </header>
 
@@ -18,9 +18,44 @@
         <li><a href="#">Travel</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
-    </nav>
+    </nav>-->
+    <header id="navigation">
+        <section id="left-section">
+            <img src="logo.png" height="75px" width="90px">
+            <h1>MUNRO SPOTTER</h1>
+        </section>
+        <section id="right-section">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li>|</li>
+                    <li><a href="#">MAP</a></li>
+                    <li>|</li>
+                    <li><a href="#">LIST</a></li>
+                    <li>|</li>
+                    <li><a href="#">INFORMATION</a></li>
+                    <li>|</li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li>|</li>
+                    <li><a href="#">LOGIN</a></li>
 
-<p>Click on the buttons inside the tabbed menu:</p>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+      <img src="mountain2.jpg" id="MountainPanorama">
+
+
+
+    <h2 id="PageHeader">
+          <h1 id="SiteTitle">Travel</h1>
+      </h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 <div class="tab">
   <button class="tablinks" onclick="openSection(event, 'What')" id="defaultOpen">What do you need to climb?</button>
@@ -28,6 +63,7 @@
   <button class="tablinks" onclick="openSection(event, 'Safety')">Safety First!</button>
 </div>
 
+<div>
 <div id="What" class="tabcontent">
   <h3>What do you need to climb?</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -170,26 +206,16 @@
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 </div>
+<div class="clearfix"></div>
+</div>
 
-<script>
-function openSection(evt, sectionName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(sectionName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
+  <footer>
+        <div>
+            <p>MUNRO SPOTTER</p>
+            <p id="year">2018</p>
+        </div>
+    </footer>
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-
+<script src="TravelPage.js"></script>
   </body>
 </html>
