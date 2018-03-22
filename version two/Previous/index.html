@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang = "en" class="grid-container">
+  <head>
+
+    <meta charset = "utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content= "width=device-width,
+     initial-scale=1,
+     minimum-scale=1,
+     maximum-scale=1"/>
+
+    <title>Munro's Spotter</title>
+
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type = "text/javascript" src = "javascriptFile.js"></script>
+    <script src="js/konami.js"></script>
+
+    <!-- unsemantic -->
+    <link rel = "stylesheet" href = "./unsemantic-master/assets/stylesheets/unsemantic-grid-responsive.css" />
+    <link rel = "stylesheet" type = "text/css" href = "styleUnsemantic.css"/>
+
+    <!-- css -->
+    <link rel = "stylesheet" type = "text/css" href = "indexStyle.css"/>
+
+  </head>
+  <script>
+    $(document).ready(function() {
+	     $(window).scroll(function() {
+  	      if($(document).scrollTop() > 10) {
+    	       $('#header_shrink').addClass('shrink');
+          } else {
+             $('#header_shrink').removeClass('shrink');
+          }
+      });
+    });
+
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+         dots[i].className = dots[i].className.replace(" w3-white", "");
+      }
+      x[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " w3-white";
+    }
+
+  </script>
+  <body class="grid-container grid-100 tablet-grid-100 mobile-grid-100">
+    <header id = "header_shrink" class="grid-container">
+      <section id="left-section" class="grid-30 tablet-grid-30 mobile-grid-30">
+      <img id = "logo" src = "logo.png"/>
+      <h1 class = "MunroHeader"> Munro Spotter </h1>
+    </section>
+    <section id="right-section" class="grid-70">
+      <nav>
+        <li class = "links"><a href= "index.html" accesskey="h">Home</a></li>
+        <li class = "links"><a href= "map.html" accesskey="l">Map</a></li>
+        <li class = "links"><a href= "munros.html" accesskey="m">Munros</a></li>
+        <li class = "links"><a href= "informatio.html" accesskey="t">Information</a></li>
+        <li class = "links"><a href= "contact.html" accesskey="c">Contact</a></li>
+        <li class = "links"><a href= "login.html" accesskey="l">Login</a></li>
+        <form id="search-form" name="search" action="/products" method="get">
+              <input id="search-input" name="search" type="search" placeholder= "  Search..." onclick="clear(this)">
+              <button id="searchButton" type = "button">
+            	<img id = "magnifyingGlass" src = "searchImage.png">
+        </form>
+      </nav>
+    </section>
+    </header>
+
+    <div id = "contentContainer" class = "grid-container">
+      <div class = "grid-100 tablet-grid-100 mobile-grid-100" id = "slideshowGallery">
+        <!-- <img class = "images" src = "river.gif"/> -->
+        <div class="w3-content w3-display-container" style="max-width:800px">
+          <img class="mySlides" src="photoOne.jpg" style="width:100%">
+          <img class="mySlides" src="photoTwo.jpg" style="width:100%">
+          <img class="mySlides" src="photoThree.jpg" style="width:100%">
+          <img class="mySlides" src="photoFour.jpg" style="width:100%">
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+      </div>
+      <p> Lorem ipsum dssolor sit amet, consectetur adipiscing elit. Donec elementum ante at ante elementum feugiat. Maecenas elit tortor, rutrum fermentum fringilla ac, tristique eu urna. Quisque malesuada nisl ut lacinia luctus. Aenean libero magna, iaculis facilisis feugiat eget, vestibulum vitae justo. Nullam sagittis, quam sit amet convallis aliquet, nunc justo aliquet enim, at rutrum purus odio vel orci. Donec consectetur urna tristique ante varius commodo. Pellentesque sollicitudin arcu massa, hendrerit pulvinar nibh cursus et. Maecenas euismod fringilla nisi et interdum. Cras orci erat, elementum eget est nec, semper vestibulum risus. Maecenas et volutpat neque, at mollis lacus. Proin tellus orci, egestas eget nisi non, viverra pretium est. Vivamus volutpat ex dolor, non venenatis metus fringilla et. Pellentesque eget enim ut mauris lobortis rhoncus quis non enim. Curabitur faucibus et felis et sollicitudin. Donec fermentum, orci eget porttitor rutrum, urna risus tristique neque, in pharetra augue quam et sem.
+
+Vivamus vulputate elementum neque, vel eleifend tellus faucibus sed. Morbi malesuada, velit nec elementum tempus, quam risus venenatis lacus, non tristique augue lectus quis nibh. Quisque facilisis neque non lacus mollis, nec molestie lorem consequat. Curabitur rhoncus ante velit, non pellentesque urna aliquam nec. Suspendisse hendrerit enim fringilla enim ullamcorper commodo. Fusce enim mauris, auctor quis ex id, congue vulputate augue. Cras pretium odio placerat, iaculis est ut, volutpat orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean nulla neque, aliquet luctus sem sollicitudin, cursus venenatis magna. Sed non nisi imperdiet, pretium erat ac, consectetur ligula. Vivamus in scelerisque nibh, vel finibus risus. Nulla ut felis non lectus facilisis venenatis. Mauris tincidunt elit tellus, in auctor quam euismod vel. Donec eget nisl a dolor ultricies facilisis.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas dapibus placerat nisi, ac tincidunt ligula tempor quis. Proin ligula tellus, pellentesque id leo sagittis, tempus tristique lacus. Mauris feugiat est eu libero semper, non ornare justo lacinia. Sed hendrerit, arcu ultricies condimentum maximus, lacus dolor blandit neque, sit amet pellentesque purus elit ac lacus. Nunc sollicitudin neque et risus ullamcorper feugiat. Nunc pellentesque auctor elit non imperdiet. Phasellus lacinia, nisl eget tincidunt semper, dolor dolor porttitor turpis, sit amet ultricies massa urna eget est. Nullam fermentum dictum ornare. Aenean ullamcorper vitae justo sed tristique. Aliquam dapibus ornare scelerisque. Praesent vitae luctus elit. Cras venenatis dui non felis semper fermentum. Fusce nec venenatis nisi. Ut dapibus leo sapien, eget dignissim ipsum efficitur id. Sed sagittis turpis urna, quis malesuada sem ultricies ut.
+
+Etiam lobortis in est eget vehicula. Sed eu lectus lobortis, tempus sapien quis, commodo tortor. In hac habitasse platea dictumst. Sed in ligula tristique magna porta aliquam. Aliquam vehicula nibh ut eleifend ultrices. In cursus, arcu eget vulputate vulputate, magna neque sagittis lorem, a efficitur massa leo laoreet nisl. Phasellus dignissim massa at interdum dignissim. Fusce sit amet leo pellentesque, mattis mauris vitae, efficitur elit. Proin facilisis consectetur lacinia. Duis gravida mauris ac justo fringilla placerat. Vestibulum non lacus est. Pellentesque ut velit vitae odio facilisis interdum ac congue lectus. Phasellus vel sem eu tortor mollis maximus. Fusce nec lectus in lectus interdum posuere nec non velit.
+
+Donec rutrum eros in justo egestas mollis. Pellentesque tellus purus, euismod in mollis sed, placerat ut leo. Fusce sed dui sit amet lectus mattis condimentum. Ut bibendum pharetra consequat. Praesent rhoncus ex est, sit amet lacinia nisl molestie ac. Vivamus malesuada, metus sit amet scelerisque eleifend, tellus sapien euismod velit, vel blandit odio magna sed turpis. Duis et enim id risus sagittis luctus ac eget lectus. Vivamus nec congue odio. In tristique nisl nec fringilla dapibus.</p>
+    </div>
+  </content>
+  </body>
+</html>

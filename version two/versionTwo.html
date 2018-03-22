@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<title>Munro Spotter</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel = "stylesheet" type = "text/css" href = "versionTwo.css"/>
+
+<body>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center">
+    <div class ="w3-image" class="parallax">
+      <img id = "logo" src = "logoB.png"/>
+    </div>
+
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-round w3-display-bottommiddle w3-hide-small">
+  <div>
+    <a href="#" class="w3-bar-item w3-button">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button">Map</a>
+    <a href="#contact" class="w3-bar-item w3-button">Munros</a>
+    <a href="#contact" class="w3-bar-item w3-button">Information</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#contact" class="w3-bar-item w3-button">Login</a>
+
+  </div>
+</div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+</div>
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top">
+
+  <!-- Contact form-->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top">
+    <h3 class="w3-center">Contact</h3>
+    <hr>
+    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
+    <!-- Contact form fields -->
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" required name="Name">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" required name="Email">
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" required name="Message">
+      </div>
+      <!-- Contact form fields END-->
+      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+    </form><br>
+  </div>
+  <!-- End of contact form -->
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>

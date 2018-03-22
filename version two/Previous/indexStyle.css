@@ -1,0 +1,262 @@
+body {
+  height:100%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container{
+  min-width: 1349px;
+  padding: 0 0 0 0 !important;
+}
+
+
+.mySlides {
+  display:none
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer
+}
+.w3-badge {
+  height:13px;width:13px;padding:0
+}
+
+
+#search-form{
+  position: relative;
+  float: right;
+  margin-top: 4px;
+  margin-right: 120px;
+}
+
+#search-input{
+
+}
+
+#searchButton{
+  margin-left: -4px;
+  margin-top: 3px;
+  height: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+#header_shrink.shrink {
+  height: 40px;
+  transition: all ease .5s;
+}
+
+#header_shrink.shrink #logo {
+  height: 50px;
+  width:70px;
+  margin-top:-10px;
+  border-radius: 100px;
+  }
+
+  #header_shrink.shrink .MunroHeader {
+    height: 50px;
+    width:200px;
+    margin-top: 4px;
+    font-size: 1.4em;
+ }
+
+ #header_shrink.shrink li {
+   padding:25px;
+   font-size: 0.9em;
+   height:30px;
+   margin-top: 0px;
+}
+
+#header_shrink.shrink #right-section {
+  margin-top: -14px;
+  margin-left: -50px;
+}
+
+#header_shrink.shrink #search-form {
+  margin-top: 20px;
+  margin-right: -40px;
+}
+
+#header_shrink header li:hover{
+  border-bottom-style:none;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  border-bottom: #ADD8E6;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.grid-100{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+header h1 {
+  float: left;
+  font-family: serif;
+  color: black;
+  font-size: 1.4em;
+  font-family: "GT-Walsheim", "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+header img {
+  float: left;
+}
+
+li {
+  display: inline-block;
+  padding: 15px;
+  margin-top: -5px;
+  font-weight: bold;
+  font-family: "GT-Walsheim", "Proxima Nova", "Rockwell";
+}
+
+
+header li:hover{
+  border-bottom: #ADD8E6;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  -webkit-transition-timing-function: linear;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#contentContainer{
+  margin-top: 100px;
+}
+
+#left-column{
+  background-color: red;
+}
+
+#right-section{
+  margin-top:30px;
+}
+
+.MunroHeader{
+  font-size: 2.0em;
+  margin-top: 26px;
+}
+
+#logo{
+  border-radius: 80px;
+  width: 90px;
+  height: 90px;
+  padding-right: 20px;
+  margin-left: 50px;
+  /* margin: -50px 0 0 200px; */
+}
+
+#header-column ul li{
+  font-size: 1.3em;
+  list-style: none;
+  float: left;
+  padding-left: 50px;
+}
+
+a:hover{
+  border-bottom-color: blue;
+  border-bottom-width: 10px;
+}
+
+.button{
+  border:none;
+}
+
+#search-input{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+#magnifyingGlass{
+  background-image: url(searchImage.png);
+  height:15px;
+  width: 15px;
+}
+
+#slideshowGallery{
+  height: 500px;
+  width: 100%;
+}
+.images{
+  margin-top: -10px;
+  height:500px;
+  width:100%;
+}
+
+@font-face {
+  font-family: "Mountain Repeat";
+  src: url("Mountain Retreat\\MountainRetreat.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("Proxima Nova\\Mark Simonson - Proxima Nova Alt Black Italic.otf");
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("ufonts.com_futura-bold.ttf");
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("Gotham Fonts Family\\GOTHAM-BOLD.TTF");
+}
+
+@font-face {
+  font-family: "GOTHAM-BLACKITALIC";
+  src: url("Gotham Fonts Family\\GOTHAM-BLACKITALIC.TTF");
+}
+
+@font-face {
+  font-family: "GT-Walsheim";
+  src: url("Grilli-Type-Trial-Fonts-2018-03\\GT-Walsheim-Pro-Trial-Bold.otf");
+}
+/*
+@media screen and (max-width: 959px){
+  .grid-container{
+    width:100%;
+  }
+
+  header #left-section{
+    width:30%;
+  }
+
+  header #right-section{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .grid-container{
+    width:100%;
+  }
+
+  header #left-section{
+    width:100%;
+  }
+
+  header #right-section{
+    width: 100%;
+  }
+
+  .images {
+    width:100%;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  .grid-container{
+    width:320px;
+  }
+
+} */

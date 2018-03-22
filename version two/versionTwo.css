@@ -1,0 +1,117 @@
+html{
+  width:100%;
+  height:100%;
+  padding: 0 0 0 0 !important;
+  margin: 0 0 0 0 !important;
+}
+
+body{
+  width:100%;
+  height:100%;
+  padding: 0 0 0 0 !important;
+  margin: 0 0 0 0 !important;
+}
+
+#logo{
+    width: 400px;
+    height: 100px;
+    padding-right: 20px;
+    margin: 250px 0 0 -240px;
+    position: absolute;
+}
+
+/* image && logo container */
+.w3-display-container{
+    max-width:1700px;
+}
+
+/* main image effect class */
+.parallax {
+    background-image: url("photoThree.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* main image features */
+.w3-image{
+    height: 631px !important;
+    width: 1700px !important;
+    background-image: url("photoThree.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* nav bar */
+.w3-bar{
+    width: 1700px !important;
+    display: flex !important;
+    bottom:-16px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B486B;
+    color: white;
+    padding-left: 100px;
+
+}
+
+
+
+ /* - - - - - - - - - - - - - - - -MEDIA QUERY- - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+/* Smartphones (portrait and landscape) ---------- */
+ /* @media screen and (min-width: 320px) and (max-width: 480px){
+
+ }
+ /* Smartphones (portrait) ---------- */
+ /* @media screen and (max-width: 320px){
+
+ } */
+ /* Smartphones (landscape) ---------- */
+
+ @media screen and (min-width: 320px){
+   .w3-display-container{ width:1150px;}
+   .w3-bar{ padding-right: 240px;}
+   #logo{ margin: 300px 0 0 -270px;}
+ }
+
+ @media screen and (min-width: 350px){
+   .w3-display-container{ width:1150px;}
+   .w3-bar{ padding-right: 140px;}
+   #logo{ margin: 300px 0 0 -200px;}
+ }
+
+ @media screen and (min-width: 425px){
+   .w3-display-container{ width:1400px;}
+   .w3-bar{ padding-right: 280px;}
+   #logo{ margin: 300px 0 0 -270px;}
+ }
+
+ @media screen and (min-width: 600px){
+   .w3-display-container{ width:1000px;}
+   .w3-bar{ padding-right: 150px;}
+   #logo{ margin: 300px 0 0 -200px;}
+ }
+ /* tablets, iPads (portrait and landscape -> tablets, iPads (portrait)---------- */
+ @media screen and (min-width: 768px){
+   .w3-display-container{ width:1050px; }
+   .w3-bar{ padding-right: 200px;}
+   #logo{ margin: 300px 0 0 -240px;}
+ }
+ /* tablets, iPads (landscape) ---------- */
+ @media screen and (min-width: 1024px){
+   .w3-display-container{ width:1300px;}
+   .w3-bar{ padding-right: 310px;}
+   #logo{ margin: 300px 0 0 -290px;}
+ }
+ /* Desktops and laptops ---------- */
+ @media screen and (min-width: 1224px){
+   .w3-display-container{ width:1800px;}
+   .w3-bar{ padding-right: 380px;}
+   #logo{ margin: 300px 0 0 -320px;}
+ }
