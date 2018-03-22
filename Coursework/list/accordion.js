@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     $.ajax({
       type: "GET",
-      url: "munrodata.json",
+      url: "../list/munrodata.json",
       success: function(result)
       {
         console.log(result.munros);
