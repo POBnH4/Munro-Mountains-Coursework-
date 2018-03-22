@@ -1,16 +1,87 @@
 body {
     margin: auto;
-/*    width: 80%;*/
 }
 
+/* Set width and position of accordion */
+.content {
+  width: 60%;
+  margin: auto;
+  padding-top: 38px;
+}
 
+#accordion {
+  background-color: white;
+  font-size: 13px;
+  color: black;
+  padding: 0;
+  width: 75%;
+  text-align: left;
+  border: none;
+  outline: none;
+   /* Transitions for smoother opening/closing of panels  */
+  /* -webkit-transition: 0.5s ease-in-out; */
+}
+
+.munrotitle:after {
+    content: "\25bc";
+    color: #ffffff;
+    float: right;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 11px;
+}
+
+.munrotitle.ui-state-active:after {
+    content: "\25b2";
+}
+
+h4 {
+  color: white;
+  background-color: #3b8686;
+  padding: 10px 0 10px 10px;
+  margin: 5px 0 5px 0;
+  font-family: Verdana;
+}
+
+ .whiteback {
+  padding: 5px 0 5px 5px;
+  background-color: white;
+  display: block;
+  font-family: Verdana;
+  font-size: 12px;
+   /* max-height is the attribute that controls the show/hide of the panel */
+  /* max-height: 0; */
+  /* -webkit-transition: 0.15s ease-in-out; */
+  height: auto;
+/*     padding-bottom: 10px;*/
+/*     overflow: auto;*/
+  position: relative;
+  top: 80%;
+  left: 0;
+}
+
+/* Changes Accordion background colour on hover and when panel is open */
+h4:hover,
+h4:active {
+  background-color: #79bd9a;
+}
 
 /*
-#band {
-    width: 100%;
-    height: 10px;
+img {
+  float: right;
+  padding-right: 10px;
 }
 */
+
+.float_center {
+  float: right;
+  padding: 10px 0 10px 0;
+  position: relative;
+  right: 35%;
+}
+
+/* header */
+
 nav {
     width: 100%;
     justify-content: center;
@@ -89,13 +160,12 @@ header {
 #left-section img {
     float: left;
     height: 60px;
-/*    width: 60px;*/
     width: 20%;
 }
 
 #left-section h1 {
     float: left;
-    margin-left: 14px;
+    margin-left: 0px;
     font-family: Rockwell;
     color: #0B486B;
 }
@@ -107,12 +177,11 @@ header {
     height: 80px;
 }
 
-
 main {
     margin: auto;
 }
 
-main img {
+#big {
     display: block;
     margin: auto;
     width: 100%;
@@ -121,23 +190,6 @@ main img {
 
     border-bottom: 10px solid #0B486B;
 }
-
-#info {
-    margin: auto;
-    width: 90%;
-}
-
-#title {
-/*    margin: auto;*/
-    text-align: center;
-}
-
-p {
-    text-align: justify
-}
-
-
-
 
 .sticky {
     position: fixed;
@@ -169,11 +221,14 @@ footer div {
     margin: auto;
 }
 
-
-
-
-
-
-
-
-
+.mountains {
+    width: 42px;
+    height: 25px;
+    padding-bottom: 10px;
+/*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+*/
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Munro List</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+  </head>
+  <body>
+    <header id="navigation">
+            <section id="left-section">
+                <img src="logo.png">
+                <h1>MUNRO SPOTTER</h1>
+            </section>
+            <section id="right-section">
+                <nav>
+                    <ul>
+                        <li><a href="http://127.0.0.1:60809/WebDev%20-%20MS/index.html">HOME</a></li>
+                        <li>|</li>
+                        <li><a href="http://127.0.0.1:60809/MunroMap/munromap.html">MAP</a></li>
+                        <li>|</li>
+                        <li><a href="http://127.0.0.1:60809/MunroList/munro-list.html">LIST</a></li>
+                        <li>|</li>
+                        <li><a href="#">INFORMATION</a></li>
+                        <li>|</li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li>|</li>
+                        <li><a href="#">LOGIN</a></li>
+
+                    </ul>
+                </nav>
+            </section>
+        </header>
+      
+      <main>
+        <img id="big" src="landscape.jpg" alt="Mountain Panorama">
+        <div class="float_center">
+            <label for="sort-by" class="inline">Sort by:</label>
+            <select id="sort-by" class="all">
+                <option value="a-z" id="a-z">A-Z</option>
+                <option value="z-a" id="z-a">Z-A</option>
+                <option value="height" id="height">Height</option>
+                <option value="location" id="location">Location</option>
+            </select>
+        </div>
+    <section class="content">
+      <div id="accordion">
+
+      </div>
+        <!-- <img src="Mountain_Pins/yellowMnt.png" alt="Yellow Mountain" height="25" width="42"> -->
+    </section>
+      </main>
+      <footer>
+            <div>
+                <p>MUNRO SPOTTER</p>
+                <p id="year">2018</p>
+            </div>
+        </footer>
+      
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!--      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>-->
+      <script src="accordion.js"></script>
+      <script src="stickynav.js"></script>
+  </body>
+</html>
