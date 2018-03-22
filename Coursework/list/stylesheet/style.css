@@ -1,6 +1,9 @@
+body {
+    margin: auto;
+}
+
 /* Set width and position of accordion */
 .content {
-    /*display: block;*/
   width: 60%;
   margin: auto;
   padding-top: 38px;
@@ -11,12 +14,25 @@
   font-size: 13px;
   color: black;
   padding: 0;
-  width: 100%;
+  width: 75%;
   text-align: left;
   border: none;
   outline: none;
    /* Transitions for smoother opening/closing of panels  */
   /* -webkit-transition: 0.5s ease-in-out; */
+}
+
+.munrotitle:after {
+    content: "\25bc";
+    color: #ffffff;
+    float: right;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 11px;
+}
+
+.munrotitle.ui-state-active:after {
+    content: "\25b2";
 }
 
 h4 {
@@ -28,7 +44,7 @@ h4 {
 }
 
  .whiteback {
-  padding: 0 0 0 5px;
+  padding: 5px 0 5px 5px;
   background-color: white;
   display: block;
   font-family: Verdana;
@@ -36,8 +52,9 @@ h4 {
    /* max-height is the attribute that controls the show/hide of the panel */
   /* max-height: 0; */
   /* -webkit-transition: 0.15s ease-in-out; */
-  overflow: hidden;
-  max-height: 5000px !important;
+  height: auto;
+/*     padding-bottom: 10px;*/
+/*     overflow: auto;*/
   position: relative;
   top: 80%;
   left: 0;
@@ -49,37 +66,169 @@ h4:active {
   background-color: #79bd9a;
 }
 
+/*
 img {
   float: right;
   padding-right: 10px;
 }
+*/
 
 .float_center {
   float: right;
   padding: 10px 0 10px 0;
   position: relative;
-  right: 20%;
+  right: 35%;
 }
 
 /* header */
 
-li {
-  display: inline-block;
-  padding: 15px;
-  font-weight: bold;
+nav {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*    background-color: beige;*/
+    margin: auto;
 }
 
-header li:hover{
-  border-bottom: #ADD8E6;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
+ul {
+    list-style-type: none;
+/*    display: inline-block;*/
+    justify-content: center;
+    align-items: center;
+/*
+    padding-left: 60px;
+    margin: 0px;
+*/
+}
+
+li {
+    display: inline;
+    width: auto;
+/*    background-color: coral;*/
+    
+    padding: 10px 5px;
+    margin: 0 3px;
+/*    margin-left: 20px;*/
+/*    margin-right:20px;*/
+    
+
+}
+
+li:nth-child(odd):hover {
+    border-bottom: 2px solid #0B486B;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    font-family: Rockwell;
+    font-size: 18px;
+    color: #0B486B;
 }
 
-#right-section{
-  margin-top:30px;
+
+h1 {
+    font-family: Bookman Old Style;
+    font-size: 30px;
+}
+
+
+header section {
+    display: inline-block;
+    background-color: #FFFFFF;
+    /*border-top: 8px solid #3B8686;*/
+    /*border-bottom: 8px solid #79BD9A;*/
+}
+
+header {
+    /*border-bottom: 2px solid #0B486B;*/
+    border-top: 10px solid #0B486B;
+    height: 80px;
+}
+
+#left-section {
+    width: 40%;
+    float: left;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    border-bottom: 5px solid purple;*/
+}
+
+#left-section img {
+    float: left;
+    height: 60px;
+    width: 20%;
+}
+
+#left-section h1 {
+    float: left;
+    margin-left: 0px;
+    font-family: Rockwell;
+    color: #0B486B;
+}
+
+#right-section {
+    width: 60%;
+    float: left;
+    display: flex;
+    height: 80px;
+}
+
+main {
+    margin: auto;
+}
+
+#big {
+    display: block;
+    margin: auto;
+    width: 100%;
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+
+    border-bottom: 10px solid #0B486B;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + main {
+    padding-top: 80px;
+}
+
+
+footer {
+    height: 50px;
+    color: #0B486B;
+    border-top: 10px solid #0B486B;
+    font-family: Rockwell;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.mountains {
+    width: 42px;
+    height: 25px;
+    padding-bottom: 10px;
+/*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+*/
 }
