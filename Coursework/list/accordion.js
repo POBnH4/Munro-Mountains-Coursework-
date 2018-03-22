@@ -11,25 +11,37 @@ $(document).ready(function() {
 
         for(var i = 0; i < munros.length; i++)
         {
-          var output = "<h4>" + munros[i].name + "</h4>";
-          output += "<div class='whiteback'><p>Region: " + munros[i].region + "</p><p>Height: " + munros[i].height + "</p><p>Latitude: " + munros[i].latitude + "</p><p>Longitude: " + munros[i].longitude + "</p><p>Grid Reference: " + munros[i].gridReference + "</p>";
-          output += "</div>";
+          var output = "<h4 class='munrotitle'>" + munros[i].name;
+            
+          output += "</h4><div class='whiteback'><table><tr><td>Description: </td><td>" + munros[i].description + "</td></tr><tr><td>Region: </td><td>" + munros[i].region + "</td></tr><tr><td>Height: </td><td>" + munros[i].height + "</td></tr><tr><td>Latitude: </td><td>" + munros[i].latitude + "</td></tr><tr><td>Longitude: </td><td>" + munros[i].longitude + "</td></tr><tr><td>Grid Reference: </td><td>" + munros[i].gridReference + "</td></tr><tr><td>Difficulty: </td><td>";
+            
+            if (munros[i].difficulty == "Easy") {
+                output += "<img class='mountains' src='Mountain_Pins/greenMnt.png'>";
+            } else if (munros[i].difficulty == "Intermediate") {
+                output += "<img src='Mountain_Pins/yellowMnt.png'><img src='Mountain_Pins/yellowMnt.png'>";
+            } else if (munros[i].difficulty == "Hard") {
+                output += "<img src='Mountain_Pins/redMnt.png'><img src='Mountain_Pins/redMnt.png'><img src='Mountain_Pins/redMnt.png'>";
+            }
+            
+          output += "</td></tr><tr><td>Climbed: </td></tr><tr><td><input type='checkbox' id='checkBox' onclick='myFunction()'></td></tr></table></div>";
           displayMunros.append(output);
         }
-        $( "#accordion" ).accordion();
+        $( "#accordion" ).accordion({collapsible:true});
       }
   });
 });
 
-$(document).ready(function() {
-   $(window).scroll(function() {
-      if($(document).scrollTop() > 10) {
-         $('#header_shrink').addClass('shrink');
-      } else {
-         $('#header_shrink').removeClass('shrink');
-      }
-  });
-});
+// $(function myFunction() {
+//     var x = document.getElementById("checkBox");
+//     if (x.checked == true) {
+//         output += "<img src='Mountain_Pins/blueMnt.png'>";
+//         x.style.display = "block";
+//     } else {
+//         x.style.display = "none";
+//     }
+// });
+
+
 
 // function getSortOrder(prop) {
 //   return function(a, b) {
