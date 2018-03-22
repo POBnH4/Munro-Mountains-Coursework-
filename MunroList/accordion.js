@@ -21,6 +21,16 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function() {
+   $(window).scroll(function() {
+      if($(document).scrollTop() > 10) {
+         $('#header_shrink').addClass('shrink');
+      } else {
+         $('#header_shrink').removeClass('shrink');
+      }
+  });
+});
+
 // function getSortOrder(prop) {
 //   return function(a, b) {
 //     if(a[prop] > b[prop]) {

@@ -1,0 +1,61 @@
+
+body {
+  margins: auto ;
+  width : 80%;
+}
+header, section, article, nav, aside,
+footer, div {
+  font-family: sans serif;
+  border: 1px dotted #Brown;
+  padding: 10px;
+  margin: 10px
+}
+
+#SiteNavigation {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: White;
+    display: inline-block;
+}
+
+li {
+    display:inline;
+}
+/*
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #111;
+} */
+
+
+
+#SiteLogo {width: 10%;
+          heignt 10em;
+        float:left;}
+
+
+
+
+#form {
+  padding-top: 600px;
+}
+
+
+
+#name {float: inherit;}
+
+
+
+#gif { width: 100%;
+      heignt 50em;
+      float:right;
+    padding-top: 100px;
+
+
+}
