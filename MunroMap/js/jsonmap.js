@@ -123,10 +123,10 @@ function openBox(e) {
     var munro = document.getElementById("mName");
     munro.innerHTML = m.mName;
 
-/*
+
     var img = document.getElementById("mImg");
     img.src = m.mImage;
-*/
+
     var info = document.getElementById("mText");
 
     var output = "<table><tr><td>Height</td><td>" + m.mHeight + "</td></tr>";

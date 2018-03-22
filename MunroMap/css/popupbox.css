@@ -81,7 +81,7 @@ table {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 20px 0px 30px;
+    padding: 20px 0px 5px;
 }
 
 #boxContent {
@@ -91,6 +91,19 @@ table {
 
 tr:nth-child(odd) {
     background-color: #cae8e8;
+}
+
+#weather {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#weather img {
+    width: 70%;
 }
 
 #mLink {
