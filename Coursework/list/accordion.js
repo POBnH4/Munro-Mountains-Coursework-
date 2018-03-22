@@ -31,6 +31,7 @@ $(document).ready(function() {
   });
 });
 
+
 // $(function myFunction() {
 //     var x = document.getElementById("checkBox");
 //     if (x.checked == true) {
