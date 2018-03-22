@@ -1,18 +1,22 @@
 {"munros": [{
+    "description": "A'Bhuidheanach Bheag is a broad, domed summit on the spacious plateau to the east of the Drumochter Pass.",
     "name": "A'Bhuidheanach Bheag",
     "region": "Loch Ericht to Glen Tromie and Glen Garry",
     "height": "937m (approx 3074ft)",
     "latitude": "56.870459",
     "longitude": "-4.200008",
-    "gridReference": "NN660776"
+    "gridReference": "NN660776",
+    "difficulty": "Intermediate"
 },
  {
+     "description": "Topped by a big cairn, A'Chailleach is the most asceneded and perhaps the finest of the Monadhliath.",
      "name": "A'Chailleach (Monadhliath)",
      "region": "Spean Bridge to Elgin",
      "height": "930m (approx 3051ft)",
      "latitude": "57.10895",
      "longitude": "-4.179447",
-     "gridReference": "NH681041"
+     "gridReference": "NH681041",
+     "difficulty": "Intermediate"
  },
  {
      "name": "A'Chailleach",
@@ -20,7 +24,8 @@
      "height": "997m (approx 3271ft)",
      "latitude": "57.693754",
      "longitude": "-5.129114",
-     "gridReference": "NH136714"
+     "gridReference": "NH136714",
+     "difficulty": "Easy"
  },
  {
      "name": "A'Chraileag (A'Chralaig)",
@@ -28,7 +33,8 @@
      "height": "1120m (approx 3675ft)",
      "latitude": "57.184351",
      "longitude": "-5.155414",
-     "gridReference": "NH094148"
+     "gridReference": "NH094148",
+     "difficulty": "Hard"
  },
  {
      "name": "A'Ghlas-bheinn",
@@ -1062,6 +1068,46 @@
    "gridReference": "NN904842"
  },
  {
-   "name": ""
+   "name": "Carn an Righ",
+   "region": "Forest of Atholl to Braemar and Blairgowrie",
+   "height": "1029m (approx 3376ft)",
+   "latitude": "56.876038",
+   "longitude": "-3.596431",
+   "gridReference": "NO028772"
+ },
+ {
+   "name": "Carn an Tuirc",
+   "region": "Braemar to Montrose",
+   "height": "1019m (approx 3343ft)",
+   "latitude": "56.907608",
+   "longitude": "-3.358004",
+   "gridReference": "NO174804"
+ },
+ {
+   "name": "Carn an t-Sagairt Mor",
+   "region": "Braemar to Montrose",
+   "height": "1047m (approx 3435ft)",
+   "latitude": "56.943229",
+   "longitude": "-3.303409",
+   "gridReference": "NO208843"
+ },
+ {
+   "name": "Carn na Caim",
+   "region": "Loch Ericht to Glen Tromie and Glen Garry",
+   "height": "941m (approx 3087ft)",
+   "latitude": "56.911343",
+   "longitude": "-4.174487",
+   "gridReference": "NN677821"
+ },
+ {
+   "name": "Carn nan Gobhar (Strathfarrar)",
+   "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
+   "height": "992m (approx 3255ft)",
+   "latitude": "57.452517",
+   "longitude": "-4.880033",
+   "gridReference": "NH273439"
+ },
+ {
+
  }
 ]}
