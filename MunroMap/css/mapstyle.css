@@ -2,3 +2,56 @@
   height: 700px;
     z-index: 0;
 }
+
+table, td {
+  /*    border: ;*/
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+#mText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 5px;
+}
+
+#boxContent {
+  /*    display: flex;*/
+  /*    justify-content: center;*/
+}
+
+tr:nth-child(odd) {
+  background-color: #cae8e8;
+}
+
+#weather {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+#weather img {
+  width: 70%;
+}
+
+#mLink {
+  text-decoration: none;
+  color: whitesmoke;
+  display: block;
+  padding: 10px;
+}
+
+#boxFooter div {
+  background-color: #3B8686;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

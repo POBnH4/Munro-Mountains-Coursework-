@@ -131,6 +131,14 @@ nav {
     height: 500px;
 }
 
+.page {
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
 footer {
     height: 50px;
     color: #FFFFFF;

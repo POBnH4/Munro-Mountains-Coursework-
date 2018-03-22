@@ -80,7 +80,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $.ajax({
     type: "GET",
-    url: "json/munrodata.json",
+    url: "munrodata.json",
     success: function(result)
     {
       console.log(result.munros);
@@ -128,9 +128,9 @@ function openBox(e) {
     var munro = document.getElementById("mName");
     munro.innerHTML = m.mName;
 
-
-    var img = document.getElementById("mImg");
-    img.src = m.mImage;
+// No image urls in JSON file, placeholder image used
+    // var img = document.getElementById("mImg");
+    // img.src = m.mImage;
 
     var info = document.getElementById("mText");
 
