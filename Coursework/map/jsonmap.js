@@ -79,11 +79,10 @@ $(document).ready(function() {
 var smrLocations = L.layerGroup([]);
 var munroMountains = L.layerGroup([]);
 
-/*
 var munroEasy = L.layerGroup([]);
 var munroMedium = L.layerGroup([]);
 var munroHard = L.layerGroup([]);
- */
+
 
 
 
@@ -91,14 +90,15 @@ var munroHard = L.layerGroup([]);
 $(document).ready(function() {
   $.ajax({
     type: "GET",
-    url: "munrodata.json",
+    url: "../list/munrodata.json",
     success: function(result)
     {
       console.log(result.munros);
       var munros = result.munros;
 
       for (var i = 0; i < munros.length; i++) {
-          var marker = L.marker([munros[i].latitude,munros[i].longitude], {icon:greenIcon});
+          // var marker = L.marker([munros[i].latitude,munros[i].longitude], {icon:greenIcon});
+          var marker = L.marker([munros[i].latitude,munros[i].longitude]);
 
           marker.mName = munros[i].name;
           marker.mHeight = munros[i].height;
@@ -106,14 +106,35 @@ $(document).ready(function() {
           marker.mLng = munros[i].longitude;
           marker.mLocation = munros[i].region;
           // marker.mImage = munros[i].image;
+          marker.mDiff = munros[i].difficulty;
 
 
           marker.bindTooltip(munros[i].name,{direction:"top",offset:[0,-40]});
 
           marker.on('click',openBox);
 
+
+          if (marker.mDiff == "Easy") {
+              marker.setIcon(greenIcon);
+              munroEasy.addLayer(marker);
+          }
+          else if (marker.mDiff == "Intermediate") {
+              marker.setIcon(yellowIcon);
+              munroMedium.addLayer(marker);
+          }
+          else if (marker.mDiff == "Hard") {
+              marker.setIcon(redIcon);
+              munroHard.addLayer(marker);
+          }
+          else {
+              marker.setIcon(blueIcon);
+              munroMountains.addLayer(marker);
+          }
+
+
+
           // marker.addTo(mymap);
-          munroMountains.addLayer(marker);
+          // munroMountains.addLayer(marker);
     }
   }
   })
@@ -151,19 +172,22 @@ $(document).ready(function() {
 //     // "Streets": baseMap
 // }
 
+/*
 var mapOverlays = {
     "SMR": smrLocations.addTo(mymap),
     "Munros": munroMountains.addTo(mymap)
 }
+*/
 
-/*
+
 var mapOverlays = {
     "SMR Stations": smrLocations.addTo(mymap),
     "Beginner Munros": munroEasy.addTo(mymap),
     "Intermediate Munros": munroMedium.addTo(mymap),
-    "Difficult Munros": munroHard.addTo(mymap)
+    "Difficult Munros": munroHard.addTo(mymap),
+    "Other (Testing)": munroMountains.addTo(mymap)
 }
- */
+
 
 
 L.control.layers(null,mapOverlays,{collapsed:false}).addTo(mymap);
