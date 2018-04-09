@@ -3,3 +3,7 @@
     z-index: 0;
 }
 
+.leaflet-control-layers-overlays {
+  text-align: left;
+  font-size: 14px;
+}

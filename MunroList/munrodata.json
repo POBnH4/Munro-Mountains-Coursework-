@@ -1453,7 +1453,11 @@
    "name": "Creag Pitridh",
    "region": "Fort William to Loch Ericht",
    "height": "924m (approx 3032ft)",
+<<<<<<< HEAD
    "latitude": "56.899246",
+=======
+   "latitude": "56.900246",
+>>>>>>> f113a6c4e5cbefe99c2acb01bb8d2d85c6ff25e9
    "longitude": "-4.485811",
    "gridReference": "NN487814",
    "difficulty": ""
@@ -1463,6 +1467,7 @@
    "name": "Creag a'Mhaim",
    "region": "Glen Shiel to Glenfinnan",
    "height": "947m (approx 3107ft)",
+<<<<<<< HEAD
    "latitude": "57.120376",
    "longitude": "-5.161534",
    "gridReference": "NH087077",
@@ -2333,5 +2338,8 @@
  {
    "description": "",
    "name": ""
+=======
+   "latitude"
+>>>>>>> f113a6c4e5cbefe99c2acb01bb8d2d85c6ff25e9
  }
 ]}
