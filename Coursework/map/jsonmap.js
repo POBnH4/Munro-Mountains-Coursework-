@@ -100,6 +100,8 @@ $(document).ready(function() {
           // var marker = L.marker([munros[i].latitude,munros[i].longitude], {icon:greenIcon});
           var marker = L.marker([munros[i].latitude,munros[i].longitude]);
 
+          // console.log(munros[i]);
+
           marker.mName = munros[i].name;
           marker.mHeight = munros[i].height;
           marker.mLat = munros[i].latitude;
