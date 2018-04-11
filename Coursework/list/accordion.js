@@ -12,9 +12,9 @@ $(document).ready(function() {
         for(var i = 0; i < munros.length; i++)
         {
           var output = "<h4 class='munrotitle'>" + munros[i].name;
-            
+
           output += "</h4><div class='whiteback'><table><tr><td>Description: </td><td>" + munros[i].description + "</td></tr><tr><td>Region: </td><td>" + munros[i].region + "</td></tr><tr><td>Height: </td><td>" + munros[i].height + "</td></tr><tr><td>Latitude: </td><td>" + munros[i].latitude + "</td></tr><tr><td>Longitude: </td><td>" + munros[i].longitude + "</td></tr><tr><td>Grid Reference: </td><td>" + munros[i].gridReference + "</td></tr><tr><td>Difficulty: </td><td>";
-            
+
             if (munros[i].difficulty == "Easy") {
                 output += "<img class='mountains' src='Mountain_Pins/greenMnt.png'>";
             } else if (munros[i].difficulty == "Intermediate") {
@@ -22,8 +22,25 @@ $(document).ready(function() {
             } else if (munros[i].difficulty == "Hard") {
                 output += "<img src='Mountain_Pins/redMnt.png'><img src='Mountain_Pins/redMnt.png'><img src='Mountain_Pins/redMnt.png'>";
             }
-            
-          output += "</td></tr><tr><td>Climbed: </td></tr><tr><td><input type='checkbox' id='checkBox' onclick='myFunction()'></td></tr></table></div>";
+
+          output += "</td></tr><tr><td>Climbed: </td></tr><tr><td>";
+
+          function DoCheckUncheckDisplay(d,dchecked,dunchecked)
+          {
+            if( d.checked == true )
+            {
+              document.getElementById(dchecked).style.display = "block";
+              document.getElementById(dunchecked).style.display = "none";
+            }
+            else
+            {
+              document.getElementById(dchecked).style.display = "none";
+              document.getElementById(dunchecked).style.display = "block";
+            }
+          }
+
+          output += "<div>Check/uncheck:<input type="checkbox" onclick="DoCheckUncheckDisplay(this,'checkbox-checked','checkbox-unchecked')" style="margin:0;"></div><div id="checkbox-checked" style="display:none; color:green;">The checkbox is checked.</div><div id="checkbox-unchecked" style="display:none; color:red;">The checkbox is unchecked.</div>";
+          output += "</td></tr></table></div>";
           displayMunros.append(output);
         }
         $( "#accordion" ).accordion({collapsible:true});
