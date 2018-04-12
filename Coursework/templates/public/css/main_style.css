@@ -73,6 +73,7 @@ nav {
     background-color: #0B486B;
     color: white;
     padding: 1px 0;
+    z-index: 2;
 }
 
 .sticky {
@@ -81,9 +82,9 @@ nav {
     /*width: 100%;*/
 }
 
-/*.sticky + header {*/
-    /*padding-top: 80px;*/
-/*}*/
+.sticky + header {
+    padding-top: 80px;
+}
 
 
 @media only screen and (min-width: 516px) {

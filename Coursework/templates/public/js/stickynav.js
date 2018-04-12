@@ -18,8 +18,8 @@ function stickyFunction() {
 */
 
 
-console.log($('.parallax').height());
-console.log($(this).scrollTop());
+// console.log($('.parallax').height());
+// console.log($(this).scrollTop());
 
 var yourNavigation = $(".nav");
 stickyDiv = "sticky";
