@@ -57,10 +57,12 @@ app.get('/', function(req,res) {
 // map page
 app.get('/munromap', function(req,res) {
 
+    /*
     //if user not logged in - don't show "bagged" marker
     if (!req.session.loggedin) {
         res.redirect('')
     }
+    */
 
     res.render('pages/map');
 
@@ -88,4 +90,4 @@ app.get('/login', function(req,res) {
     res.render('pages/login');
 });
 
-app.listen(8080);
+// app.listen(8080);
