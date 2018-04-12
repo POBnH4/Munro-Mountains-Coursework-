@@ -192,7 +192,7 @@ var mapOverlays = {
     "Intermediate Munros": munroMedium.addTo(mymap),
     "Difficult Munros": munroHard.addTo(mymap)
     // "Other (Testing)": munroMountains.addTo(mymap)
-}
+};
 
 if (session.loggedin) {
     mapOverlays.add("Other (Testing)", munroMountains.addTo(mymap));
