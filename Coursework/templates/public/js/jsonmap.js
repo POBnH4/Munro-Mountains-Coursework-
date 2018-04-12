@@ -130,7 +130,7 @@ $(document).ready(function() {
           }
           else {
               if (!session.loggedin) {
-
+                  //do not show blue pins...
               }
               else {
                   marker.setIcon(blueIcon);
