@@ -12,7 +12,7 @@ var app = express();
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-app.use(express.static("css"));
+app.use(express.static("public"));
 
 // use res.render to load ejs view file
 
