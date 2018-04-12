@@ -186,13 +186,23 @@ var mapOverlays = {
 }
 */
 
-
-var mapOverlays = {
-    "SMR Stations": smrLocations.addTo(mymap),
-    "Beginner Munros": munroEasy.addTo(mymap),
-    "Intermediate Munros": munroMedium.addTo(mymap),
-    "Difficult Munros": munroHard.addTo(mymap),
-    "Other (Testing)": munroMountains.addTo(mymap)
+if (!session.loggedin) {
+    var mapOverlays = {
+        "SMR Stations": smrLocations.addTo(mymap),
+        "Beginner Munros": munroEasy.addTo(mymap),
+        "Intermediate Munros": munroMedium.addTo(mymap),
+        "Difficult Munros": munroHard.addTo(mymap),
+        // "Other (Testing)": munroMountains.addTo(mymap)
+    }
+}
+else {
+    var mapOverlays = {
+        "SMR Stations": smrLocations.addTo(mymap),
+        "Beginner Munros": munroEasy.addTo(mymap),
+        "Intermediate Munros": munroMedium.addTo(mymap),
+        "Difficult Munros": munroHard.addTo(mymap),
+        "Other (Testing)": munroMountains.addTo(mymap)
+    }
 }
 
 
