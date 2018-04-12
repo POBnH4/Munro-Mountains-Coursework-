@@ -21,4 +21,8 @@ app.get('/', function(req,res) {
     res.render('pages/index');
 });
 
+app.get('/munromap', function(req,res) {
+    res.render('pages/map');
+});
+
 app.listen(8080);
