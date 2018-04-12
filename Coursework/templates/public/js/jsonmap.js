@@ -129,8 +129,13 @@ $(document).ready(function() {
               munroHard.addLayer(marker);
           }
           else {
-              marker.setIcon(blueIcon);
-              munroMountains.addLayer(marker);
+              if (!session.loggedin) {
+
+              }
+              else {
+                  marker.setIcon(blueIcon);
+                  munroMountains.addLayer(marker);
+              }
           }
 
 
