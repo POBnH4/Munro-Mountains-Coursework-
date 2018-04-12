@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="/css/popupbox.css">
 
     <!-- Leaflet Stylesheet & Script -->
-    <link rel="stylesheet" href="leaflet/leaflet.css" />
-    <script src="leaflet/leaflet.js"></script>
+    <link rel="stylesheet" href="/leaflet/leaflet.css" />
+    <script src="/leaflet/leaflet.js"></script>
 
     <!-- mapbox -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
@@ -47,7 +47,7 @@
                         </div>
                     </section>
                     <section id="boxContent">
-                        <img id="mImg" src="img/bennevis.jpg">
+                        <img id="mImg" src="/img/bennevis.jpg">
                         <div id="mText">
                             <table>
                                 <tr>
@@ -70,7 +70,7 @@
                         </div>
                     </section>
                     <section id="weather">
-                        <img src="img/weather.jpg">
+                        <img src="/img/weather.jpg">
                     </section>
                     <section id="boxFooter">
                         <div>
@@ -88,6 +88,9 @@
     </footer>
 
     <% include ../partials/scripts.ejs %>
+
+    <!-- Script for map -->
+    <script src="/js/jsonmap.js" type="text/javascript"></script>
 
 </body>
 
