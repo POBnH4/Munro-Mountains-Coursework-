@@ -193,7 +193,7 @@ if (!session.loggedin) {
         "SMR Stations": smrLocations.addTo(mymap),
         "Beginner Munros": munroEasy.addTo(mymap),
         "Intermediate Munros": munroMedium.addTo(mymap),
-        "Difficult Munros": munroHard.addTo(mymap),
+        "Difficult Munros": munroHard.addTo(mymap)
         // "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
