@@ -62,6 +62,7 @@ app.get('/munromap', function(req,res) {
     if (!req.session.loggedin) {
         res.redirect('')
     }
+
     */
 
     res.render('pages/map');
