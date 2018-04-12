@@ -186,8 +186,10 @@ var mapOverlays = {
 }
 */
 
+var mapOverlays;
+
 if (!session.loggedin) {
-    var mapOverlays = {
+    mapOverlays = {
         "SMR Stations": smrLocations.addTo(mymap),
         "Beginner Munros": munroEasy.addTo(mymap),
         "Intermediate Munros": munroMedium.addTo(mymap),
@@ -196,7 +198,7 @@ if (!session.loggedin) {
     }
 }
 else {
-    var mapOverlays = {
+    mapOverlays = {
         "SMR Stations": smrLocations.addTo(mymap),
         "Beginner Munros": munroEasy.addTo(mymap),
         "Intermediate Munros": munroMedium.addTo(mymap),
