@@ -90,7 +90,7 @@ var munroHard = L.layerGroup([]);
 $(document).ready(function() {
   $.ajax({
     type: "GET",
-    url: "../list/munrodata.json",
+    url: "/json/munrodata.json",
     success: function(result)
     {
       console.log(result.munros);
@@ -147,7 +147,7 @@ $(document).ready(function() {
 $(document).ready(function() {
    $.ajax ({
        type: "GET",
-       url: "smr.json",
+       url: "/json/smr.json",
        success: function(result)
        {
            console.log(result.smr);
