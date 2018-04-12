@@ -186,16 +186,15 @@ var mapOverlays = {
 }
 */
 
-/*
 
 var mapOverlays = {
     "SMR Stations": smrLocations.addTo(mymap),
     "Beginner Munros": munroEasy.addTo(mymap),
     "Intermediate Munros": munroMedium.addTo(mymap),
-    "Difficult Munros": munroHard.addTo(mymap)
-    // "Other (Testing)": munroMountains.addTo(mymap)
+    "Difficult Munros": munroHard.addTo(mymap),
+    "Other (Testing)": munroMountains.addTo(mymap)
 };
-*/
+
 
 /*
 if (session.loggedin) {
@@ -203,6 +202,7 @@ if (session.loggedin) {
 }
 */
 
+/*
 var mO;
 
 
@@ -224,8 +224,8 @@ else {
         "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
-
-var mapOverlays = mO;
+*/
+// var mapOverlays = mO;
 
 L.control.layers(null,mapOverlays,{collapsed:false}).addTo(mymap);
 
