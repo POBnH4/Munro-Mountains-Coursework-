@@ -129,7 +129,7 @@ $(document).ready(function() {
               munroHard.addLayer(marker);
           }
           else {
-              if (!usession.loggedin) {
+              if (!userSession.loggedin) {
                   //do not show blue pins...
               }
               else {
