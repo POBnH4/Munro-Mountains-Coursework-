@@ -150,6 +150,7 @@ $(document).ready(function() {
                             munroMountains.addLayer(marker);
                         }
                     }
+
                 }
 
 
