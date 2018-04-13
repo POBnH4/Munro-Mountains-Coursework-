@@ -73,7 +73,7 @@ app.get('/munromap', function(req,res) {
     });
 */
 
-    session.loggedin = true;
+    // session.loggedin = true;
 /*
     // db.collection('munros').find().toArray(function(err,result) {
     //     if (err) throw err;
