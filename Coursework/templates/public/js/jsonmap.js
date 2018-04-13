@@ -176,6 +176,16 @@ $(document).ready(function () {
 });
 */
 
+$(document).ready(function() {
+    $.ajax({
+        url: "/munros",
+        success: function(result)
+        {
+         console.log(result);
+        }
+    })
+});
+
 /*
 //Map markers loaded using JSON
 $(document).ready(function() {
