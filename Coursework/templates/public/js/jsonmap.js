@@ -95,7 +95,7 @@ console.log(uSessionB);
 
 //Session Boolean - SUCCESS
 var userSession = document.getElementById('uSBoolean').innerHTML;
-console.log(userSession);
+// console.log(userSession);
 
 //Map markers loaded using JSON
 $(document).ready(function() {

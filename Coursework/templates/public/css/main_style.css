@@ -30,6 +30,11 @@ html {
     overflow-x: hidden;
 }
 
+/* User Session Boolean Value*/
+#uSBoolean {
+    display: none;
+}
+
 header {
     position: relative;
     /*max-width: 1500px;*/
