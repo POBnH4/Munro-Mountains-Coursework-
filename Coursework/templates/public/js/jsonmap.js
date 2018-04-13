@@ -96,12 +96,19 @@ console.log(uSessionB);
 //Session Boolean - SUCCESS
 var userSession = document.getElementById('uSBoolean').innerHTML;
 // console.log(userSession);
+// var munros = document.getElementById('munroResult').innerHTML;
 
 //Map markers loaded using JSON
 $(document).ready(function() {
   $.ajax({
+    /*
     type: "GET",
     url: "/json/munrodata.json",
+    success: function(result)
+    */
+    type: "GET",
+    url: "mongodb://localhost:27017/munrospotter",
+    datatype: "json",
     success: function(result)
     {
       console.log(result.munros);
