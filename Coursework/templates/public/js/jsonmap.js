@@ -105,7 +105,7 @@ var userSession = document.getElementById('uSBoolean').innerHTML;
 $(document).ready(function() {
     $.ajax({
         // type: "GET",
-        url: "/munromap",
+        url: "/munros",
         success: function(result)
         {
             console.log(result);
