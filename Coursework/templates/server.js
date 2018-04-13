@@ -98,7 +98,7 @@ app.get('/munromap', function(req,res) {
 });
 
 
-app.get('/munros', function(res,req) {
+app.get('/munros', function(req,res) {
     db.collection('munros').find({},function(err,result){
         res.send(result);
     });
