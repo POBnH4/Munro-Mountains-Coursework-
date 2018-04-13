@@ -108,7 +108,7 @@ $(document).ready(function() {
         url: "/munromap",
         success: function(result)
         {
-            // console.log(result.munros);
+            console.log(result);
             var munros = result;
 
             for (var i = 0; i < munros.length; i++) {
