@@ -74,10 +74,22 @@ app.get('/munromap', function(req,res) {
 */
 
     session.loggedin = true;
-6
+
+    db.collection('munros').find().toArray(function(err,result) {
+        if (err) throw err;
+        res.render('pages/map', {
+            munros: result,
+            usession: session
+        })
+    });
+
+    /*
+    session.loggedin = true;
+
     res.render('pages/map', {
         usession: session
     });
+    */
 
 
 
