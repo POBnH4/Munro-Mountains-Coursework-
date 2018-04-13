@@ -55,7 +55,7 @@ app.get('/', function(req,res) {
 });
 
 // map page
-app.get('/munromap', function(req,res) {
+app.get('/munromap', function(req,res,session) {
 
     /*
     //if user not logged in - don't show "bagged" marker
@@ -64,8 +64,18 @@ app.get('/munromap', function(req,res) {
     }
 
     */
+/*
+    db.collection('munros').find().toArray(function(err,result,session) {
+        if (err) throw err;
+        res.render('pages/map', {
+            usession: session
+        })
+    });
+*/
 
-    res.render('pages/map');
+    res.render('pages/map', {
+        usession: session
+    });
 
 
 
