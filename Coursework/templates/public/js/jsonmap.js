@@ -179,7 +179,7 @@ $(document).ready(function () {
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "/munros",
+        url: "/munromap",
         context: document.body,
         success: function(result)
         {
