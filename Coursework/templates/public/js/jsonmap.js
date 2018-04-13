@@ -105,7 +105,6 @@ $(document).ready(function() {
     $.ajax({
         // type: "GET",
         url: "/munromap",
-        context: document.body,
         success: function(result)
         {
             // console.log(result.munros);
