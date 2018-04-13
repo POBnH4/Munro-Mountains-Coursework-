@@ -89,11 +89,13 @@ app.get('/munromap', function(req,res) {
         res.send(result);
     });
 
-    session.loggedin = true;
+    // session.loggedin = true;
 
+    /*
     res.render('pages/map', {
         usession: session
     });
+    */
 
 
 
