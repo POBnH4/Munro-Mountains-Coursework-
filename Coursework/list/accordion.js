@@ -1,3 +1,11 @@
+function listenerEx(i) {
+    if($("#checkBox" + i).is(":checked")) {
+        $("#bMount" + i).show();
+    } else {
+        $("#bMount" + i).hide();
+    }
+}
+
 $(document).ready(function() {
     var displayMunros = $('#accordion');
 
@@ -11,10 +19,10 @@ $(document).ready(function() {
 
         for(var i = 0; i < munros.length; i++)
         {
-          var output = "<h4 class='munrotitle'>" + munros[i].name;
-            
+          var output = "<h4 class='munrotitle'>" + munros[i].name + "<img class='bMount' id='bMount" + i + "' src='Mountain_Pins/blueMnt.png'>";
+
           output += "</h4><div class='whiteback'><table><tr><td>Description: </td><td>" + munros[i].description + "</td></tr><tr><td>Region: </td><td>" + munros[i].region + "</td></tr><tr><td>Height: </td><td>" + munros[i].height + "</td></tr><tr><td>Latitude: </td><td>" + munros[i].latitude + "</td></tr><tr><td>Longitude: </td><td>" + munros[i].longitude + "</td></tr><tr><td>Grid Reference: </td><td>" + munros[i].gridReference + "</td></tr><tr><td>Difficulty: </td><td>";
-            
+
             if (munros[i].difficulty == "Easy") {
                 output += "<img class='mountains' src='Mountain_Pins/greenMnt.png'>";
             } else if (munros[i].difficulty == "Intermediate") {
@@ -22,41 +30,52 @@ $(document).ready(function() {
             } else if (munros[i].difficulty == "Hard") {
                 output += "<img src='Mountain_Pins/redMnt.png'><img src='Mountain_Pins/redMnt.png'><img src='Mountain_Pins/redMnt.png'>";
             }
+
+          output += "</td></tr><tr><td>Climbed: </td><td><input type='checkbox' id='checkBox" + i + "' onclick='listenerEx(" + i + ")'></td></tr></table></div>";
             
-          output += "</td></tr><tr><td>Climbed: </td></tr><tr><td><input type='checkbox' id='checkBox' onclick='myFunction()'></td></tr></table></div>";
+            currentFunction = function() {
+                if($("#checkBox" + i).is(":checked")) {
+                    $("#bMount" + i).show();
+                    console.log("checked");
+                } else {
+                    console.log("unchecked");
+                    $("#bMount" + i).hide();
+                }
+            };
+            
+//            console.log("creating listener for " + i);
+            $("#checkBox" + i).click(function() {
+                currentFunction();
+                console.log(i);
+            });
+            
           displayMunros.append(output);
         }
-        $( "#accordion" ).accordion({collapsible:true});
+        $( "#accordion" ).accordion({collapsible:true, active: false});
+        $(".bMount").hide();
       }
   });
 });
 
-
-// $(function myFunction() {
-//     var x = document.getElementById("checkBox");
-//     if (x.checked == true) {
-//         output += "<img src='Mountain_Pins/blueMnt.png'>";
-//         x.style.display = "block";
-//     } else {
-//         x.style.display = "none";
-//     }
-// });
-
-
-
-// function getSortOrder(prop) {
-//   return function(a, b) {
-//     if(a[prop] > b[prop]) {
-//       return 1;
-//     } else if (a[prop] < b[prop]) {
-//       return -1;
-//     }
-//     return 0;
-//   }
-// }
-// $('#height').click(function() {
-//   munros.sort(getSortOrder("height"));
-//   for(var items in munros) {
-//     document.write("<div>" + munros[item].height + "</div>");
-//   }
-// });
+function myFunction() {
+    // Declare variables
+    var input, filter, h4, div, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    h4 = document.getElementsByTagName("h4");
+//    acc = document.getElementById("accordion");
+    div = document.getElementsByClassName("whiteback");
+//    table = div.getElementsByTagName("table");
+    
+    // Loop through all munros, and hide those that don't match the search query
+    // DO NOT CHANGE
+    for(i = 0; i < h4.length; i++) {
+        a = h4[i];
+        if(a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            h4[i].style.display = "";
+        } else {
+            h4[i].style.display = "none";
+        }
+    }
+    // DO NOT CHANGE
+}
