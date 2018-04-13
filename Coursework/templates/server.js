@@ -55,7 +55,7 @@ app.get('/', function(req,res) {
 });
 
 // map page
-app.get('/munromap', function(req,res,session) {
+app.get('/munromap', function(req,res) {
 
     /*
     //if user not logged in - don't show "bagged" marker
