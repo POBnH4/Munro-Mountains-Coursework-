@@ -313,7 +313,7 @@ if (session.loggedin) {
 var mO;
 */
 
-var mapOverlays;
+// var mapOverlays;
 /*
 if (userSession) {
     mapOverlays = {
