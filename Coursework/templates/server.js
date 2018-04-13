@@ -11,7 +11,7 @@ var app = express();
 
 //Required packages
 const MongoClient = require('mongodb').MongoClient; //npm install mongodb@2.2.32
-const url = "mongodb://localhost:27017/profiles";
+const url = "mongodb://localhost:27017/munrospotter";
 const express = require('express'); //npm install express
 const session = require('express-session'); //npm install express-session
 const bodyParser = require('body-parser'); //npm install body-parser
