@@ -74,27 +74,36 @@ app.get('/munromap', function(req,res) {
 */
 
     session.loggedin = true;
-
-    db.collection('munros').find().toArray(function(err,result) {
-        if (err) throw err;
+/*
+    // db.collection('munros').find().toArray(function(err,result) {
+    //     if (err) throw err;
         // console.log(result);
-        res.send(result);
+        // res.send(result);
         res.render('pages/map', {
             usession: session
         })
     });
+*/
 
-    /*
+
     session.loggedin = true;
 
     res.render('pages/map', {
         usession: session
     });
-    */
+
 
 
 
 });
+
+
+app.get('/munros', function(res,req) {
+    db.collection('munros').find({},function(err,result){
+        res.send(result);
+    });
+});
+
 
 // list page
 app.get('/munrolist', function(req,res) {
