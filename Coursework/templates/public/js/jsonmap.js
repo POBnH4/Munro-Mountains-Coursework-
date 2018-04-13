@@ -166,7 +166,7 @@ $(document).ready(function() {
 });
 */
 
-
+/*
 $(document).ready(function () {
     $.ajax({
         url: "/munros"
@@ -174,7 +174,7 @@ $(document).ready(function () {
         console.log(data);
     })
 });
-
+*/
 
 /*
 //Map markers loaded using JSON
@@ -279,15 +279,15 @@ var mapOverlays = {
 }
 */
 
-/*
+
 var mapOverlays = {
     "SMR Stations": smrLocations.addTo(mymap),
     "Beginner Munros": munroEasy.addTo(mymap),
     "Intermediate Munros": munroMedium.addTo(mymap),
-    "Difficult Munros": munroHard.addTo(mymap)
-    // "Other (Testing)": munroMountains.addTo(mymap)
+    "Difficult Munros": munroHard.addTo(mymap),
+    "Other (Testing)": munroMountains.addTo(mymap)
 };
-*/
+
 
 
 
@@ -302,7 +302,7 @@ var mO;
 */
 
 var mapOverlays;
-
+/*
 if (userSession) {
     mapOverlays = {
         "SMR Stations": smrLocations.addTo(mymap),
@@ -321,7 +321,7 @@ else {
         // "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
-
+*/
 // var mapOverlays = mO;
 
 
