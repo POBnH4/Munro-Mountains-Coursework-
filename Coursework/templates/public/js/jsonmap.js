@@ -100,6 +100,7 @@ var userSession = document.getElementById('uSBoolean').innerHTML;
 // console.log(munros);
 
 
+
 //Map markers loaded using JSON
 $(document).ready(function() {
     $.ajax({
