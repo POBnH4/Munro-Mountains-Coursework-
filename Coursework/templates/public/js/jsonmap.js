@@ -83,8 +83,15 @@ var munroEasy = L.layerGroup([]);
 var munroMedium = L.layerGroup([]);
 var munroHard = L.layerGroup([]);
 
-
+var uSession = document.getElementById('uS');
+console.log(uSession);
 var userSession = document.getElementById('uS').innerHTML;
+console.log(userSession);
+
+var uSessionB = document.getElementById('uSBoolean');
+console.log(uSessionB);
+var userSessionB = document.getElementById('uSBoolean').innerHTML;
+console.log(userSessionB);
 
 //Map markers loaded using JSON
 $(document).ready(function() {
