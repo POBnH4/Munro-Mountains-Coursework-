@@ -78,9 +78,9 @@ app.get('/munromap', function(req,res) {
     db.collection('munros').find().toArray(function(err,result) {
         if (err) throw err;
         // console.log(result);
+        res.send(result);
         res.render('pages/map', {
-            usession: session,
-            munroMnts: result
+            usession: session
         })
     });
 

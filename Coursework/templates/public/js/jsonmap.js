@@ -101,62 +101,65 @@ console.log(munros);
 
 //Map markers loaded using JSON
 $(document).ready(function() {
-  $.ajax({
-    // type: "GET",
-    url: "/js/jsonmap.js",
-    data: munros,
-    success: function(result)
-    {
-      // console.log(result.munros);
-      var munros = result;
-
-      for (var i = 0; i < munros.length; i++) {
-          // var marker = L.marker([munros[i].latitude,munros[i].longitude], {icon:greenIcon});
-          var marker = L.marker([munros[i].latitude,munros[i].longitude]);
-
-          // console.log(munros[i]);
-
-          marker.mName = munros[i].name;
-          marker.mHeight = munros[i].height;
-          marker.mLat = munros[i].latitude;
-          marker.mLng = munros[i].longitude;
-          marker.mLocation = munros[i].region;
-          // marker.mImage = munros[i].image;
-          marker.mDiff = munros[i].difficulty;
-
-
-          marker.bindTooltip(munros[i].name,{direction:"top",offset:[0,-40]});
-
-          marker.on('click',openBox);
-
-
-          if (marker.mDiff == "Easy") {
-              marker.setIcon(greenIcon);
-              munroEasy.addLayer(marker);
-          }
-          else if (marker.mDiff == "Intermediate") {
-              marker.setIcon(yellowIcon);
-              munroMedium.addLayer(marker);
-          }
-          else if (marker.mDiff == "Hard") {
-              marker.setIcon(redIcon);
-              munroHard.addLayer(marker);
-          }
-          else {
-              if (userSession) {
-                  marker.setIcon(blueIcon);
-                  munroMountains.addLayer(marker);
-              }
-          }
+    $.ajax({
+        // type: "GET",
+        url: "/munromap",
+        context: document.body
+    }).done(function () {
 
 
 
-          // marker.addTo(mymap);
-          // munroMountains.addLayer(marker);
-    }
-  }
-  })
-})
+
+        // console.log(result.munros);
+        var munros = result;
+
+        for (var i = 0; i < munros.length; i++) {
+            // var marker = L.marker([munros[i].latitude,munros[i].longitude], {icon:greenIcon});
+            var marker = L.marker([munros[i].latitude, munros[i].longitude]);
+
+            // console.log(munros[i]);
+
+            marker.mName = munros[i].name;
+            marker.mHeight = munros[i].height;
+            marker.mLat = munros[i].latitude;
+            marker.mLng = munros[i].longitude;
+            marker.mLocation = munros[i].region;
+            // marker.mImage = munros[i].image;
+            marker.mDiff = munros[i].difficulty;
+
+
+            marker.bindTooltip(munros[i].name, {direction: "top", offset: [0, -40]});
+
+            marker.on('click', openBox);
+
+
+            if (marker.mDiff == "Easy") {
+                marker.setIcon(greenIcon);
+                munroEasy.addLayer(marker);
+            }
+            else if (marker.mDiff == "Intermediate") {
+                marker.setIcon(yellowIcon);
+                munroMedium.addLayer(marker);
+            }
+            else if (marker.mDiff == "Hard") {
+                marker.setIcon(redIcon);
+                munroHard.addLayer(marker);
+            }
+            else {
+                if (userSession) {
+                    marker.setIcon(blueIcon);
+                    munroMountains.addLayer(marker);
+                }
+            }
+
+
+            // marker.addTo(mymap);
+            // munroMountains.addLayer(marker);
+
+        }
+    })
+});
+
 
 
 /* Add SMR Pins to Map using JSON data */
