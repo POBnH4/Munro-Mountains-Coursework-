@@ -33,6 +33,12 @@
             <h1>Munro Map</h1>
 
             <p id="uSBoolean"><%= usession.loggedin %></p>
+            <ul>
+                <%= munroMnts.forEach(function(munroMnt) { %>
+                <li><%= munroMnt.name %></li>
+                <% }); %>
+            </ul>
+
             <p>Interactive Munro Map, using Leaflet</p>
             <p>Click on the map markers to reveal more information about the Munro.</p>
 
