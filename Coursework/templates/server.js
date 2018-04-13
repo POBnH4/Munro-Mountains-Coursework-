@@ -84,18 +84,18 @@ app.get('/munromap', function(req,res) {
         })
     });
 */
-
+/*
     db.collection('munros').find({},function(err,result){
         res.send(result);
     });
+*/
+    session.loggedin = true;
 
-    // session.loggedin = true;
 
-    /*
     res.render('pages/map', {
         usession: session
     });
-    */
+
 
 
 
