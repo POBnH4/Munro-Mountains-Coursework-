@@ -84,7 +84,7 @@ var munroMedium = L.layerGroup([]);
 var munroHard = L.layerGroup([]);
 
 
-var userSession = document.getElementById('uS');
+var userSession = document.getElementById('uS').innerHTML;
 
 //Map markers loaded using JSON
 $(document).ready(function() {
