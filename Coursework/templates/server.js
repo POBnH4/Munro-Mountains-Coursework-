@@ -85,9 +85,9 @@ app.get('/munromap', function(req,res) {
     });
 */
 
-    db.collection('munros').find({},function(err,result){
-        res.send(result);
-    });
+    //db.collection('munros').find({},function(err,result){
+     //   res.send(result);
+   // });
 
 
     session.loggedin = true;
