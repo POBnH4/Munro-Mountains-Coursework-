@@ -84,10 +84,11 @@ app.get('/munromap', function(req,res) {
         })
     });
 */
-
+/*
     db.collection('munros').find({},function(err,result){
         res.send(result);
     });
+*/
 
     session.loggedin = true;
 
@@ -108,6 +109,7 @@ app.get('/munros', function(req,res) {
         res.send(result);
     });
 });
+
 
 
 // list page
