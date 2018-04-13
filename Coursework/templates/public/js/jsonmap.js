@@ -107,8 +107,8 @@ $(document).ready(function() {
     data: munros,
     success: function(result)
     {
-      console.log(result.munros);
-      var munros = result.munros;
+      // console.log(result.munros);
+      var munros = result;
 
       for (var i = 0; i < munros.length; i++) {
           // var marker = L.marker([munros[i].latitude,munros[i].longitude], {icon:greenIcon});
