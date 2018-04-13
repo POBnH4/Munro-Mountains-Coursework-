@@ -106,8 +106,8 @@ $(document).ready(function() {
     url: "/json/munrodata.json",
     success: function(result)
     */
-    type: "GET",
-    url: "mongodb://localhost:27017/munrospotter",
+    // type: "GET",
+    url: "http://localhost:27017/munrospotter",
     datatype: "json",
     success: function(result)
     {
