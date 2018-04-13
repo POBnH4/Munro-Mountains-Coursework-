@@ -275,7 +275,7 @@ $(document).ready(function() {
            }
        }
    })
-})
+});
 
 
 //Add overlays to map
