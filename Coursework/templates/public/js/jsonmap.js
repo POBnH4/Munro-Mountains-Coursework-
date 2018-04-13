@@ -102,8 +102,9 @@ console.log(munros);
 //Map markers loaded using JSON
 $(document).ready(function() {
   $.ajax({
-    type: "GET",
-    url: "/json/munrodata.json",
+    // type: "GET",
+    url: "/js/jsonmap.js",
+    data: munros,
     success: function(result)
     {
       console.log(result.munros);
