@@ -31,8 +31,7 @@ html {
 }
 
 /* User Session Boolean Value*/
-#uSBoolean,
-#munroResult {
+#uSBoolean {
     display: none;
 }
 
