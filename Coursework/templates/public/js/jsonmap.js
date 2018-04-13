@@ -77,7 +77,7 @@ $(document).ready(function() {
 
 /* Layer Groups for Pins */
 var smrLocations = L.layerGroup([]);
-var munroMountains = L.layerGroup([]);
+var munroMountains = L.layerGroup([]); //Testing Only
 
 var munroEasy = L.layerGroup([]);
 var munroMedium = L.layerGroup([]);

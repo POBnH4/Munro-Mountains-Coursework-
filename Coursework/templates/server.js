@@ -74,7 +74,7 @@ app.get('/munromap', function(req,res) {
 */
 
     session.loggedin = true;
-
+6
     res.render('pages/map', {
         usession: session
     });
