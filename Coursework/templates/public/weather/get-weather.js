@@ -67,7 +67,7 @@ var getWeather = function(lat,long) {
         // just interested in the closest location in the list
         closest = getNearest(standpoint, locations);
 
-        console.log("Closest: " + closest.location.toString());
+        console.log("Closest: " + closest.location.id);
 
         var forecast = url + "val/wxfcs/all/json/" + closest.location.id + key;
 
