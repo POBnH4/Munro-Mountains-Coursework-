@@ -2,9 +2,6 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
-    <!-- <link rel="stylesheet" type="text/css" href="MunroHomepage/indexStyle.css"> -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
 
     <meta charset="UTF-8">
 
@@ -21,6 +18,7 @@
       </div>
     </div>
 
+<!-- Nav bar code -->
     <nav>
       <div id="nav-menu">
         <a id="close-btn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
@@ -37,7 +35,9 @@
   </header>
 
   <main class="page">
+<!-- Filter search bar code -->
       <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search...">
+<!-- Sort combobox code -->
     <div class="float_center">
       <label for="sort-by" class="inline">Sort by:</label>
       <select id="sort-by" class="all">
@@ -47,16 +47,15 @@
         <option value="location" id="location">Location</option>
       </select>
     </div>
+<!-- Accordion code -->
     <section class="content">
       <div id="accordion">
 
       </div>
-      <!-- <img src="Mountain_Pins/yellowMnt.png" alt="Yellow Mountain" height="25" width="42"> -->
     </section>
   </main>
-
-
-
+      
+<!-- Footer code -->
   <footer>
     <div>
       <p>MUNRO SPOTTER</p>

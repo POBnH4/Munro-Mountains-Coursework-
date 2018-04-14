@@ -1,25 +1,23 @@
 {"munros": [{
-    "description": "A'Bhuidheanach Bheag is a broad, domed summit on the spacious plateau to the east of the Drumochter Pass.",
+    "description": "A'Bhuidheanach Bheag sits on a large summit plateau to the east of the pass of Drumochter. It is normally climbed in conjuction with Carn na Caim, which sits at the opposite end of the plateau.",
     "name": "A'Bhuidheanach Bheag",
     "region": "Loch Ericht to Glen Tromie and Glen Garry",
     "height": "937m (approx 3074ft)",
     "latitude": "56.870459",
     "longitude": "-4.200008",
-    "gridReference": "NN660776",
-    "difficulty": "Intermediate"
+    "gridReference": "NN660776"
   },
   {
-    "description": "A'Chailleach is the westernmost of the Fannichs.",
-    "name": "A'Chailleach",
+    "description": "A'Chailleach is the most westerly of the Fannichs and has fine views over the Fisherfield Forest and to An Teallach. It is usually climbed in conjunction with neighbouring Munro Sgùrr Breac.",
+    "name": "A'Chailleach (Fannichs)",
     "region": "Loch Maree to Loch Broom and Garve",
     "height": "997m (approx 3271ft)",
     "latitude": "57.693754",
     "longitude": "-5.129114",
-    "gridReference": "NH136714",
-    "difficulty": "Intermediate"
+    "gridReference": "NH136714"
  },
  {
-    "description": "Topped by a big cairn, A'Chailleach is the most asceneded and perhaps the finest of the Monadhliath.",
+    "description": "Topped by a big cairn, A'Chailleach is the most asceneded and perhaps the finest of the Monadhliath. It is normally climbed in conjunction with Carn Sgulain, and they are both within the eastern end of the Monadhliath plateau.",
     "name": "A'Chailleach (Monadhliath)",
     "region": "Spean Bridge to Elgin",
     "height": "930m (approx 3051ft)",
@@ -29,7 +27,7 @@
     "difficulty": "Intermediate"
  },
  {
-    "description": "A'Chraileag is a massive mountain and, despite being lesser known than many of its neighbours, is actually the highest summit in Kintail.",
+    "description": "A'Chraileag is a massive mountain and, despite being lesser known than many of its neighbours, is actually the highest summit in Kintail. It is normally climbed in conjunction with Mullach Fraoch-choire.",
     "name": "A'Chralaig",
     "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
     "height": "1120m (approx 3675ft)",
@@ -129,7 +127,7 @@
     "difficulty": "Intermediate"
  },
  {
-    "description": "An Riabhachan",
+    "description": "An Riabhachan is a massive ridged mountain to the North of Loch Mullardoch.",
     "name": "An Riabhachan",
     "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
     "height": "1130m (approx 3707ft)",
@@ -139,7 +137,7 @@
     "difficulty": "Intermediate"
  },
  {
-    "description": "",
+    "description": "An Sgarsoch is rounded and unspectacular, it must rank amongs the remotest in Scotland",
     "name": "An Sgarsoch",
     "region": "Forest of Atholl to Braemar and Blairgowrie",
     "height": "1006m (approx 3301ft)",
@@ -180,7 +178,7 @@
  },
  {
     "description": "",
-    "name": "An Stuc",
+    "name": "An Stùc",
     "region": "Loch Rannoch to Loch Tay",
     "height": "1118m (approx 3668ft)",
     "latitude": "56.56014",
@@ -500,7 +498,7 @@
  },
  {
    "description": "",
-   "name": "Beinn Ime",
+   "name": "Beinn Ìme",
    "region": "Firth of Clyde to Strathtay",
    "height": "1011m (approx 3317)",
    "latitude": "56.236067",
@@ -795,8 +793,7 @@
    "height": "1344m (approx 4409ft)",
    "latitude": "56.796154",
    "longitude": "-5.004763",
-   "gridReference": "NN166712",
-   "difficulty": ""
+   "gridReference": "NN166712"
  },
  {
    "description": "",
@@ -1160,7 +1157,7 @@
  },
  {
    "description": "",
-   "name": "Carn Gorm",
+   "name": "Càrn Gorm",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1029m (approx 3376ft)",
    "latitude": "56.621966",
@@ -1190,7 +1187,7 @@
  },
  {
    "description": "",
-   "name": "Carn Mairg",
+   "name": "Càrn Mairg",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1042m (approx 3419ft)",
    "latitude": "56.634142",
@@ -1330,7 +1327,7 @@
  },
  {
    "description": "",
-   "name": "Creag Mhor (Glen Lochay)",
+   "name": "Creag Mhòr (Glen Lochay)",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1047m (approx 3435ft)",
    "latitude": "56.489474",
@@ -1550,6 +1547,16 @@
  },
  {
    "description": "",
+   "name": "Inaccessible Pinnacle",
+   "region": "Isle of Skye",
+   "height": "985m (approx 3232ft)",
+   "latitude": "57.212782",
+   "longitude": "-6.234912",
+   "gridReference": "NG444215",
+   "difficulty": "Hard"
+ },
+ {
+   "description": "",
    "name": "Ladhar Bheinn",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1020m (approx 3346ft)",
@@ -1639,7 +1646,7 @@
  },
  {
    "description": "",
-   "name": "Meall a'Bhuiridh",
+   "name": "Meall a'Bhùiridh",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "1108m (approx 3635ft)",
    "latitude": "56.611861",
@@ -1729,7 +1736,7 @@
  },
  {
    "description": "",
-   "name": "Meall Garbh (Carn Mairg)",
+   "name": "Meall Garbh (Càrn Mairg)",
    "region": "Loch Rannoch to Loch Tay",
    "height": "968m (approx 3176ft)",
    "latitude": "56.637576",
@@ -2658,7 +2665,7 @@
  },
  {
    "description": "",
-   "name": "Stob Dearg (Buachaille Etive Mor)",
+   "name": "Stob Dearg (Buachaille Etive Mòr)",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "1021m (approx 3350ft)",
    "latitude": "56.645799",
@@ -2688,7 +2695,7 @@
  },
  {
    "description": "",
-   "name": "Stob na Broige (Buachaille Etive Mor)",
+   "name": "Stob na Bròige (Buachaille Etive Mòr)",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "956m (approx 3136ft)",
    "latitude": "56.62932",

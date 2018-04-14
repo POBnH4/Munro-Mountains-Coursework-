@@ -19,16 +19,16 @@ $(document).ready(function() {
 
         for(var i = 0; i < munros.length; i++)
         {
-          var output = "<h4 class='munrotitle'>" + munros[i].name + "<img class='bMount' id='bMount" + i + "' src='Mountain_Pins/blueMnt.png'>";
+          var output = "<h4 class='munrotitle'>" + munros[i].name + "<img class='bMount' id='bMount" + i + "' src='Mountain_Pins/blueMnt.png' alt='Blue Mountain'>";
 
           output += "</h4><div class='whiteback'><table><tr><td>Description: </td><td>" + munros[i].description + "</td></tr><tr><td>Region: </td><td>" + munros[i].region + "</td></tr><tr><td>Height: </td><td>" + munros[i].height + "</td></tr><tr><td>Latitude: </td><td>" + munros[i].latitude + "</td></tr><tr><td>Longitude: </td><td>" + munros[i].longitude + "</td></tr><tr><td>Grid Reference: </td><td>" + munros[i].gridReference + "</td></tr><tr><td>Difficulty: </td><td>";
 
-            if (munros[i].difficulty == "Easy") {
-                output += "<img class='mountains' src='Mountain_Pins/greenMnt.png'>";
-            } else if (munros[i].difficulty == "Intermediate") {
-                output += "<img src='Mountain_Pins/yellowMnt.png'><img src='Mountain_Pins/yellowMnt.png'>";
-            } else if (munros[i].difficulty == "Hard") {
-                output += "<img src='Mountain_Pins/redMnt.png'><img src='Mountain_Pins/redMnt.png'><img src='Mountain_Pins/redMnt.png'>";
+            if (munros[i].height > "914m") {
+                output += "<img src='Mountain_Pins/greenMnt.png' alt='Green Mountain'>";
+            } else if (munros[i].height < "1219m") {
+                output += "<img src='Mountain_Pins/yellowMnt.png' alt='Yellow Mountain'><img src='Mountain_Pins/yellowMnt.png' alt='Yellow Mountain'>";
+            } else if (munros[i].height > "1219m") {
+                output += "<img src='Mountain_Pins/redMnt.png' alt='Red Mountain'><img src='Mountain_Pins/redMnt.png' alt='Red Mountain'><img src='Mountain_Pins/redMnt.png' alt='Red Mountain'>";
             }
 
           output += "</td></tr><tr><td>Climbed: </td><td><input type='checkbox' id='checkBox" + i + "' onclick='listenerEx(" + i + ")'></td></tr></table></div>";
