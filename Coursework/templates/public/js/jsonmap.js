@@ -225,6 +225,9 @@ $(document).ready(function() {
                         marker.setIcon(blueIcon);
                         munroMountains.addLayer(marker);
                     }
+                    else {
+                        // do nothing...
+                    }
                 }
 
 
@@ -340,7 +343,7 @@ var mapOverlays = {
 }
 */
 
-
+/*
 var mapOverlays = {
     "SMR Stations": smrLocations.addTo(mymap),
     "Beginner Munros": munroEasy.addTo(mymap),
@@ -348,7 +351,7 @@ var mapOverlays = {
     "Difficult Munros": munroHard.addTo(mymap),
     "Other (Testing)": munroMountains.addTo(mymap)
 };
-
+*/
 
 
 
@@ -362,8 +365,8 @@ if (session.loggedin) {
 var mO;
 */
 
-// var mapOverlays;
-/*
+var mapOverlays;
+
 if (userSession) {
     mapOverlays = {
         "SMR Stations": smrLocations.addTo(mymap),
@@ -382,7 +385,7 @@ else {
         // "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
-*/
+
 // var mapOverlays = mO;
 
 
