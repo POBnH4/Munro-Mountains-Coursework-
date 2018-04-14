@@ -69,7 +69,7 @@ var getWeather = function(lat,long) {
 
         console.log("Closest: " + closest.location.id);
 
-        var forecast = url + "val/wxfcs/all/json/" + closest.location.id + "?res=3-hourly&" + key;
+        var forecast = url + "val/wxfcs/all/json/" + closest.location.id + "?res=3hourly&" + key;
 
         $.getJSON(forecast, function(result) {
             console.log(result);
