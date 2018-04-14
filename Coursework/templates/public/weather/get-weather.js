@@ -29,8 +29,8 @@ $(document).ready(function() {
 var url = "http://datapoint.metoffice.gov.uk/public/data/";
 var key = "?key=b02b078d-1b64-44b3-90c7-3caacdbd442b";
 
-var closest;
-
+// var closest;
+/*
 var getWeather = function(lat,long) {
 
     getSite(lat,long);
@@ -39,19 +39,19 @@ var getWeather = function(lat,long) {
 
     console.log("ID: " + closest.location.id);
 
-/*
+
     var forecast = url + "val/wxfcs/all/json/" + id + key;
 
     $.getJSON(forecast,function(data) {
         console.log(data);
     });
-    */
+
 
 };
+*/
 
-
-var getSite = function(lat,long) {
-    var locations, standpoint;
+var getWeather = function(lat,long) {
+    var closest, locations, standpoint;
 
     var siteList = url + "val/wxfcs/all/json/sitelist" + key;
 
@@ -68,6 +68,12 @@ var getSite = function(lat,long) {
         closest = getNearest(standpoint, locations);
 
         // console.log("Closest: " + closest.location.id);
+
+        var forecast = url + "val/wxfcs/all/json/" + closest.location.id + key;
+
+        $.getJSON(forecast, function(result) {
+            console.log(result);
+        })
 
     });
 
