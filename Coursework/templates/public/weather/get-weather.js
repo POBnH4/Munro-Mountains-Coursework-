@@ -63,7 +63,7 @@ var getSite = function(lat,long) {
         // just interested in the closest location in the list
         closest = getNearest(standpoint, locations);
 
-        console.log("Closest: " + closest.location);
+        console.log("Closest: " + closest.location.id);
 
     });
 
