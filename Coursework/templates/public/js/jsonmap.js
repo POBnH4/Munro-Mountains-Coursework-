@@ -188,7 +188,7 @@ $(document).ready(function() {
     })
 });
 
-/*
+
 //Map markers loaded using JSON
 $(document).ready(function() {
     $.ajax({
@@ -249,7 +249,7 @@ $(document).ready(function() {
         }
     })
 });
-*/
+
 
 
 
