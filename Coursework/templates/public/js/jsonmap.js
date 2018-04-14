@@ -301,6 +301,7 @@ $(document).ready(function() {
 
 
 
+
 /* Add SMR Pins to Map using JSON data */
 $(document).ready(function() {
    $.ajax ({
