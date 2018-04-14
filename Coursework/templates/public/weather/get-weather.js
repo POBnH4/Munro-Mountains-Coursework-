@@ -34,7 +34,9 @@ var getWeather = function(lat,long) {
 
     var site = getSite(lat,long);
 
-    var forecast = url + "val/wxfcs/all/json/site.location.id" + key;
+    var id = site.location.id;
+
+    var forecast = url + "val/wxfcs/all/json/" + id + key;
 
     $.getJSON(forecast,function(data) {
         console.log(data);
