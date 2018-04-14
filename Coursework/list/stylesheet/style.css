@@ -94,6 +94,12 @@ img {
 */
 }
 
+/*
+#mapid {
+    height: 400px;
+}
+*/
+
 #myInput {
     background-image: url('/../../logo.png');
     background-position: -8px 0px;
