@@ -45,7 +45,7 @@ var getWeather = function(lat,long) {
 };
 
 
-var getSite = function(lat,long) {
+function getSite(lat,long) {
     var closest, locations, standpoint;
 
     var siteList = url + "val/wxfcs/all/json/sitelist" + key;
@@ -65,6 +65,6 @@ var getSite = function(lat,long) {
     });
 
     return closest;
-};
+}
 
 
