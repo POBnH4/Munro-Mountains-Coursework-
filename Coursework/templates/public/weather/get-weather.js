@@ -27,7 +27,7 @@ $(document).ready(function() {
 */
 
 var url = "http://datapoint.metoffice.gov.uk/public/data/";
-var key = "?key=b02b078d-1b64-44b3-90c7";
+var key = "?key=b02b078d-1b64-44b3-90c7-3caacdbd442b";
 
 
 var getWeather = function(lat,long) {
