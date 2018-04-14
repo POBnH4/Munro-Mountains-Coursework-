@@ -29,8 +29,8 @@ $(document).ready(function() {
 var url = "http://datapoint.metoffice.gov.uk/public/data/";
 var key = "?key=b02b078d-1b64-44b3-90c7-3caacdbd442b";
 
-var closest;
-
+// var closest;
+/*
 var getWeather = function(lat,long) {
 
     getSite(lat,long);
@@ -44,10 +44,10 @@ var getWeather = function(lat,long) {
     });
 
 };
+*/
 
-
-function getSite(lat,long) {
-    var locations, standpoint;
+var getSite = function(lat,long) {
+    var closest, locations, standpoint;
 
     var siteList = url + "val/wxfcs/all/json/sitelist" + key;
 
@@ -62,6 +62,8 @@ function getSite(lat,long) {
 
         // just interested in the closest location in the list
         closest = getNearest(standpoint, locations);
+
+        console.log("Closest: " + closest.location);
 
     });
 
