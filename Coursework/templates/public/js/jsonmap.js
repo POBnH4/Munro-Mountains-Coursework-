@@ -456,7 +456,7 @@ window.onclick = function(event) {
 
 
 
-$('leaflet-marker-icon').on('click',function(e) {
+$('.leaflet-marker-icon').on('click',function(e) {
     var element = $(e.srcElement || e.target),
         elName = element.attr('mName');
 
