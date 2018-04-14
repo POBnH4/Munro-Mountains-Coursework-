@@ -26,4 +26,43 @@ $(document).ready(function() {
 });
 */
 
+var url = "http://datapoint.metoffice.gov.uk/public/data/";
+var key = "?key=b02b078d-1b64-44b3-90c7";
+
+
+var getWeather = function(lat,long) {
+
+    var site = getSite(lat,long);
+
+    var forecast = url + "val/wxfcs/all/json/site.location.id" + key;
+
+    $.getJSON(forecast,function(data) {
+        console.log(data);
+    });
+
+};
+
+
+var getSite = function(lat,long) {
+    var closest, locations, standpoint;
+
+    var siteList = url + "val/wxfcs/all/json/sitelist" + key;
+
+    $.getJSON(siteList,function(data){
+
+
+        // parse the sitelist.json data into an array of Location objects
+        locations = parseJSON(data);
+
+        // where you are
+        standpoint = new Location(null, "Munro location", lat, long);
+
+        // just interested in the closest location in the list
+        closest = getNearest(standpoint, locations);
+
+    });
+
+    return closest;
+};
+
 

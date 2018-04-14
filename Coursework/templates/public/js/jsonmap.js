@@ -433,6 +433,9 @@ function openBox(e) {
 
     info.innerHTML = output;
 
+    //Get weather, pass co-ordinates
+    getWeather(m.mLat,m.mLng);
+
     var modal = document.getElementById("popup");
     modal.style.display = "flex";
 }
@@ -455,10 +458,12 @@ window.onclick = function(event) {
 }
 
 
-
+// Attempt at getting marker attribute - Unsuccessful
+/*
 $('.leaflet-marker-icon').on('click',function(e) {
     var element = $(e.srcElement || e.target),
         elName = element.attr('mName');
 
     alert("name: " + elName)
 });
+    */
