@@ -108,7 +108,7 @@ tr:nth-child(odd) {
 }
 */
 
-/* Weather forecast style
+/* Weather forecast style */
 
 .tab {
     display: flex;
@@ -140,14 +140,50 @@ tr:nth-child(odd) {
 .tabcontent {
     display: none;
     padding: 0;
-    /*border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     border-top: none;
+    font-size: 12px;
 }
 
-/* Weather column style
+/* Weather column style */
+
+/* Weather column style */
+
+.forecast {
+    border: none;
+    border-collapse: collapse;
+}
+
+.forecast th,
+.forecast td {
+    width: calc(395px / 6);
+    text-align: center;
+    padding: 2px 0;
+    border-right: 1px solid #3B8686;
+}
 
 
 
+.forecast th {
+    border-bottom: 1px solid #3B8686;
+}
+
+.forecast img {
+    display: block;
+    margin: auto;
+}
+
+.fTemp {
+    font-size: 9px;
+}
+
+.forecast th:last-of-type,
+.forecast td:last-of-type {
+    border-right: none;
+}
+
+
+/*
 .forecast {
     width: calc(392px / 6);
     text-align: center;
