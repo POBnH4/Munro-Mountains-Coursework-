@@ -100,10 +100,10 @@ var displayForecast = function(weather) {
 
         tab = "tab" + (i + 1);
 
-        if (tab.equals("tab1")) {
+        if (tab == "tab1") {
             document.getElementById(tab).innerHTML = "Today";
         }
-        else if (tab.equals("tab2")) {
+        else if (tab == "tab2") {
             document.getElementById(tab).innerHTML = "Tomorrow";
         }
         else {
