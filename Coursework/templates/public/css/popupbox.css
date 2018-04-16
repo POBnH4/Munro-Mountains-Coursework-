@@ -157,7 +157,7 @@ table {
 
 .forecast th,
 .forecast td {
-    width: calc(100% / 6);
+    width: calc(400px/6);
     text-align: center;
     padding: 2px 0;
     border-right: 1px solid #3B8686;
