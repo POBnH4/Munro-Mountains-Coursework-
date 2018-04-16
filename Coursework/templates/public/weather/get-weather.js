@@ -110,7 +110,7 @@ var displayForecast = function(weather) {
         // output = "<th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th>
 
         //determine starting forecast (missing out 12am and 3am)
-        j = 6 % days.length;
+        j = day.length % 6;
 
         // if (days.length < 6) {
         //     $('.forecast').find('th').css("width","calc(400px/" + days.length + ")");
