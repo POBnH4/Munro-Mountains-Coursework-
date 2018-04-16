@@ -229,7 +229,7 @@ var displayForecast = function(weather) {
 
             imgWind = day[j].D + ".png";
 
-            output += "<td><img src='/img/wind/'" + imgWind + "></td>";
+            output += "<td><img src='/img/wind/" + imgWind + "'></td>";
 
             output += "</tr><tr>";
 
