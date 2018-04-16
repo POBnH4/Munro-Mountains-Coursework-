@@ -124,7 +124,7 @@ var displayForecast = function(weather) {
             //Table per forecast
             output += "<td><table><tr>"
 
-            time = parseInt((day[j].$).val(),10)/60;
+            time = parseInt(day[j].$)/60;
 
             //Time of forecast
             output += "<th>" + time + ":00</th>";
