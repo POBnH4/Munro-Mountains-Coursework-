@@ -153,6 +153,7 @@ table {
     border: none;
     border-collapse: collapse;
     padding-bottom: 5px;
+    width: 400px;
 }
 
 .forecast th,
