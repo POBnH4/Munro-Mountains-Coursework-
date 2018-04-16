@@ -113,11 +113,11 @@ table {
 .tab {
     display: flex;
     overflow: hidden;
-    width: 398px;
+    width: 396px;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .tab button {
@@ -152,6 +152,7 @@ table {
 .forecast {
     border: none;
     border-collapse: collapse;
+    padding-bottom: 5px;
 }
 
 .forecast th,
