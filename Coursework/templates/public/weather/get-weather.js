@@ -110,14 +110,23 @@ var displayForecast = function(weather) {
         // output = "<th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th>
 
         //determine starting forecast (missing out 12am and 3am)
-        numForecasts = day.length % 6;
+        if (day.length == 8) {
+            j = 2;
+        }
+        else if (day.length == 7) {
+            j = 1;
+        }
+        else {
+            j = 0;
+        }
+
 
         // if (days.length < 6) {
         //     $('.forecast').find('th').css("width","calc(400px/" + days.length + ")");
         // }
 
         //for each forecast
-        for (j = numForecasts; j < day.length; j++) {
+        for (j; j < day.length; j++) {
 
             // if ()
 
