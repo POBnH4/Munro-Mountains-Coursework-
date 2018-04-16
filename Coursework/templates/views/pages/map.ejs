@@ -72,9 +72,58 @@
                             </table>
                         </div>
                     </section>
+
+                    <!-- WEATHER FORECAST -->
                     <section id="weather">
-                        <img src="/img/weather.jpg">
+
+                        <!-- weather forecast tabs - five-day forecast (3-hourly) -->
+                        <div class="tab">
+                            <button id="tab1" class="tablink" onclick="openDay(event,'day1')">Today</button>
+                            <button id="tab2" class="tablink" onclick="openDay(event,'day2')">Tomorrow</button>
+                            <button id="tab3" class="tablink" onclick="openDay(event,'day3')">Wednesday</button>
+                            <button id="tab4" class="tablink" onclick="openDay(event,'day4')">Thursday</button>
+                            <button id="tab5" class="tablink" onclick="openDay(event,'day5')">Friday</button>
+                        </div>
+
+                        <!-- weather -->
+                        <div id="day1" class="tabcontent">
+                            <h3>Today</h3>
+
+                            <!--<div>3PM</div>-->
+
+                            <div class="forecast">
+                                6AM
+                                <img src="hail-shower-day.png">
+                                <img src="nne_1.png">
+                                10°C
+                            </div>
+
+                            <div class="forecast">9AM</div>
+                            <div class="forecast">12PM</div>
+                            <div class="forecast">3PM</div>
+                            <div class="forecast">6PM</div>
+                            <div class="forecast">9PM</div>
+
+                            <br class="clear"/>
+                        </div>
+
+                        <div id="day2" class="tabcontent">
+                            <h3>Tomorrow</h3>
+                        </div>
+
+                        <div id="day3" class="tabcontent">
+                            <h3>DAY 3</h3>
+                        </div>
+
+                        <div id="day4" class="tabcontent">
+                            <h3>DAY 4</h3>
+                        </div>
+
+                        <div id="day5" class="tabcontent">
+                            <h3>DAY 5</h3>
+                        </div>
                     </section>
+
                     <section id="boxFooter">
                         <div>
                             <a id="mLink" href="#">View More Information</a>
@@ -100,6 +149,7 @@
 
     <!-- Script for map -->
     <script src="/js/jsonmap.js" type="text/javascript"></script>
+    <script src="/js/w_tabs.js" type="text/javascript"></script>
 
 
 </body>

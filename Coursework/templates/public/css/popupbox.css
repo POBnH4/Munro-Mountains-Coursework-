@@ -1,7 +1,7 @@
 
 #box {
     display: block;
-    width: 350px;
+    width: 400px;
     margin: auto;
     height: auto;
     border: 1px solid grey;
@@ -35,7 +35,7 @@
 
 #boxHeader {
     background-color: #3B8686;
-    padding: 0px;
+    padding: 0;
 }
 
 
@@ -44,7 +44,7 @@
     height: 50px;
     width: 90%;
     margin: auto;
-    padding: 0px 10px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,14 +58,14 @@
     color: whitesmoke;
     font-size: 30px;
     display: block;
-    padding: 0px 5px;
+    padding: 0 5px;
 }
 
 #mImg {
     display: block;
     margin: auto;
     width: 90%;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 table, td {
@@ -81,7 +81,7 @@ table {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 20px 0px 5px;
+    padding: 20px 0 5px;
     text-align: left;
 }
 
@@ -97,16 +97,73 @@ tr:nth-child(odd) {
 #weather {
     display: flex;
     margin: auto;
-    width: 90%;
-    padding: 10px 0px;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
-
+/*
 #weather img {
     width: 70%;
 }
+*/
 
+/* Weather forecast style */
+
+.tab {
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    justify-content: space-between;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 5px 7px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 0;
+    /*border: 1px solid #ccc;*/
+    border-top: none;
+}
+
+/* Weather column style */
+
+
+.forecast {
+    width: calc(392px / 6);
+    height: 200px;
+    text-align: center;
+    /*background-color: #0B486B;*/
+    float:left;
+    border-right: 1px solid black;
+}
+
+.forecast:last-of-type {
+    border-right: none;
+}
+
+.clear {
+    clear:both;
+    line-height: 0;
+}
+
+/* FOOTER CSS */
 #mLink {
     text-decoration: none;
     color: whitesmoke;
