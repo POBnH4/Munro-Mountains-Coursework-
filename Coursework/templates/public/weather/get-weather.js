@@ -85,7 +85,9 @@ var getWeather = function(lat,long) {
 var displayForecast = function(weather) {
 
     //Variables
-    var date, days, day, i, output;
+    var date, days, day, i, j, k, output, tab, time;
+
+
 
     //Get 5-day forecasts
     days = weather.SiteRep.DV.Location.Period;
@@ -96,15 +98,68 @@ var displayForecast = function(weather) {
     //For each day
     for (i = 0; i < days.length; i++) {
 
-        // output = "<table class='forecast'><tr>"
+        // Open table tag for forecasts
+        output = "<table class='forecast'><tr>";
 
+        //get forecasts for day
         day = days[i].Rep;
 
         console.log(day);
 
+        // output = "";
         // output = "<th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th>
 
+        //determine starting forecast (missing out 12am and 3am)
+        j = days.length % 6;
 
+        // if (days.length < 6) {
+        //     $('.forecast').find('th').css("width","calc(400px/" + days.length + ")");
+        // }
+
+        //for each forecast
+        for (j; j < day.length; j++) {
+
+            // if ()
+
+            //Table per forecast
+            output += "<td><table><tr>"
+
+            time = parseInt((day[j].$).val(),10)/60;
+
+            //Time of forecast
+            output += "<th>" + time + ":00</th>";
+
+            output += "</tr><tr>";
+
+            // weather icon
+            output += "<td><img src='/img/hail-shower-day.png'></td>";
+
+
+
+            output += "</tr><tr>";
+
+            // temperature and feels-like-temp
+            output += "<td>" + day[j].T + "<br/><span class='fTemp'>" + day[j].F + "</span>";
+
+            output += "</tr><tr>";
+
+            // wind direction
+            output += "<td><img src='/img/nne_1.png'></td>";
+
+            output += "</tr><tr>";
+
+            // chance of rain
+            output += "<td>" + day[j].Pp + "</td>";
+
+            output += "</tr></table></td>"
+
+        }
+
+        output += "</tr></table>";
+
+        tab = "day" + (i + 1);
+
+        document.getElementById(tab).innerHTML = output;
 
     }
 
