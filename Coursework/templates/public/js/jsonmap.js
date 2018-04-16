@@ -433,7 +433,7 @@ function openBox(e) {
 
     info.innerHTML = output;
 
-    //Get weather, pass co-ordinates
+    //Get weather, pass co-ordinates [get-weather.js]
     getWeather(m.mLat,m.mLng);
 
     var modal = document.getElementById("popup");

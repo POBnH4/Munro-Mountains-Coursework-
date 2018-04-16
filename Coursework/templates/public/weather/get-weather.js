@@ -73,6 +73,7 @@ var getWeather = function(lat,long) {
 
         $.getJSON(forecast, function(result) {
             console.log(result);
+            displayForecast(result);
         })
 
     });
@@ -80,4 +81,13 @@ var getWeather = function(lat,long) {
     // return closest;
 };
 
+
+var displayForecast = function(weather) {
+
+    //Get 5-day forecasts
+    var days = weather.DV.Location.Period;
+
+    console.log(days);
+
+};
 
