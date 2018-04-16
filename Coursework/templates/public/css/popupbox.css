@@ -90,7 +90,7 @@ table {
 /*    justify-content: center;*/
 }
 
-tr:nth-child(odd) {
+#boxContent tr:nth-child(odd) {
     background-color: #cae8e8;
 }
 
@@ -113,7 +113,7 @@ tr:nth-child(odd) {
 .tab {
     display: flex;
     overflow: hidden;
-    width: 100%;
+    width: 398px;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     justify-content: space-between;
