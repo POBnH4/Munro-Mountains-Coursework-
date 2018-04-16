@@ -108,7 +108,7 @@ tr:nth-child(odd) {
 }
 */
 
-/* Weather forecast style */
+/* Weather forecast style
 
 .tab {
     display: flex;
@@ -140,17 +140,18 @@ tr:nth-child(odd) {
 .tabcontent {
     display: none;
     padding: 0;
-    /*border: 1px solid #ccc;*/
+    /*border: 1px solid #ccc;
     border-top: none;
 }
 
-/* Weather column style */
+/* Weather column style
+
 
 
 .forecast {
     width: calc(392px / 6);
     text-align: center;
-    /*background-color: #0B486B;*/
+    /*background-color: #0B486B;
     float:left;
     border-right: 1px solid black;
 }
@@ -163,6 +164,7 @@ tr:nth-child(odd) {
     clear:both;
     line-height: 0;
 }
+*/
 
 /* FOOTER CSS */
 #mLink {
