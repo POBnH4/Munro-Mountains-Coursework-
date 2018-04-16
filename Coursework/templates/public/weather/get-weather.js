@@ -197,7 +197,7 @@ var displayForecast = function(weather) {
             // console.log(day[j]);
 
             //Table per forecast
-            output += "<td><table><tr>"
+            output += "<td><table><tr>";
 
             time = parseInt(day[j].$)/60;
 
@@ -221,7 +221,7 @@ var displayForecast = function(weather) {
             output += "</tr><tr>";
 
             // temperature and feels-like-temp
-            output += "<td>" + day[j].T + "<br/><span class='fTemp'>" + day[j].F + "</span>";
+            output += "<td>" + day[j].T + "°C<br/><span class='fTemp'>" + day[j].F + "°C</span>";
 
             output += "</tr><tr>";
 
