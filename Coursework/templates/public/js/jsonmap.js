@@ -223,7 +223,7 @@ $(document).ready(function() {
                     marker.setIcon(yellowIcon);
                     munroMedium.addLayer(marker);
                 }
-                else if (marker > 914 ) {
+                else if (height > 914 ) {
                     marker.setIcon(greenIcon);
                     munroEasy.addLayer(marker);
                 }
