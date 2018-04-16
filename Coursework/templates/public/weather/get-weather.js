@@ -84,10 +84,29 @@ var getWeather = function(lat,long) {
 
 var displayForecast = function(weather) {
 
-    //Get 5-day forecasts
-    var days = weather.SiteRep.DV.Location.Period;
+    //Variables
+    var date, days, day, i, output;
 
-    console.log(days);
+    //Get 5-day forecasts
+    days = weather.SiteRep.DV.Location.Period;
+
+    //display day data
+    // console.log(days);
+
+    //For each day
+    for (i = 0; i < days.length; i++) {
+
+        // output = "<table class='forecast'><tr>"
+
+        day = days[i].Rep;
+
+        console.log(day);
+
+        // output = "<th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th>
+
+
+
+    }
 
 };
 
