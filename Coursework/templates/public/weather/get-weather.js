@@ -85,9 +85,7 @@ var getWeather = function(lat,long) {
 var displayForecast = function(weather) {
 
     //Variables
-    var date, days, day, i, j, k, numForecasts, output, tab, time;
-
-
+    var date, day, dayOfWeek, days, i, j, k, numForecasts, output, tab, tabcontent, time, weekdays;
 
     //Get 5-day forecasts
     days = weather.SiteRep.DV.Location.Period;
@@ -97,6 +95,20 @@ var displayForecast = function(weather) {
 
     //For each day
     for (i = 0; i < days.length; i++) {
+
+
+
+        tab = "tab" + (i + 1);
+
+        date = new Date(days[i].value);
+
+        weekdays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+        dayOfWeek = weekdays[date.getDay()];
+
+        document.getElementById(tab).innerHTML = dayOfWeek;
+
+
 
         // Open table tag for forecasts
         output = "<table class='forecast'><tr>";
@@ -168,9 +180,9 @@ var displayForecast = function(weather) {
 
         output += "</tr></table>";
 
-        tab = "day" + (i + 1);
+        tabcontent = "day" + (i + 1);
 
-        document.getElementById(tab).innerHTML = output;
+        document.getElementById(tabcontent).innerHTML = output;
 
     }
 
