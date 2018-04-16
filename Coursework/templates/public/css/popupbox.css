@@ -64,8 +64,8 @@
 #mImg {
     display: block;
     margin: auto;
-    width: 90%;
-    padding: 10px 0;
+    width: 80%;
+    padding: 5px 0;
 }
 
 table, td {
@@ -81,7 +81,7 @@ table {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 20px 0 5px;
+    padding: 5px 0 10px;
     text-align: left;
 }
 
@@ -113,7 +113,7 @@ tr:nth-child(odd) {
 .tab {
     display: flex;
     overflow: hidden;
-    width: 400px;
+    width: 100%;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     justify-content: space-between;
