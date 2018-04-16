@@ -125,8 +125,9 @@ table {
     float: left;
     border: none;
     cursor: pointer;
-    padding: 5px 7px;
+    /*padding: 5px 7px;*/
     transition: 0.3s;
+    width: calc(100%/5);
 }
 
 .tab button:hover {
