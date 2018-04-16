@@ -100,13 +100,23 @@ var displayForecast = function(weather) {
 
         tab = "tab" + (i + 1);
 
-        date = new Date(days[i].value);
+        if (tab.equals("tab1")) {
+            document.getElementById(tab).innerHTML = "Today";
+        }
+        else if (tab.equals("tab2")) {
+            document.getElementById(tab).innerHTML = "Tomorrow";
+        }
+        else {
+            date = new Date(days[i].value);
 
-        weekdays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+            weekdays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-        dayOfWeek = weekdays[date.getDay()];
+            dayOfWeek = weekdays[date.getDay()];
 
-        document.getElementById(tab).innerHTML = dayOfWeek;
+            document.getElementById(tab).innerHTML = dayOfWeek;
+        }
+
+
 
 
 
