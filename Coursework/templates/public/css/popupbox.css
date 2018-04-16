@@ -193,6 +193,10 @@ table {
     height: 53px;
 }
 
+.cIcon {
+    height: 47px;
+}
+
 /*
 .forecast {
     width: calc(392px / 6);
