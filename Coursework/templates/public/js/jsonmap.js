@@ -377,18 +377,18 @@ var mapOverlays;
 if (userSession) {
     mapOverlays = {
         "SMR Stations": smrLocations.addTo(mymap),
-        "Beginner Munros": munroEasy.addTo(mymap),
-        "Intermediate Munros": munroMedium.addTo(mymap),
-        "Difficult Munros": munroHard.addTo(mymap),
+        "Munros > 914m": munroEasy.addTo(mymap),
+        "Munros > 950m": munroMedium.addTo(mymap),
+        "Munros > 1000": munroHard.addTo(mymap),
         "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
 else {
     mapOverlays = {
         "SMR Stations": smrLocations.addTo(mymap),
-        "Beginner Munros": munroEasy.addTo(mymap),
-        "Intermediate Munros": munroMedium.addTo(mymap),
-        "Difficult Munros": munroHard.addTo(mymap)
+        "Munros > 914m": munroEasy.addTo(mymap),
+        "Munros > 950m": munroMedium.addTo(mymap),
+        "Munros > 1000": munroHard.addTo(mymap)
         // "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
