@@ -169,6 +169,9 @@ table {
     width: 100%;
 }
 
+.forecast table th {
+    height: 20px;
+}
 
 .forecast th {
     border-bottom: 1px solid #3B8686;
