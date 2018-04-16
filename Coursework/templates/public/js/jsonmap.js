@@ -215,17 +215,17 @@ $(document).ready(function() {
 
                 height = parseInt(height);
 
-                if (height <= 914) {
-                    marker.setIcon(greenIcon);
-                    munroEasy.addLayer(marker);
+                if (height > 1000) {
+                    marker.setIcon(redIcon);
+                    munroHard.addLayer(marker);
                 }
-                else if (height < 1219 ) {
+                else if (height > 950 ) {
                     marker.setIcon(yellowIcon);
                     munroMedium.addLayer(marker);
                 }
-                else if (marker >= 1219) {
-                    marker.setIcon(redIcon);
-                    munroHard.addLayer(marker);
+                else if (marker > 914 ) {
+                    marker.setIcon(greenIcon);
+                    munroEasy.addLayer(marker);
                 }
                 else {
                     if (userSession) {
