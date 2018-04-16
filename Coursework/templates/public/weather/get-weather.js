@@ -214,7 +214,7 @@ var displayForecast = function(weather) {
                 imgWeather = weatherIcon[parseInt(day[j].W)];
             }
 
-            output += "<td><img src='/img/weather/" + imgWeather + "'></td>";
+            output += "<td class='wIcon'><img src='/img/weather/" + imgWeather + "'></td>";
 
 
 
