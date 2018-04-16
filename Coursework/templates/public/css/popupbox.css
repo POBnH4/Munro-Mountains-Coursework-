@@ -113,7 +113,7 @@ table {
 .tab {
     display: flex;
     overflow: hidden;
-    width: 396px;
+    width: 397px;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     justify-content: space-between;
@@ -157,7 +157,7 @@ table {
 
 .forecast th,
 .forecast td {
-    width: calc(395px / 6);
+    width: calc(100% / 6);
     text-align: center;
     padding: 2px 0;
     border-right: 1px solid #3B8686;
