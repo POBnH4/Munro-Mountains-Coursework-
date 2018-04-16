@@ -82,10 +82,52 @@ var getWeather = function(lat,long) {
 };
 
 
+// Image Arrays for Weather
+// Position cooresponds to MetOffice definitions
+// https://www.metoffice.gov.uk/datapoint/support/documentation/code-definitions
+
+var weatherIcon = [
+    "clear-night.png",
+    "sunny-day.png",
+    "partly-cloudy-night.png",
+    "sunny-intervals.png",
+    "", // index: 4 - not used
+    "mist.png",
+    "fog.png",
+    "cloudy.png",
+    "overcast.png",
+    "light-rain-shower-night.png",
+    "light-rain-shower-day.png",
+    "drizzle.png",
+    "light-rain.png",
+    "heavy-rain-shower-night.png",
+    "heavy-rain-shower-day.png",
+    "heavy-rain.png",
+    "sleet-shower-night.png",
+    "sleet-shower-day.png",
+    "sleet.png",
+    "hail-shower-night.png",
+    "hail-shower-day.png",
+    "hail.png",
+    "light-snow-shower-night.png",
+    "light-snow-shower-day.png",
+    "light-snow.png",
+    "heavy-snow-shower-night.png",
+    "heavy-snow-shower-day.png",
+    "heavy-snow.png",
+    "thunder-shower-night.png",
+    "thunder-shower-day.png",
+    "thunder.png"
+];
+
+
+
+
+
 var displayForecast = function(weather) {
 
     //Variables
-    var date, day, dayOfWeek, days, i, j, k, numForecasts, output, tab, tabcontent, time, weekdays;
+    var date, day, dayOfWeek, days, i, imgWeather, imgWind, j, k, numForecasts, output, tab, tabcontent, time, weekdays;
 
     //Get 5-day forecasts
     days = weather.SiteRep.DV.Location.Period;
@@ -126,7 +168,7 @@ var displayForecast = function(weather) {
         //get forecasts for day
         day = days[i].Rep;
 
-        console.log(day);
+        // console.log(day);
 
         // output = "";
         // output = "<th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th>
@@ -152,7 +194,7 @@ var displayForecast = function(weather) {
 
             // if ()
 
-            console.log(day[j]);
+            // console.log(day[j]);
 
             //Table per forecast
             output += "<td><table><tr>"
@@ -165,7 +207,14 @@ var displayForecast = function(weather) {
             output += "</tr><tr>";
 
             // weather icon
-            output += "<td><img src='/img/hail-shower-day.png'></td>";
+            if (day[j].W == "NA") {
+                imgWeather = weatherIcon[0];
+            }
+            else {
+                imgWeather = weatherIcon[parseInt(day[j].W)];
+            }
+
+            output += "<td><img src='/img/weather/" + imgWeather + "'></td>";
 
 
 
@@ -176,8 +225,11 @@ var displayForecast = function(weather) {
 
             output += "</tr><tr>";
 
-            // wind direction
-            output += "<td><img src='/img/nne_1.png'></td>";
+            // wind direction icon
+
+            imgWind = day[j].D + ".png";
+
+            output += "<td><img src='/img/wind/'" + imgWind + "></td>";
 
             output += "</tr><tr>";
 
