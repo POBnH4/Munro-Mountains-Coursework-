@@ -121,6 +121,8 @@ var displayForecast = function(weather) {
 
             // if ()
 
+            console.log(day[j]);
+
             //Table per forecast
             output += "<td><table><tr>"
 
@@ -149,7 +151,7 @@ var displayForecast = function(weather) {
             output += "</tr><tr>";
 
             // chance of rain
-            output += "<td>" + day[j].Pp + "</td>";
+            output += "<td>" + day[j].Pp + "%</td>";
 
             output += "</tr></table></td>"
 
