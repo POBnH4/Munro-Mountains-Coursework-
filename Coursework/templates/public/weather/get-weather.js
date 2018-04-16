@@ -85,7 +85,7 @@ var getWeather = function(lat,long) {
 var displayForecast = function(weather) {
 
     //Variables
-    var date, days, day, i, j, k, output, tab, time;
+    var date, days, day, i, j, k, numForecasts, output, tab, time;
 
 
 
@@ -110,14 +110,14 @@ var displayForecast = function(weather) {
         // output = "<th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th><th>6AM</th>
 
         //determine starting forecast (missing out 12am and 3am)
-        j = day.length % 6;
+        numForecasts = day.length % 6;
 
         // if (days.length < 6) {
         //     $('.forecast').find('th').css("width","calc(400px/" + days.length + ")");
         // }
 
         //for each forecast
-        for (j; j < day.length; j++) {
+        for (j = numForecasts; j < day.length; j++) {
 
             // if ()
 
