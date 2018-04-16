@@ -379,7 +379,7 @@ if (userSession) {
         "SMR Stations": smrLocations.addTo(mymap),
         "Munros > 914m": munroEasy.addTo(mymap),
         "Munros > 950m": munroMedium.addTo(mymap),
-        "Munros > 1000": munroHard.addTo(mymap),
+        "Munros > 1000m": munroHard.addTo(mymap),
         "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
@@ -388,7 +388,7 @@ else {
         "SMR Stations": smrLocations.addTo(mymap),
         "Munros > 914m": munroEasy.addTo(mymap),
         "Munros > 950m": munroMedium.addTo(mymap),
-        "Munros > 1000": munroHard.addTo(mymap)
+        "Munros > 1000m": munroHard.addTo(mymap)
         // "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
