@@ -200,23 +200,30 @@ $(document).ready(function() {
                 marker.mLng = munros[i].longitude;
                 marker.mLocation = munros[i].region;
                 // marker.mImage = munros[i].image;
-                marker.mDiff = munros[i].difficulty;
+                // marker.mDiff = munros[i].difficulty;
 
 
                 marker.bindTooltip(munros[i].name, {direction: "top", offset: [0, -40]});
 
                 marker.on('click', openBox);
 
+                var height = marker.mHeight.substring(0,5);
 
-                if (marker.mDiff == "Easy") {
+                if (height.substring(4,5) == "m") {
+                    height = height.substring(0,4);
+                }
+
+                height = parseInt(height);
+
+                if (height <= 914) {
                     marker.setIcon(greenIcon);
                     munroEasy.addLayer(marker);
                 }
-                else if (marker.mDiff == "Intermediate") {
+                else if (height < 1219 ) {
                     marker.setIcon(yellowIcon);
                     munroMedium.addLayer(marker);
                 }
-                else if (marker.mDiff == "Hard") {
+                else if (marker >= 1219) {
                     marker.setIcon(redIcon);
                     munroHard.addLayer(marker);
                 }
