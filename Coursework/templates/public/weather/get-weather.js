@@ -85,7 +85,7 @@ var getWeather = function(lat,long) {
 var displayForecast = function(weather) {
 
     //Get 5-day forecasts
-    var days = weather.DV.Location.Period;
+    var days = weather.SiteRep.DV.Location.Period;
 
     console.log(days);
 
