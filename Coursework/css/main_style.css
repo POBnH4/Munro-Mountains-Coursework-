@@ -77,14 +77,27 @@ nav {
 
 .row{
   background-color:  #F5F5F5;
-  height:200px;
+  height:180px;
   width: 100%;
   margin-bottom: 10px;
   margin-top: 50px;
 }
 
+.row h3{
+  padding-top: 10px;
+}
+
 .row p{
-  padding-top: 20px;
+  padding: 5px 10px 0 10px;
+
+}
+
+.row a:link{
+  text-decoration: none;
+}
+
+.row a{
+  color: black;
 }
 
 .sticky {
@@ -94,8 +107,8 @@ nav {
 }
 
 .additional-info-images{
-  height:200px;
-  width:50%;
+  height:100%;
+  width:30%;
   float: left;
 
 }
