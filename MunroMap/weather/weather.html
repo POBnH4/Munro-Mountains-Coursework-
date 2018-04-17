@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather Layout</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="w_style.css">
+
+</head>
+
+<body>
+
+<section id="weatherBox">
+
+    <!-- forecast tabs -->
+    <div class="tab">
+        <button id="tab1" class="tablink" onclick="openDay(event,'day1')"></button>
+        <button id="tab2" class="tablink" onclick="openDay(event,'day2')"></button>
+        <button id="tab3" class="tablink" onclick="openDay(event,'day3')"></button>
+        <button id="tab4" class="tablink" onclick="openDay(event,'day4')"></button>
+        <button id="tab5" class="tablink" onclick="openDay(event,'day5')"></button>
+    </div>
+
+    <!-- weather -->
+    <div id="day1" class="tabcontent">
+        <!--<h3>Today</h3>-->
+
+        <!--<div>3PM</div>-->
+<!--
+        <div class="forecast">
+            6AM
+            <img src="hail-shower-day.png">
+            10°C
+            <img src="nne_1.png">
+            <5%
+        </div>
+        <div class="forecast">9AM</div>
+        <div class="forecast">12PM</div>
+        <div class="forecast">3PM</div>
+        <div class="forecast">6PM</div>
+        <div class="forecast">9PM</div>
+-->
+
+
+        <table class="forecast">
+
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th class="forecast">
+                                6AM
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="/img/hail-shower-day.png">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>10°C<br/><span class="fTemp">9°C</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="/img/nne_1.png">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>10%</td>
+                        </tr>
+                    </table>
+                </td>
+
+                <td>
+                    <table>
+                        <tr>
+                            <th class="forecast">
+                                6AM
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="/img/hail-shower-day.png">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>10°C<br/><span class="fTemp">9°C</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="/img/nne_1.png">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>10%</td>
+                        </tr>
+                    </table>
+                </td>
+
+            </tr>
+
+
+
+        </table>
+
+
+    </div>
+
+    <div id="day2" class="tabcontent">
+        <h3>Tomorrow</h3>
+    </div>
+
+    <div id="day3" class="tabcontent">
+        <h3>DAY 3</h3>
+    </div>
+
+    <div id="day4" class="tabcontent">
+        <h3>DAY 4</h3>
+    </div>
+
+    <div id="day5" class="tabcontent">
+        <h3>DAY 5</h3>
+    </div>
+
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="w_tabs.js"></script>
+
+</body>
+
+</html>

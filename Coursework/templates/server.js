@@ -73,7 +73,7 @@ app.get('/munromap', function(req,res) {
     });
 */
 
-    session.loggedin = true;
+    // session.loggedin = true;
 /*
     // db.collection('munros').find().toArray(function(err,result) {
     //     if (err) throw err;
@@ -85,8 +85,14 @@ app.get('/munromap', function(req,res) {
     });
 */
 
+    //db.collection('munros').find({},function(err,result){
+     //   res.send(result);
+   // });
+
+
 
     session.loggedin = true;
+
 
     res.render('pages/map', {
         usession: session
@@ -95,14 +101,17 @@ app.get('/munromap', function(req,res) {
 
 
 
+
 });
 
 
-app.get('/munros', function(res,req) {
-    db.collection('munros').find({},function(err,result){
+
+app.get('/munros', function(req,res) {
+    db.collection('munros').find().toArray(function(err,result) {
         res.send(result);
     });
 });
+
 
 
 // list page

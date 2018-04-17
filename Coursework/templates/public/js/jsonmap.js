@@ -100,15 +100,16 @@ var userSession = document.getElementById('uSBoolean').innerHTML;
 // console.log(munros);
 
 
+/*
 //Map markers loaded using JSON
 $(document).ready(function() {
     $.ajax({
         // type: "GET",
-        url: "/munromap",
-        context: document.body,
+        url: "/munros",
         success: function(result)
         {
-            // console.log(result.munros);
+            console.log(result);
+
             var munros = result;
 
             for (var i = 0; i < munros.length; i++) {
@@ -163,8 +164,87 @@ $(document).ready(function() {
         }
     })
 });
+*/
+
+/*
+$(document).ready(function () {
+    $.ajax({
+        url: "/munros"
+    }).done(function(data) {
+        console.log(data);
+    })
+});
+*/
+
+$(document).ready(function() {
+    $.ajax({
+        type: "GET",
+        url: "/munros",
+        context: document.body,
+        success: function(result)
+        {
+         console.log(result);
+
+            //Add munro markers to map
+            var munros = result;
+
+            for (var i = 0; i < munros.length; i++) {
+                // var marker = L.marker([munros[i].latitude,munros[i].longitude], {icon:greenIcon});
+                var marker = L.marker([munros[i].latitude, munros[i].longitude]);
+
+                // console.log(munros[i]);
+
+                marker.mName = munros[i].name;
+                marker.mHeight = munros[i].height;
+                marker.mLat = munros[i].latitude;
+                marker.mLng = munros[i].longitude;
+                marker.mLocation = munros[i].region;
+                // marker.mImage = munros[i].image;
+                // marker.mDiff = munros[i].difficulty;
 
 
+                marker.bindTooltip(munros[i].name, {direction: "top", offset: [0, -40]});
+
+                marker.on('click', openBox);
+
+                var height = marker.mHeight.substring(0,5);
+
+                if (height.substring(4,5) == "m") {
+                    height = height.substring(0,4);
+                }
+
+                height = parseInt(height);
+
+                if (height > 1000) {
+                    marker.setIcon(redIcon);
+                    munroHard.addLayer(marker);
+                }
+                else if (height > 950 ) {
+                    marker.setIcon(yellowIcon);
+                    munroMedium.addLayer(marker);
+                }
+                else if (height > 914 ) {
+                    marker.setIcon(greenIcon);
+                    munroEasy.addLayer(marker);
+                }
+                else {
+                    if (userSession) {
+                        marker.setIcon(blueIcon);
+                        munroMountains.addLayer(marker);
+                    }
+                    else {
+                        // do nothing...
+                    }
+                }
+
+
+                // marker.addTo(mymap);
+                // munroMountains.addLayer(marker);
+            }
+
+        }
+    })
+});
 
 /*
 //Map markers loaded using JSON
@@ -231,6 +311,7 @@ $(document).ready(function() {
 
 
 
+
 /* Add SMR Pins to Map using JSON data */
 $(document).ready(function() {
    $.ajax ({
@@ -253,7 +334,7 @@ $(document).ready(function() {
            }
        }
    })
-})
+});
 
 
 //Add overlays to map
@@ -274,8 +355,8 @@ var mapOverlays = {
     "SMR Stations": smrLocations.addTo(mymap),
     "Beginner Munros": munroEasy.addTo(mymap),
     "Intermediate Munros": munroMedium.addTo(mymap),
-    "Difficult Munros": munroHard.addTo(mymap)
-    // "Other (Testing)": munroMountains.addTo(mymap)
+    "Difficult Munros": munroHard.addTo(mymap),
+    "Other (Testing)": munroMountains.addTo(mymap)
 };
 */
 
@@ -296,18 +377,18 @@ var mapOverlays;
 if (userSession) {
     mapOverlays = {
         "SMR Stations": smrLocations.addTo(mymap),
-        "Beginner Munros": munroEasy.addTo(mymap),
-        "Intermediate Munros": munroMedium.addTo(mymap),
-        "Difficult Munros": munroHard.addTo(mymap),
+        "Munros > 914m": munroEasy.addTo(mymap),
+        "Munros > 950m": munroMedium.addTo(mymap),
+        "Munros > 1000m": munroHard.addTo(mymap),
         "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
 else {
     mapOverlays = {
         "SMR Stations": smrLocations.addTo(mymap),
-        "Beginner Munros": munroEasy.addTo(mymap),
-        "Intermediate Munros": munroMedium.addTo(mymap),
-        "Difficult Munros": munroHard.addTo(mymap)
+        "Munros > 914m": munroEasy.addTo(mymap),
+        "Munros > 950m": munroMedium.addTo(mymap),
+        "Munros > 1000m": munroHard.addTo(mymap)
         // "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
@@ -359,6 +440,9 @@ function openBox(e) {
 
     info.innerHTML = output;
 
+    //Get weather, pass co-ordinates [get-weather.js]
+    getWeather(m.mLat,m.mLng);
+
     var modal = document.getElementById("popup");
     modal.style.display = "flex";
 }
@@ -379,3 +463,14 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+
+// Attempt at getting marker attribute - Unsuccessful
+/*
+$('.leaflet-marker-icon').on('click',function(e) {
+    var element = $(e.srcElement || e.target),
+        elName = element.attr('mName');
+
+    alert("name: " + elName)
+});
+    */
