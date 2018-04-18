@@ -90,17 +90,18 @@ app.get('/munromap', function(req,res) {
    // });
 
     var userSession = req.session;
-    userSession.username = "thisisnotapipe";
+    userSession.username = "genericuser033";
 
     var mTest;
-
+/*
     db.collection('munros').find({"name": "Ben Nevis"}).toArray(function(err,result){
         mTest = JSON.stringify(result);
     });
+    */
 
-    console.log(mTest);
+    // console.log(mTest);
 
-    // db.collection('users').update({"username":userSession.username},{$addToSet: {"bagged": [mTest]}});
+    db.collection('users').update({"username":userSession.username},{$addToSet: {"bagged": ["Ben Nevis","Ben Hope"]}});
 
 
     userSession.loggedin = true;

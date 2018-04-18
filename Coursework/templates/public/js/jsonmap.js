@@ -239,7 +239,7 @@ $(document).ready(function() {
                 height = parseInt(height);
 
 
-                if (userSession && $.inArray(munros[i],bagged) !== -1) {
+                if (userSession && $.inArray(munros[i].name,bagged) !== -1) {
                     marker.setIcon(blueIcon);
                     munroMountains.addLayer(marker);
                 }
