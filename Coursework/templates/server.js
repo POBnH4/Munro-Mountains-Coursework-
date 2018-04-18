@@ -134,10 +134,10 @@ app.get('/usermunros', function(req,res) {
 
     db.collection('users').find({"username":uName}).toArray(function(err, result) {
         if (err) throw err;
-        // res.send(result.bagged);
-        console.log(result);
-        console.log(result.username);
-        console.log(result.bagged);
+        res.send(result);
+        // console.log(result);
+        // console.log(result.username);
+        // console.log(result.bagged);
     });
 
 });
