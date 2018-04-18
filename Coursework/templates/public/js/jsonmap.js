@@ -215,12 +215,14 @@ $(document).ready(function() {
 */
 
                 getUserMunros(function(result){
+                    console.log(result);
                     bagged = result;
+                    console.log(bagged);
                 })
 
             }
             else {
-                bagged = [];
+                bagged = [""];
             }
 
 
@@ -266,7 +268,7 @@ $(document).ready(function() {
                 height = parseInt(height);
 
 
-                console.log(munros[i].name);
+                // console.log(munros[i].name);
 
                 if (userSession && $.inArray(munros[i].name,bagged) != -1) {
                     marker.setIcon(blueIcon);
