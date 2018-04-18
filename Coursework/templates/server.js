@@ -122,6 +122,7 @@ app.get('/munromap', function(req,res) {
 
 app.get('/munros', function(req,res) {
     db.collection('munros').find().toArray(function(err,result) {
+        console.log(result);
         res.send(result);
     });
 });
