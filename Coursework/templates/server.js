@@ -127,8 +127,11 @@ app.get('/munros', function(req,res) {
 
 app.get('/usermunros', function(req,res) {
 
-    db.collection('users').findOne({"username": req.session.username}).toArray(function(err, result) {
-        res.send(result.bagged);
+    var uName = req.session.username;
+
+    db.collection('users').find({"username":uName}).toArray(function(err, result) {
+        // res.send(result.bagged);
+        console.log(result);
     });
 
 });
