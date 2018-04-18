@@ -89,14 +89,28 @@ app.get('/munromap', function(req,res) {
      //   res.send(result);
    // });
 
+    var userSession = req.session;
+    userSession.username = "genericuser033";
+
+    var mTest;
+/*
+    db.collection('munros').find({"name": "Ben Nevis"}).toArray(function(err,result){
+        mTest = JSON.stringify(result);
+    });
+    */
+
+    // console.log(mTest);
+
+    db.collection('users').update({"username":userSession.username},{$addToSet: {"bagged": {$each :["Ben Nevis","Ben Hope","Ben Lomond"]}}});
 
 
-    session.loggedin = true;
+    userSession.loggedin = true;
 
 
     res.render('pages/map', {
-        usession: session
+        usession: userSession
     });
+
 
 
 
@@ -108,9 +122,29 @@ app.get('/munromap', function(req,res) {
 
 app.get('/munros', function(req,res) {
     db.collection('munros').find().toArray(function(err,result) {
+        // console.log(result);
         res.send(result);
     });
 });
+
+app.get('/usermunros', function(req,res) {
+
+    // console.log(req.session.username);
+    var uName = req.session.username;
+    // console.log(uName);
+
+    db.collection('users').findOne({"username":uName},function(err, result) {
+        if (err) throw err;
+        console.log(result.bagged);
+        res.send(result.bagged);
+        // console.log(result);
+        // console.log(result.username);
+        // console.log(result.bagged);
+    });
+
+});
+
+
 
 
 
