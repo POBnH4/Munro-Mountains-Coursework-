@@ -89,13 +89,23 @@ app.get('/munromap', function(req,res) {
      //   res.send(result);
    // });
 
+    var userSession = req.session;
+    userSession.username = "thisisnotapipe";
+
+    var mTest;
+
+    db.collection('munros').find({"name": "Ben Nevis"}).toArray(function(err,result){
+        mTest = result;
+    });
+
+    db.collection('users').update({"username":userSession.username},{$addToSet: {"bagged": [mTest]}});
 
 
-    session.loggedin = true;
+    userSession.loggedin = true;
 
 
     res.render('pages/map', {
-        usession: session
+        usession: userSession
     });
 
 
@@ -111,6 +121,15 @@ app.get('/munros', function(req,res) {
         res.send(result);
     });
 });
+
+app.get('/usermunros', function(req,res) {
+
+    db.collection('users').findOne({"username": userSession.username}).toArray(function(err, result) {
+        res.send(result.bagged);
+    });
+
+});
+
 
 
 

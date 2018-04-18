@@ -183,12 +183,33 @@ $(document).ready(function() {
         context: document.body,
         success: function(result)
         {
-         console.log(result);
+
+            // Array of user bagged munros
+            var bagged;
+
+            // if user logged in, get user munros
+            if (userSession) {
+
+                $.ajax({
+                    type: "GET",
+                    url: "/usermunros",
+                    success: function(result)
+                    {
+                        bagged = result;
+                    }
+                });
+            }
+
+
+
+            console.log(result);
 
             //Add munro markers to map
             var munros = result;
 
             for (var i = 0; i < munros.length; i++) {
+
+
                 // var marker = L.marker([munros[i].latitude,munros[i].longitude], {icon:greenIcon});
                 var marker = L.marker([munros[i].latitude, munros[i].longitude]);
 
@@ -207,6 +228,8 @@ $(document).ready(function() {
 
                 marker.on('click', openBox);
 
+
+                // Determine height, parseInt from String
                 var height = marker.mHeight.substring(0,5);
 
                 if (height.substring(4,5) == "m") {
@@ -215,6 +238,32 @@ $(document).ready(function() {
 
                 height = parseInt(height);
 
+
+                if (userSession && $.inArray(munros[i],bagged)) {
+                    marker.setIcon(blueIcon);
+                    munroMountains.addLayer(marker);
+                }
+                else {
+                    if (height > 1000) {
+                        marker.setIcon(redIcon);
+                        munroHard.addLayer(marker);
+                    }
+                    else if (height > 950 ) {
+                        marker.setIcon(yellowIcon);
+                        munroMedium.addLayer(marker);
+                    }
+                    else {
+                        marker.setIcon(greenIcon);
+                        munroEasy.addLayer(marker);
+                    }
+                }
+
+                // if (height.substring(4,5) == "m") {
+                //     height = height.substring(0,4);
+                // }
+
+                // height = parseInt(height);
+/*
                 if (height > 1000) {
                     marker.setIcon(redIcon);
                     munroHard.addLayer(marker);
@@ -237,14 +286,32 @@ $(document).ready(function() {
                     }
                 }
 
-
+*/
                 // marker.addTo(mymap);
                 // munroMountains.addLayer(marker);
             }
 
         }
-    })
+    });
+/*
+    $.ajax({
+        type: "GET",
+        url: "/usermunros",
+        success: function(result)
+        {
+
+        }
+    });
+*/
+
+
 });
+
+
+
+
+
+
 
 /*
 //Map markers loaded using JSON
