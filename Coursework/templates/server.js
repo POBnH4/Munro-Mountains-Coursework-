@@ -101,7 +101,7 @@ app.get('/munromap', function(req,res) {
 
     // console.log(mTest);
 
-    db.collection('users').update({"username":userSession.username},{$addToSet: {"bagged": ["Ben Nevis","Ben Hope"]}});
+    // db.collection('users').update({"username":userSession.username},{$addToSet: {"bagged": ["Ben Nevis","Ben Hope"]}});
 
 
     userSession.loggedin = true;
@@ -131,8 +131,8 @@ app.get('/usermunros', function(req,res) {
     var uName = req.session.username;
 
     db.collection('users').find({"username":uName}).toArray(function(err, result) {
-        // res.send(result.bagged);
-        console.log(result);
+        res.send(result.bagged);
+        // console.log(result);
     });
 
 });
