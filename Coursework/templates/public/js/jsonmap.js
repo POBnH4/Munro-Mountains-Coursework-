@@ -270,6 +270,7 @@ $(document).ready(function() {
 
                 // console.log(munros[i].name);
 
+
                 if (userSession && $.inArray(munros[i].name,bagged) != -1) {
                     marker.setIcon(blueIcon);
                     munroMountains.addLayer(marker);
