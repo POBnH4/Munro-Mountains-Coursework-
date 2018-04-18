@@ -180,8 +180,10 @@ function getUserMunros(callback) {
     $.ajax({
         type: "GET",
         url: "/usermunros",
-        success: callback
-    })
+        success: function(result) {
+            callback(result);
+        }
+    });
 }
 
 
