@@ -195,9 +195,9 @@ $(document).ready(function() {
         success: function(result)
         {
 
-            // Array of user bagged munros
-            var mBagged = "";
-            console.log(mBagged);
+            // // Array of user bagged munros
+            // var mBagged = "";
+            // console.log(mBagged);
 
             // if user logged in, get user munros
             if (userSession) {
@@ -217,13 +217,13 @@ $(document).ready(function() {
 
                 getUserMunros(function(result){
                     console.log(result);
-                    mBagged = result;
+                    var mBagged = result;
                     console.log(mBagged);
                 });
 
             }
             else {
-                mBagged = [""];
+                var mBagged = [""];
             }
 
 
