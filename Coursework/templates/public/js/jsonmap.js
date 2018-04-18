@@ -195,8 +195,9 @@ $(document).ready(function() {
                     url: "/usermunros",
                     success: function(result)
                     {
+                        console.log(result);
                         bagged = result;
-                        // console.log(bagged);
+                        console.log(bagged);
                     }
                 });
             }
