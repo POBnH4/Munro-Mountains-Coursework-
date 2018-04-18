@@ -128,7 +128,9 @@ app.get('/munros', function(req,res) {
 
 app.get('/usermunros', function(req,res) {
 
+    console.log(req.session.username);
     var uName = req.session.username;
+    console.log(uName);
 
     db.collection('users').find({"username":uName}).toArray(function(err, result) {
         if (err) throw err;
