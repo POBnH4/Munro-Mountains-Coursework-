@@ -190,7 +190,7 @@ $(document).ready(function() {
             // if user logged in, get user munros
             if (userSession) {
 
-                bagged = $.ajax({
+                var userAjax = $.ajax({
                     type: "GET",
                     url: "/usermunros",
                     success: function(result)
@@ -202,6 +202,8 @@ $(document).ready(function() {
                     }
                 })
             }
+
+            bagged = userAjax.responseJSON;
 
             console.log(bagged);
 
