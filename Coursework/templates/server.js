@@ -133,7 +133,7 @@ app.get('/usermunros', function(req,res) {
     var uName = req.session.username;
     // console.log(uName);
 
-    db.collection('users').find({"username":uName},function(err, result) {
+    db.collection('users').findOne({"username":uName},function(err, result) {
         if (err) throw err;
         // res.send(result);
         console.log(result);
