@@ -186,6 +186,7 @@ function getUserMunros(callback) {
     });
 }
 
+var mBagged;
 
 $(document).ready(function() {
     $.ajax({
@@ -217,13 +218,13 @@ $(document).ready(function() {
 
                 getUserMunros(function(result){
                     console.log(result);
-                    var mBagged = result;
+                    mBagged = result;
                     console.log(mBagged);
                 });
 
             }
             else {
-                var mBagged = [""];
+                mBagged = [""];
             }
 
 
