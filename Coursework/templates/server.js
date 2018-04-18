@@ -122,7 +122,7 @@ app.get('/munromap', function(req,res) {
 
 app.get('/munros', function(req,res) {
     db.collection('munros').find().toArray(function(err,result) {
-        console.log(result);
+        // console.log(result);
         res.send(result);
     });
 });
@@ -135,6 +135,7 @@ app.get('/usermunros', function(req,res) {
 
     db.collection('users').findOne({"username":uName},function(err, result) {
         if (err) throw err;
+        console.log(result.bagged);
         res.send(result.bagged);
         // console.log(result);
         // console.log(result.username);
