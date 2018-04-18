@@ -201,6 +201,8 @@ $(document).ready(function() {
                 });
             }
 
+            console.log(bagged);
+
 
 
             console.log(result);
@@ -240,7 +242,9 @@ $(document).ready(function() {
                 height = parseInt(height);
 
 
-                if (userSession && $.inArray(munros[i].name,bagged) !== -1) {
+                console.log(munros[i].name);
+
+                if (userSession && $.inArray(munros[i].name,bagged) != -1) {
                     marker.setIcon(blueIcon);
                     munroMountains.addLayer(marker);
                 }
