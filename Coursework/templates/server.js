@@ -95,7 +95,7 @@ app.get('/munromap', function(req,res) {
     var mTest;
 
     db.collection('munros').find({"name": "Ben Nevis"}).toArray(function(err,result){
-        mTest = result;
+        mTest = JSON.stringify(result);
     });
 
     console.log(mTest);
