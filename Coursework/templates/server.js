@@ -131,8 +131,8 @@ app.get('/usermunros', function(req,res) {
     var uName = req.session.username;
 
     db.collection('users').find({"username":uName}).toArray(function(err, result) {
-        res.send(result.bagged);
-        // console.log(result);
+        // res.send(result.bagged);
+        console.log(result.bagged);
     });
 
 });
