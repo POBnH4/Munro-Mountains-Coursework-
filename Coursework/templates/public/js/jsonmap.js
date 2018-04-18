@@ -176,6 +176,15 @@ $(document).ready(function () {
 });
 */
 
+function getUserMunros(callback) {
+    $.ajax({
+        type: "GET",
+        url: "/usermunros",
+        success: callback
+    })
+}
+
+
 $(document).ready(function() {
     $.ajax({
         type: "GET",
@@ -189,7 +198,7 @@ $(document).ready(function() {
 
             // if user logged in, get user munros
             if (userSession) {
-
+/*
                 var userAjax = $.ajax({
                     type: "GET",
                     url: "/usermunros",
@@ -198,12 +207,21 @@ $(document).ready(function() {
                         console.log(result);
                         bagged = result;
                         console.log(bagged);
-                        return bagged;
+                        // return bagged;
                     }
                 })
+*/
+
+                getUserMunros(function(result){
+                    bagged = result;
+                })
+
+            }
+            else {
+                bagged = [];
             }
 
-            bagged = userAjax.responseJSON;
+
 
             console.log(bagged);
 
