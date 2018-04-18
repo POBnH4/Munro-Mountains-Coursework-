@@ -186,9 +186,10 @@ function getUserMunros(callback) {
     });
 }
 
-var mBagged;
+
 
 $(document).ready(function() {
+    var mBagged;
     $.ajax({
         type: "GET",
         url: "/munros",
@@ -273,7 +274,7 @@ $(document).ready(function() {
                 // console.log(munros[i].name);
 
 
-                if (userSession && $.inArray(munros[i].name,bagged) != -1) {
+                if (userSession && $.inArray(munros[i].name,mBagged) != -1) {
                     marker.setIcon(blueIcon);
                     munroMountains.addLayer(marker);
                 }
