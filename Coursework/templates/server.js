@@ -136,8 +136,8 @@ app.get('/usermunros', function(req,res) {
         if (err) throw err;
         // res.send(result.bagged);
         console.log(result);
+        console.log(result.username);
         console.log(result.bagged);
-        // console.log(result.bagged);
     });
 
 });
