@@ -94,7 +94,8 @@ console.log(uSessionB);
 */
 
 //Session Boolean - SUCCESS
-var userSession = document.getElementById('uSBoolean').innerHTML;
+//Session collected using AJAX call & Express route
+// var userSession = document.getElementById('uSBoolean').innerHTML;
 // console.log(userSession);
 // var munros = document.getElementById('munroResult').innerHTML;
 // console.log(munros);
