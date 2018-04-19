@@ -32,7 +32,7 @@ html {
 
 /* User Session Boolean Value*/
 #uSBoolean {
-    display: block;
+    display: none;
 }
 
 header {
