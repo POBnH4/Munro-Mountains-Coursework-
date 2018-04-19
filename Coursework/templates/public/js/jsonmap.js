@@ -186,6 +186,17 @@ function getUserMunros(callback) {
     });
 }
 
+function getSession(callback) {
+    $.ajax({
+        type: "GET",
+        url: "/usermunros",
+        success: function(result) {
+            console.log(result);
+            callback(result);
+        }
+    });
+}
+
 function getMunros(list) {
     $.ajax({
         type: "GET",
@@ -260,6 +271,10 @@ function getMunros(list) {
 $(document).ready(function() {
 
     var mBagged;
+
+    getSession(function(data) {
+        console.log(data);
+    });
 
     if (userSession == "true") {
         getUserMunros(function(data) {

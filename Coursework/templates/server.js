@@ -119,6 +119,12 @@ app.get('/munromap', function(req,res) {
 });
 
 
+app.get('/getsession', function(req,res) {
+    var sess = req.session.loggedin;
+    res.send(sess);
+});
+
+
 
 app.get('/munros', function(req,res) {
     db.collection('munros').find().toArray(function(err,result) {
