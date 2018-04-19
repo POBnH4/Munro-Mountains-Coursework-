@@ -198,7 +198,7 @@ function getSession(callback) {
     });
 }
 
-function getMunros(list) {
+function getMunros(list,session) {
     $.ajax({
         type: "GET",
         url: '/munros',
@@ -245,7 +245,7 @@ function getMunros(list) {
                 // console.log(munros[i].name);
 
 
-                if (userSession && $.inArray(munros[i].name, list) != -1) {
+                if (session && $.inArray(munros[i].name, list) != -1) {
                     marker.setIcon(blueIcon);
                     munroMountains.addLayer(marker);
                 }
@@ -280,7 +280,7 @@ $(document).ready(function() {
             getUserMunros(function(data) {
                 console.log(data);
                 mBagged = data;
-                getMunros(mBagged);
+                getMunros(mBagged,sessdata);
             })
         }
         else {
