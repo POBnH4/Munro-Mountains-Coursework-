@@ -272,10 +272,10 @@ $(document).ready(function() {
 
     var mBagged;
 
-    getSession(function(data) {
-        console.log(data);
+    getSession(function(sessdata) {
+        console.log(sessdata);
 
-        if (userSession == "true") {
+        if (sessdata) {
             getUserMunros(function(data) {
                 console.log(data);
                 mBagged = data;
