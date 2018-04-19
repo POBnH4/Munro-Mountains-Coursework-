@@ -189,7 +189,7 @@ function getUserMunros(callback) {
 function getSession(callback) {
     $.ajax({
         type: "GET",
-        url: "/usermunros",
+        url: "/getsession",
         success: function(result) {
             console.log(result);
             callback(result);
