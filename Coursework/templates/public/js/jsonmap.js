@@ -578,7 +578,7 @@ if (userSession) {
         "Munros > 914m": munroEasy.addTo(mymap),
         "Munros > 950m": munroMedium.addTo(mymap),
         "Munros > 1000m": munroHard.addTo(mymap),
-        "Other (Testing)": munroMountains.addTo(mymap)
+        "Bagged Munros": munroMountains.addTo(mymap)
     }
 }
 else {

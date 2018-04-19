@@ -104,7 +104,7 @@ app.get('/munromap', function(req,res) {
     db.collection('users').update({"username":userSession.username},{$addToSet: {"bagged": {$each :["Ben Nevis","Ben Hope","Ben Lomond"]}}});
 
 
-    userSession.loggedin = true;
+    // userSession.loggedin = true;
 
 
     res.render('pages/map', {
