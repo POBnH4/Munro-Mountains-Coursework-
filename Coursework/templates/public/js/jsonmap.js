@@ -186,10 +186,101 @@ function getUserMunros(callback) {
     });
 }
 
+function getMunros(list) {
+    $.ajax({
+        type: "GET",
+        url: '/munros',
+        context: document.body,
+        success: function(result)
+        {
+            console.log(result);
+
+            //Add munro markers to map
+            var munros = result;
+
+            for (var i = 0; i < munros.length; i++) {
+
+
+                // var marker = L.marker([munros[i].latitude,munros[i].longitude], {icon:greenIcon});
+                var marker = L.marker([munros[i].latitude, munros[i].longitude]);
+
+                // console.log(munros[i]);
+
+                marker.mName = munros[i].name;
+                marker.mHeight = munros[i].height;
+                marker.mLat = munros[i].latitude;
+                marker.mLng = munros[i].longitude;
+                marker.mLocation = munros[i].region;
+                // marker.mImage = munros[i].image;
+                // marker.mDiff = munros[i].difficulty;
+
+
+                marker.bindTooltip(munros[i].name, {direction: "top", offset: [0, -40]});
+
+                marker.on('click', openBox);
+
+
+                // Determine height, parseInt from String
+                var height = marker.mHeight.substring(0, 5);
+
+                if (height.substring(4, 5) == "m") {
+                    height = height.substring(0, 4);
+                }
+
+                height = parseInt(height);
+
+
+                // console.log(munros[i].name);
+
+
+                if (userSession && $.inArray(munros[i].name, list) != -1) {
+                    marker.setIcon(blueIcon);
+                    munroMountains.addLayer(marker);
+                }
+                else {
+                    if (height > 1000) {
+                        marker.setIcon(redIcon);
+                        munroHard.addLayer(marker);
+                    }
+                    else if (height > 950) {
+                        marker.setIcon(yellowIcon);
+                        munroMedium.addLayer(marker);
+                    }
+                    else {
+                        marker.setIcon(greenIcon);
+                        munroEasy.addLayer(marker);
+                    }
+                }
+            }
+        }
+    })
+}
 
 
 $(document).ready(function() {
+
     var mBagged;
+
+    if (userSession == "True") {
+        getUserMunros(function(data) {
+            console.log(data);
+            mBagged = data;
+            getMunros(mBagged);
+        })
+    }
+    else {
+        mBagged = ["unknown"];
+        getMunros(mBagged);
+    }
+
+});
+
+
+
+
+/*
+$(document).ready(function() {
+    // var mBagged;
     $.ajax({
         type: "GET",
         url: "/munros",
@@ -202,7 +293,7 @@ $(document).ready(function() {
             // console.log(mBagged);
 
             // if user logged in, get user munros
-            if (userSession) {
+            if (userSession == "True") {
 /*
                 var userAjax = $.ajax({
                     type: "GET",
@@ -215,12 +306,13 @@ $(document).ready(function() {
                         // return bagged;
                     }
                 })
-*/
+
 
                 getUserMunros(function(data){
                     console.log(data);
                     mBagged = data;
                     console.log(mBagged);
+
                 })
 
             }
@@ -292,6 +384,7 @@ $(document).ready(function() {
                         munroEasy.addLayer(marker);
                     }
                 }
+                */
 
                 // if (height.substring(4,5) == "m") {
                 //     height = height.substring(0,4);
@@ -324,10 +417,12 @@ $(document).ready(function() {
 */
                 // marker.addTo(mymap);
                 // munroMountains.addLayer(marker);
+/*
             }
 
         }
     });
+    */
 /*
     $.ajax({
         type: "GET",
@@ -340,7 +435,8 @@ $(document).ready(function() {
 */
 
 
-});
+// });
+
 
 
 
