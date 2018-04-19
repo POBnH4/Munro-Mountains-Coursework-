@@ -290,7 +290,9 @@ $(document).ready(function() {
                     "Munros > 950m": munroMedium.addTo(mymap),
                     "Munros > 1000m": munroHard.addTo(mymap),
                     "Bagged Munros": munroMountains.addTo(mymap)
-                }
+                };
+                //Add map filter features overlays to map
+                L.control.layers(null,mapOverlays,{collapsed:false}).addTo(mymap);
             })
         }
         else {
@@ -303,7 +305,10 @@ $(document).ready(function() {
                 "Munros > 914m": munroEasy.addTo(mymap),
                 "Munros > 950m": munroMedium.addTo(mymap),
                 "Munros > 1000m": munroHard.addTo(mymap)
-            }
+
+            };
+            //Add map filter features overlays to map
+            L.control.layers(null,mapOverlays,{collapsed:false}).addTo(mymap);
         }
 
     });
@@ -323,8 +328,8 @@ $(document).ready(function() {
 });
 
 
-//Add map filter features overlays to map
-L.control.layers(null,mapOverlays,{collapsed:false}).addTo(mymap);
+
+
 
 
 
