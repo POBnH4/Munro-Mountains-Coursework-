@@ -642,7 +642,7 @@ function openBox(e) {
     getWeather(m.mLat,m.mLng);
 
     //"Today" weather tab active
-    document.getElementById('tab1').click();
+    // document.getElementById('tab1').click();
 
     var modal = document.getElementById("popup");
     modal.style.display = "flex";
@@ -657,13 +657,13 @@ var span = document.getElementById('close');
 
 span.onclick = function() {
     modal.style.display = "none";
-}
+};
 
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
-}
+};
 
 
 // Attempt at getting marker attribute - Unsuccessful
