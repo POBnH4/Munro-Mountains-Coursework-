@@ -272,6 +272,7 @@ function getMunros(list,session) {
 $(document).ready(function() {
 
     var mBagged;
+    var mapOverlays;
 
     getSession(function(sessdata) {
         console.log(sessdata);
@@ -281,11 +282,28 @@ $(document).ready(function() {
                 console.log(data);
                 mBagged = data;
                 getMunros(mBagged,sessdata);
+
+                //Add filter features
+                mapOverlays = {
+                    "SMR Stations": smrLocations.addTo(mymap),
+                    "Munros > 914m": munroEasy.addTo(mymap),
+                    "Munros > 950m": munroMedium.addTo(mymap),
+                    "Munros > 1000m": munroHard.addTo(mymap),
+                    "Bagged Munros": munroMountains.addTo(mymap)
+                }
             })
         }
         else {
             mBagged = ["unknown"];
             getMunros(mBagged);
+
+            //Add filter features
+            mapOverlays = {
+                "SMR Stations": smrLocations.addTo(mymap),
+                "Munros > 914m": munroEasy.addTo(mymap),
+                "Munros > 950m": munroMedium.addTo(mymap),
+                "Munros > 1000m": munroHard.addTo(mymap)
+            }
         }
 
     });
@@ -304,6 +322,9 @@ $(document).ready(function() {
 
 });
 
+
+//Add map filter features overlays to map
+L.control.layers(null,mapOverlays,{collapsed:false}).addTo(mymap);
 
 
 
@@ -599,6 +620,7 @@ if (session.loggedin) {
 var mO;
 */
 
+/*
 var mapOverlays;
 
 if (userSession) {
@@ -619,13 +641,14 @@ else {
         // "Other (Testing)": munroMountains.addTo(mymap)
     }
 }
+*/
 
 // var mapOverlays = mO;
 
 
 
 
-L.control.layers(null,mapOverlays,{collapsed:false}).addTo(mymap);
+// L.control.layers(null,mapOverlays,{collapsed:false}).addTo(mymap);
 
 
 
