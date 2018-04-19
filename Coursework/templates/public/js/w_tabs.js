@@ -1,4 +1,4 @@
-document.getElementById('tab1').click();
+// document.getElementById('tab1').click();
 
 function openDay(evt,day) {
 
