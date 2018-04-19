@@ -221,7 +221,7 @@ var displayForecast = function(weather) {
             output += "</tr><tr>";
 
             // temperature and feels-like-temp
-            output += "<td><span class='tooltip'>" + day[j].T + "°C<br/><span class='fTemp tooltip'>" + day[j].F + "°C<span class='tooltiptext'>Feels-like Temperature</span></span>";
+            output += "<td>" + day[j].T + "°C<br/><span class='fTemp tooltip'>" + day[j].F + "°C<span class='tooltiptext'>Feels-like Temperature</span></span>";
 
             output += "</tr><tr>";
 
