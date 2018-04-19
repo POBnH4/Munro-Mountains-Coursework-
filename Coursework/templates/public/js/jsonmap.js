@@ -641,6 +641,9 @@ function openBox(e) {
     //Get weather, pass co-ordinates [get-weather.js]
     getWeather(m.mLat,m.mLng);
 
+    //"Today" weather tab active
+    document.getElementById('tab1').click();
+
     var modal = document.getElementById("popup");
     modal.style.display = "flex";
 }
