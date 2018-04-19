@@ -274,19 +274,32 @@ $(document).ready(function() {
 
     getSession(function(data) {
         console.log(data);
+
+        if (userSession == "true") {
+            getUserMunros(function(data) {
+                console.log(data);
+                mBagged = data;
+                getMunros(mBagged);
+            })
+        }
+        else {
+            mBagged = ["unknown"];
+            getMunros(mBagged);
+        }
+
     });
 
-    if (userSession == "true") {
-        getUserMunros(function(data) {
-            console.log(data);
-            mBagged = data;
-            getMunros(mBagged);
-        })
-    }
-    else {
-        mBagged = ["unknown"];
-        getMunros(mBagged);
-    }
+    // if (userSession == "true") {
+    //     getUserMunros(function(data) {
+    //         console.log(data);
+    //         mBagged = data;
+    //         getMunros(mBagged);
+    //     })
+    // }
+    // else {
+    //     mBagged = ["unknown"];
+    //     getMunros(mBagged);
+    // }
 
 });
 
