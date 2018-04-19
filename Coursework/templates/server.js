@@ -107,11 +107,12 @@ app.get('/munromap', function(req,res) {
     userSession.loggedin = true;
 
 
-    res.render('pages/map', {
-        usession: userSession
-    });
+    // res.render('pages/map', {
+    //     usession: userSession
+    // });
 
 
+    res.render('pages/map');
 
 
 
