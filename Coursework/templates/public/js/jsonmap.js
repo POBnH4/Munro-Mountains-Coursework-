@@ -198,7 +198,7 @@ $(document).ready(function() {
         {
 
             // // Array of user bagged munros
-            // var mBagged = "";
+            var mBagged = [];
             // console.log(mBagged);
 
             // if user logged in, get user munros
@@ -217,15 +217,15 @@ $(document).ready(function() {
                 })
 */
 
-                getUserMunros(function(result){
-                    console.log(result);
-                    mBagged = result;
+                getUserMunros(function(data){
+                    console.log(data);
+                    mBagged = data;
                     console.log(mBagged);
-                });
+                })
 
             }
             else {
-                mBagged = [""];
+                mBagged = ["unknown"];
             }
 
 
