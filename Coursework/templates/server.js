@@ -29,7 +29,7 @@ MongoClient.connect(url, function(err, database) {
 });
 
 app.get('/', function(req,res) {
-  res.render('index')
+  res.render('pages/index')
 });
 
 
