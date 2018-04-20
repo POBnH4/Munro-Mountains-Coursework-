@@ -1,61 +1,61 @@
-
-body {
-  margins: auto ;
-  width : 80%;
-}
-header, section, article, nav, aside,
+body,header, section, article, nav, aside,
 footer, div {
-  font-family: sans serif;
-  border: 1px dotted #Brown;
-  padding: 10px;
-  margin: 10px
-}
-
-#SiteNavigation {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: White;
-    display: inline-block;
-}
-
-li {
-    display:inline;
-}
-/*
-li a {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-}
-
-li a:hover {
-    background-color: #111;
-} */
-
-
-
-#SiteLogo {width: 10%;
-          height 10em;
-        float:left;}
-
-
-
-
-#form {
-  padding-top: 600px;
 }
 
 
+#SiteTitle {float: right;}
 
-#name {float: inherit;}
-
-
-
-#gif { width: 100%;
-      heignt 50em;
-      float:right;
-    padding-top: 100px;
+#SiteLogo {float: left;
+           width: 10%;
+           heith: 10emp}
 
 
-}
+
+          #title {
+          float: left;
+          margin-left: 14px;
+          padding-top: 20px;
+          padding-right: 30px;
+          padding-bottom: 80px;
+          padding-left: 800px;
+          font-family: Rockwell;
+          color: #0B486B;
+          }
+
+
+
+#PageContent {float:inherit;}
+
+#landscape {float:inherit;
+            height: 50%;
+            widht: 100%;}
+
+#form {display: inline-block;
+       padding: 620px;
+       padding-top: 0px;
+       padding-bottom: 0px;
+       text-align: center;
+       justify-content: space-between;
+       color: #0B486B;
+       font-family: Rockwell;}
+       input {width: 200%;}
+
+#Button {display: inline-block;
+       padding: 260px;
+       padding-top: 20px;
+       padding-bottom: 30px;
+       text-align: center:;}
+
+#text {
+       width: 650px;
+       height: 100px;
+       padding: 590px;
+       padding-top: 0px;
+       padding-bottom: 0px;
+       text-align: center;
+       box-sizing: inherit;
+       border: 0px solid #FFFFFF;
+       border-radius: 0px;
+       resize: none;
+       color: #0B486B;
+       font-family: Rockwell;}
