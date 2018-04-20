@@ -62,7 +62,6 @@ img {
 }
 
 
-
 nav {
     width: 100% !important;
     height:30px;
@@ -77,7 +76,7 @@ nav {
 
 .row{
   background-color:  #F5F5F5;
-  height:180px;
+  height:130px;
   width: 100%;
   margin-bottom: 10px;
   margin-top: 50px;

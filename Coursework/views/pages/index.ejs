@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Munro Spotter</title>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main_style.css">
+        <link rel="stylesheet" href="css/mobile-style.css">
+        <link rel="stylesheet" href="css/loginPageCSS.css">
+        <link rel="stylesheet" href="css/unsemantic-master/responsive.css" type="text/html">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    </head>
+    <body>
+
+              <header>
+                  <div class="parallax">
+                      <div class="display">
+                          <img class="logo" src="img/ms_logo_white_1.png" alt = "magnifying glass title and logo">
+                      </div>
+                  </div>
+
+                  <nav class="nav">
+                      <div id="nav-menu">
+                        <a id="close-btn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+                        <a id="nav-home" class="menu-btn" href="index.ejs">Home</a>
+                        <a id="nav-map" class="menu-btn" href="map.ejs">Map</a>
+                        <a id="nav-list" class="menu-btn" href="list.ejs">List</a>
+                        <a id="nav-info" class="menu-btn" href="info.ejs">Information</a>
+                        <a id="nav-contact" class="menu-btn" href="contact.ejs">Contact</a>
+                        <a id="nav-login" class="menu-btn" onclick="document.getElementById('login').style.display='block'">Login</a>
+                      </div>
+                      <span id="open-btn" onclick="openNav()">MENU</span>
+                  </nav>
+
+              </header>
+
+              <main>
+                  <section class="page">
+                      <h1>WELCOME</h1>
+                      <p>Munro Spotter is a companion app designed for those who enjoy the challenge of climbing.</p>
+                      <div class = "grid-container">
+                        <div class = "grid-100 row">
+                            <a href = "list/munro-list.html">
+                            <img src="img/munroSocietyLogo.jpg" class = "additional-info-images">
+                            <h3>Is there a list of all Munros?</h3>
+                            <p>We provide all details about every single Munro, icluding description
+                               of the Munros,the exact coordinates, height, difficulty, grid reference and many other!</p>
+                           </a>
+                        </div>
+                        <div class = "grid-100 row">
+                            <a href = "list/munro-list.html">
+                            <img src="img/Munro_map.jpg" class = "additional-info-images">
+                            <h3>The Munros Map</h3>
+                            <p>Would you like to see all the Munros?We provide all map
+                               information an adventurer might need including where the SMR stations are,
+                               Beginner Munros, Intermediate Munros, Difficult Munros, and many other!</p>
+                             </a>
+                        </div>
+                        <div class = "grid-100 row">
+                            <a href = "contact/contact.html">
+                            <img src="img/contact.jpg" class = "additional-info-images">
+                            <h3>Contact us!</h3>
+                            <p>You have questions about a particular Munro?
+                               Which are the best routes for your Munro?
+                               Which is the best accommodation in your next Munro area?
+                               We would love to hear from you!
+                               </p>
+                           </a>
+                        </div>
+                      </div>
+                  </section>
+              </main>
+
+              <footer>
+                      <!-- Missing logo of MunroSpotter with no borders and slogon! -->
+                    <div class = "footer-row">
+                      <div class = "column" id = "footer-left">
+                        <h4>Munro Spotter</h4>
+                      </div>
+                      <div class = "column" id = "footer-icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                      </div>
+                      <div class = "column" id = "footer-right">
+                        <h5 id="year">Copyright &#169; 2018 Munro. All right reserved.</h5>
+                      </div>
+                    </div>
+              </footer>
+
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+              <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+              <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+              <script src="js/sidenav.js"></script>
+              <script src="js/stickynav.js"></script>
+
+
+               <!-- - - - - - - - - - - - - POP UP -> LOGIN - - - - - - - - - - - - - - - - - - -->
+
+              <div id="login" class="modal">
+                <form class="modal-content animate" action="/userDetails" method="POST">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  </div>
+
+                  <div class="container">
+
+                      <input type="text" placeholder="Enter your email" name="email"required>
+                      <input type="password" placeholder="Enter Password" name="password" required>
+                      <button type="submit">Login</button>
+
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <span id = "register-link" >or <a href="#" onclick="document.getElementById('register').style.display='block'">Register</a></span>
+                    <div id = "popUp-bottom">
+                      <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+                      <span class="psw">Forgot <a href="#" onclick="document.getElementById('forgottenPassword').style.display='block'">password?</a></span>
+                    </div>
+                  </div>
+                </form>
+                </div>
+
+                <!-- - - - - - - - - - - - - POP UP -> REGISTER - - - - - - - - - - - - - - - - - - -->
+
+
+                <div id="register" class="modal">
+                   <form class="modal-content animate" action="/registerDetails" method = "POST" >
+                     <div class="imgcontainer">
+                       <span onclick="document.getElementById('register').style.display='none'" class="close" title="Close Modal">&times;</span>
+                     </div>
+                     <div class="container">
+                         <input type="text" placeholder="Enter E-mail" name="email" id = "registerEmail"required>
+                         <input type="text" placeholder="Enter your name" name="name" required>
+                         <input type="password" placeholder="Enter Password" name="password" id = "registerPassword" required>
+                         <button type="submit">Submit</button>
+                     </div>
+                   </form>
+                   </div>
+
+
+              <!-- - - - - - - - - - - - - POP UP -> FORGOTTEN PASSWORD - - - - - - - - - - - - - - - - - - -->
+
+
+                  <div id="forgottenPassword" class="modal">
+                    <form class="modal-content animate" action="/forgottenPasswordDetails" method="GET" >
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('forgottenPassword').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+
+                      <div class="container">
+
+                          <input type="text" placeholder="Enter your E-mail" name="email" required>
+                          <button id = "reset-button" type="submit">Reset password</button>
+
+                        <div id = "popUp-bottom">
+                          <button class="cancelbtn" id = "reset-cancel-button" type="button" onclick="document.getElementById('forgottenPassword').style.display='none'" >Cancel</button>
+                        </div>
+                      </div>
+                    </form>
+                 </div>
+    </body>
+</html>

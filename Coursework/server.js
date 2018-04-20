@@ -1,15 +1,22 @@
 const MongoClient = require('mongodb').MongoClient;
 const url = "mongodb://localhost:27017/users";
 const express = require('express');
-const bodyParser = require('body-parser')
+const session = require('express-session');
+const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
 const app = express();
+const USER_DOES_NOT_EXIST = 0, USER_EXISTS = 1;
+
+const USERNAME_VALIDITY = new RegExp("[a-zA-Z](?=.{6,12})");
+//const EMAIL_VALIDITY = new RegExp("^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$");
 const PASSWORD_VALIDITY = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,20})");
 //the password must contain at least one lowercase letter,
 // one uppercase letter, one digit, and be between 8 and 20 characters;
 
-app.use(bodyParser.json());       // to support JSON-encoded
+
+app.use(session({ secret: 'example'}));
+app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true}));
-app.use(bodyParser.urlencoded({extended: true}))
 app.set('view engine', 'ejs');
 
 var db;
@@ -22,51 +29,70 @@ MongoClient.connect(url, function(err, database) {
 });
 
 app.get('/', function(req,res) {
-  res.render('index')
+  res.render('pages/index')
 });
+
 
 // ----- - - - - - - - - - LOGIN --- - - - - - - -- - - - --  - --
 
-app.get('/userDetails', function(req,res) {
-    if(db.collection('users').find(req.body).count() == 0){
-        alert("Incorrect username or password!" +
-             "If you don't have an account please" +
-             " click the button register below.");
-        //shouldnt be an alert!
-    }else{
-      // login in information....
-    }
+app.post('/userDetails', function(req,res) {
+  // db.collection("users").findOne({"email": req.body.email, "password" : req.body.password}, function(err, result) {
+  //   if (err) throw err;
+  //   console.log(result.name lo);
+  //   db.close();
+  // });
+    db.collection('users').count({"email": req.body.email, "password" : req.body.password}).then((occurences) => {
+         if(occurences >= USER_EXISTS){
+             req.session.loggedin = true;
+             console.log(req.body.email + ' logged in');
+             // login in information....
+         }else{
+           console.log('You username or password is incorrect');
+         }
+    });
+});
+
+
+//- - - - - -  -- - - -  - -LOGOUT - - -- - - - -- - - - - - -
+
+app.get('/logout', function(req,res){
+  req.session.loggedin = false;
+  req.session.destroy();
+  res.redirect('/')
 });
 
 
 //- - - -- - - -- - - - REGISTER  - - - - - - - - - - - - - -  --
 
 
-// if(passwordValidity.test(req.body.password)){
-//   register...
-// }else{
-//   alert("You password must contain at least one lowercase letter," +
-//    "one uppercase letter, one digit, and be between 8 and 20 characters;")
-// }
-app.get('/registerDetails', function(req,res) {
-  if(db.collection('users').find(req.body).count() == 0){
-      var info = {
-         email: req.body.email,
-         name:req.body.name,
-         password: req.body.password
-       };
-      db.collection('users').save(info, function(err, result) {
-        if (err) throw err;
-        console.log('Saved to database')
-        res.redirect('/')
-      })
-      alert("You have officially registered!");
-      app.post('/register', function (req, res) { })
-  }else{
-      alert("A user already exists with the email!");
-  }
-});
 
+
+       app.post('/registerDetails', function (req,res){
+         db.collection('users').count({"email":req.body.email, "password": req.body.password}).then((occurences) => {
+             if(occurences == USER_DOES_NOT_EXIST){
+
+               if(PASSWORD_VALIDITY.test(req.body.password)){
+
+                 var info = {
+                   "email": req.body.email,
+                   "name":req.body.name,
+                   "password": req.body.password
+                 };
+                 db.collection('users').save(info, function(err, result) {
+                   if (err) throw err;
+                   console.log('Saved to database');
+                   res.redirect('/');
+                 })
+
+               }else{
+                 console.log("Password should contain: 1 lowercase,1 uppercase, 1 digit, between 8 and 20 characters");
+               }
+            }else{
+              console.log("User already exists with that email!");
+              res.redirect('/');
+            }
+          });
+        });
 
 // - - - - - -  - -  -  SEND AN EMAIL WITH A NEW PASSWORD -   -   -   -   -   -   -
 
@@ -103,43 +129,41 @@ function getRandomPassword(){
 }
 
 app.get('/forgottenPasswordDetails', function(req,res) {
-  var nodemailer = require('nodemailer');
   var newPassword = getRandomPassword();
+  console.log(newPassword + " the new password for the user");
   var transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: '',
     auth: {
-      user: 'myEmail@gmail.com',
-      pass: 'myPassword'
+      user: '',
+      pass: ''
     }
   });
 
   var mailOptions = {
-    from: 'myEmail@gmail.com',
+    from: 'munrospotter@yahoo.com',
     to: req.body.email,
-    subject: 'MunroSpotter reset password',
+    subject: 'MunroSpotter new password',
     text: 'Greetings, Mr/Mrs.+ ' + 'Your new password is: ' + newPassword
      // get a person's name from the database and add it after Mr/Mrs.
-  };
+  }
 
-  if(db.collection('users').find(req.body.email).count() == 1){
-    transporter.sendMail(mailOptions, function(error, info){
-      if (error) {
-        console.log(error);
-      } else {
-        console.log('Email sent: ' + info.response);
-
+  db.collection('users').count({"email":req.body.email}).then((occurrences) => {
+      if(occurrences >= USER_EXISTS){
+        transporter.sendMail(mailOptions, function(error, info){
+          if (error) {
+            console.log(error);
+          } else {
+            console.log('Email sent: ' + info.response);
+          }
+        });
+      }else{
+        console.log('connection not established!');
+      }
+  });
         // var user = {}
         // var newValues = {$set: {}};
         // db.collection('users').updateOne(user,newValues, function(err,result){
         //   if(err) throw err;
         //   res.redirect('/');
         // });
-
-      }
-    });
-  }else{
-      alert("A user already exists with the email!");
-      //SHOULDNT BE AN ALERT!
-  }
-
 });
