@@ -161,7 +161,7 @@
     "gridReference": "NH100332"
  },
  {
-    "description": "An Stùc is the steepest and sharpest of the Ben Lawers range. It sits in the middle of 5 Munros that form an arc around the head of Lawers Burn, and is usually climbed with the Munros Meall Garbh and Ben Lawers",
+    "description": "An Stùc is the steepest and sharpest of the Ben Lawers range. It sits in the middle of 5 Munros that form an arc around the head of Lawers Burn, and is usually climbed with the Munros Meall Garbh and Ben Lawers.",
     "name": "An Stùc",
     "region": "Loch Rannoch to Loch Tay",
     "height": "1118m (approx 3668ft)",
@@ -170,84 +170,76 @@
     "gridReference": "NN639431"
  },
  {
-   "description": "",
+   "description": "Aonach Air Chirth is the highest of the seven Munros on the south Glen Shiel ridge. It is the fifth Munro from the western end connected to Druim Shionnach and Maol Chinn-dearg. They can be climbed in one outing or separated into 2 or 3 should you wish.",
    "name": "Aonach Air Chrith",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1021m (approx 3350ft)",
    "latitude": "57.124564",
    "longitude": "-5.22301",
-   "gridReference": "NH050083",
-   "difficulty": ""
+   "gridReference": "NH050083"
  },
  {
-    "description": "",
+    "description": "Aonach Beag has a dome-shaped form, with three radiating ridges and steep flanks, making part of a grand ridge walk. It is part of the high mountain ridge situated just to the north of Ben Alder. It is normally climbed with its nearest neighbours Beinn Eibhibb and Geal Charn.",
     "name": "Aonach Beag (Alder)",
     "region": "Fort William to Loch Ericht",
-    "height": "1118m (approx 3668ft)",
+    "height": "1116m (approx 3661ft)",
     "latitude": "56.832741",
     "longitude": "-4.530583",
-    "gridReference": "NN457741",
-    "difficulty": ""
+    "gridReference": "NN457741"
  },
  {
-    "description": "",
+    "description": "Aonach Beag is the second highest summit in the Nevis Range, but is hidden from most views by the lower but more bulky Aonach Mor. It is almost always climbed from the south starting with Glen Nevis, and can also be climbed with its neighbour Aonach Mor.",
     "name": "Aonach Beag (Nevis Range)",
     "region": "Fort William to Loch Ericht",
     "height": "1234m (approx 4049ft)",
     "latitude": "56.800018",
     "longitude": "-4.955925",
-    "gridReference": "NN196715",
-    "difficulty": ""
+    "gridReference": "NN196715"
  },
  {
-   "description": "",
+   "description": "Aonach Meadhoin along with its two neighbouring Munros Saileag and Sgurr a'Bhealaich Dheirg form what is sometimes known as the North Geln Shiel Ridge or the Brothers Ridge.",
    "name": "Aonach Meadhoin",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height":  "1001m (approx 3284ft)",
    "latitude": "57.172593",
    "longitude": "-5.228879",
-   "gridReference": "NH049137",
-   "difficulty": ""
+   "gridReference": "NH049137"
  },
  {
-   "description": "",
+   "description": "Although lower than neighbouring Aonach Beag, Aonach Mor derives the 'Mor' tag from its greater bulk, hiding its higher neighbour. It is normally climbed with Aonach Beag from the south in Glen Nevis.",
    "name": "Aonach Mor",
    "region": "Fort William to Loch Ericht",
    "height": "1221m (approx 4006ft)",
    "latitude": "56.812423",
    "longitude": "-4.963457",
-   "gridReference": "NN192729",
-   "difficulty": ""
+   "gridReference": "NN192729"
  },
  {
-   "description": "",
+   "description": "Beinn a'Bhuird is one the giants of the Caingorms, a mountasin of immense bulk. On its eastern face, the plateau is bitten into by numerous corries, giving it a lot of character. There are two tops to the Munro, at either end of the plateau. Both are roughly the same height but the north top slightly pips it and is, therefore, the true summit.",
    "name": "Beinn a'Bhuird",
    "region": "The Cairngorms",
    "height": "1197m (approx 3927ft)",
    "latitude": "57.087476",
    "longitude": "-3.49989",
-   "gridReference": "NJ092006",
-   "difficulty": ""
+   "gridReference": "NJ092006"
  },
  {
-   "description": "",
+   "description": "Beinn a'Chaorainn guards the eastern side of the famous Lairg an Laoigh pass through the Cairngorms. The slopes above the pass are steep, but south of the domed summit is the vast mossy plateau of the Moine Bheadleaidh.",
    "name": "Beinn a'Chaorainn (Cairngorms)",
    "region": "The Cairngorms",
    "height": "1082m (approx 3550ft)",
    "latitude": "57.09281",
    "longitude": "-3.577678",
-   "gridReference": "NJ045013",
-   "difficulty": ""
+   "gridReference": "NJ045013"
  },
  {
-   "description": "",
+   "description": "Beinn a'Chaorainn is a straightforward north-south ridge of three summits, rising above the forestry to the north of Loch Laggan. Its eastern flanks are carved into steep corries but the slopes to the west are more featureless. It is normally climbed in conjunction with Munro Beinn Teallach.",
    "name": "Beinn a'Chaorainn (Glen Spean)",
    "region": "Spean Bridge to Elgin",
    "height": "1050m (approx 3445ft)",
    "latitude": "56.929043",
    "longitude": "-4.653805",
-   "gridReference": "NN386851",
-   "difficulty": ""
+   "gridReference": "NN386851"
  },
  {
    "description": "",
@@ -256,8 +248,7 @@
    "height": "1087m (approx 3566ft)",
    "latitude": "56.869104",
    "longitude": "-4.510066",
-   "gridReference": "NN471781",
-   "difficulty": ""
+   "gridReference": "NN471781"
  },
  {
    "description": "",
@@ -752,7 +743,7 @@
  {
    "description": "",
    "name": "Ben More (Mull)",
-   "region": "Skye and Mull",
+   "region": "Isle of Mull",
    "height": "966m (approx 3169ft)",
    "latitude": "56.424168",
    "longitude": "-6.015276",
@@ -890,8 +881,8 @@
  },
  {
    "description": "",
-   "name": "Blà Bheinn",
-   "region": "Skye and Mull",
+   "name": "Bla Bheinn",
+   "region": "Isle of Skye",
    "height": "928m (approx 3045ft)",
    "latitude": "57.219236",
    "longitude": "-6.094748",
@@ -931,7 +922,7 @@
  {
    "description": "",
    "name": "Bruach na Frithe",
-   "region": "Skye and Mull",
+   "region": "Isle of Skye",
    "height": "958m (approx 3143ft)",
    "latitude": "57.246874",
    "longitude": "-6.210625",
@@ -1531,12 +1522,11 @@
  {
    "description": "",
    "name": "Inaccessible Pinnacle",
-   "region": "Skye and Mull",
+   "region": "Isle of Skye",
    "height": "985m (approx 3232ft)",
    "latitude": "57.212782",
    "longitude": "-6.234912",
-   "gridReference": "NG444215",
-   "difficulty": "Hard"
+   "gridReference": "NG444215"
  },
  {
    "description": "",
@@ -2069,7 +2059,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr a'Bhealaich Dheirg",
+   "name": "Sgurr a'Bhealaich Dheirg",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1036m (approx 3399ft)",
    "latitude": "57.177377",
@@ -2079,7 +2069,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr a'Chaorachain",
+   "name": "Sgurr a'Chaorachain",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "1053m (approx 3455ft)",
    "latitude": "57.452237",
@@ -2089,7 +2079,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr a'Choire Ghlais",
+   "name": "Sgurr a'Choire Ghlais",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "1083m (approx 3553ft)",
    "latitude": "57.443909",
@@ -2099,8 +2089,8 @@
  },
  {
    "description": "",
-   "name": "Sgùrr a'Ghreadaidh",
-   "region": "Skye and Mull",
+   "name": "Sgurr a'Ghreadaidh",
+   "region": "Isle of Skye",
    "height": "972m (approx 3189ft)",
    "latitude": "57.228067",
    "longitude": "-6.235008",
@@ -2109,7 +2099,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr a'Mhadaidh",
+   "name": "Sgurr a'Mhadaidh",
    "region": "Skye and Mull",
    "height": "918m (approx 3012ft)",
    "latitude": "57.23081",
@@ -2118,7 +2108,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr a'Mhaim",
+   "name": "Sgurr a'Mhaim",
    "region": "Fort William to Loch Ericht",
    "height": "1099m (approx 3606ft)",
    "latitude": "56.755704",
@@ -2128,7 +2118,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr a'Mhaoraich",
+   "name": "Sgurr a'Mhaoraich",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1027m (approx 3369ft)",
    "latitude": "57.10517",
@@ -2138,8 +2128,8 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Alasdair",
-   "region": "Skye and Mull",
+   "name": "Sgurr Alasdair",
+   "region": "Isle of Skye",
    "height": "991m (approx 3251ft)",
    "latitude": "57.205949",
    "longitude": "-6.224185",
@@ -2148,7 +2138,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr an Doire Leathain",
+   "name": "Sgurr an Doire Leathain",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1010m (approx 3314ft)",
    "latitude": "57.137055",
@@ -2158,7 +2148,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr an Lochain",
+   "name": "Sgurr an Lochain",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1004m (approx 3294ft)",
    "latitude": "57.141106",
@@ -2168,7 +2158,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Bàn",
+   "name": "Sgurr Ban",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "987m (approx 3238ft)",
    "latitude": "57.718125",
@@ -2178,7 +2168,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Breac",
+   "name": "Sgurr Breac",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "999m (approx 3278ft)",
    "latitude": "57.69197",
@@ -2188,7 +2178,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Choinnich",
+   "name": "Sgurr Choinnich",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "999m (approx 3278ft)",
    "latitude": "57.450875",
@@ -2198,7 +2188,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Choinnich Mòr",
+   "name": "Sgurr Choinnich Mor",
    "region": "Fort William to Loch Ericht",
    "height": "1094m (approx 3589ft)",
    "latitude": "56.800313",
@@ -2208,7 +2198,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Dubh Mòr",
+   "name": "Sgurr Dubh Mor",
    "region": "Isle of Skye",
    "height": "944m (approx 3097ft)",
    "latitude": "57.204546",
@@ -2218,7 +2208,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Eilde Mòr",
+   "name": "Sgurr Eilde Mor",
    "region": "Fort William to Loch Ericht",
    "height": "1010m (approx 3314ft)",
    "latitude": "56.749285",
@@ -2228,7 +2218,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Fhuar-thuill",
+   "name": "Sgurr Fhuar-thuill",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "1049m (approx 3442ft)",
    "latitude": "57.449262",
@@ -2238,7 +2228,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Fhuaran",
+   "name": "Sgurr Fhuaran",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1067m (approx 3501ft)",
    "latitude": "57.195527",
@@ -2248,7 +2238,7 @@
  },
  {
     "description": "",
-    "name": "Sgùrr Fiona (An Teallach)",
+    "name": "Sgurr Fiona (An Teallach)",
     "region": "Loch Maree to Loch Broom and Garve",
     "height": "1060m (approx 3478ft)",
     "latitude": "57.801018",
@@ -2258,7 +2248,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Mhic Choinnich",
+   "name": "Sgurr Mhic Choinnich",
    "region": "Isle of Skye",
    "height": "948m (approx 3110ft)",
    "latitude": "57.208636",
@@ -2268,7 +2258,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Mòr",
+   "name": "Sgurr Mor",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "1110m (approx 3642ft)",
    "latitude": "57.700069",
@@ -2278,7 +2268,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Mòr (Beinn Alligin)",
+   "name": "Sgùrr Mor (Beinn Alligin)",
    "region": "Loch Carron to Loch Maree",
    "height": "986m (approx 3235ft)",
    "latitude": "57.591165",
@@ -2288,7 +2278,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Mòr (Loch Quoich)",
+   "name": "Sgurr Mor (Loch Quoich)",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1003m (approx 3291ft)",
    "latitude": "57.028151",
@@ -2298,7 +2288,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr na Banachdich",
+   "name": "Sgurr na Banachdich",
    "region": "Isle of Skye",
    "height": "965m (approx 3166ft)",
    "latitude": "57.220621",
@@ -2308,7 +2298,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr na Carnach",
+   "name": "Sgurr na Carnach",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1002m (approx 3287ft)",
    "latitude": "57.188308",
@@ -2318,7 +2308,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr na Ciche",
+   "name": "Sgrr na Ciche",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1040m (approx 3412ft)",
    "latitude": "57.012776",
@@ -2328,7 +2318,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr na Ciste Duibhe",
+   "name": "Sgurr na Ciste Duibhe",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1027m (approx 3369ft)",
    "latitude": "57.180545",
@@ -2338,7 +2328,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr na Lapaich",
+   "name": "Sgurr na Lapaich",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "1150m (approx 3773ft)",
    "latitude": "57.369143",
@@ -2348,7 +2338,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr na Ruaidhe",
+   "name": "Sgurr na Ruaidhe",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "992m (approx 3255ft)",
    "latitude": "57.441423",
@@ -2358,7 +2348,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr na Sgine",
+   "name": "Sgurr na Sgine",
    "region": "Glen Shiel to Glenfinnan",
    "height": "945m (approx 3100ft)",
    "latitude": "57.146577",
@@ -2368,7 +2358,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr nan Ceathreamhnan",
+   "name": "Sgurr nan Ceathreamhnan",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1151m (approx 3776ft)",
    "latitude": "57.25455",
@@ -2378,7 +2368,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr nan Clach Geala",
+   "name": "Sgurr nan Clach Geala",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "1093m (approx 3586ft)",
    "latitude": "57.696615",
@@ -2388,7 +2378,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr nan Coireachan (Glenn Dessary)",
+   "name": "Sgurr nan Coireachan (Glenn Dessary)",
    "region": "Glen Shiel to Glenfinnan",
    "height": "953m (approx 3127ft)",
    "latitude": "57.007",
@@ -2398,7 +2388,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr nan Coireachan (Glenfinnan)",
+   "name": "Sgurr nan Coireachan (Glenfinnan)",
    "region": "Glen Shiel to Glenfinnan",
    "height": "956m (approx 3136ft)",
    "latitude": "56.935659",
@@ -2408,7 +2398,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr nan Conbhairean",
+   "name": "Sgurr nan Conbhairean",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1109m (approx 3638ft)",
    "latitude": "57.176822",
@@ -2418,7 +2408,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr nan Each",
+   "name": "Sgurr nan Each",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "923m (approx 3028ft)",
    "latitude": "57.68047",
@@ -2428,7 +2418,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr nan Eag",
+   "name": "Sgurr nan Eag",
    "region": "Isle of Skye",
    "height": "924m (approx 3032ft)",
    "latitude": "57.195587",
@@ -2438,7 +2428,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr nan Gillean",
+   "name": "Sgurr nan Gillean",
    "region": "Isle of Skye",
    "height": "964m (approx 3163ft)",
    "latitude": "57.247428",
@@ -2448,7 +2438,7 @@
  },
  {
    "description": "",
-   "name": "Sgùrr Thuilm",
+   "name": "Sgurr Thuilm",
    "region": "Glen Shiel to Glenfinnan",
    "height": "963m (approx 3159ft)",
    "latitude": "56.936423",

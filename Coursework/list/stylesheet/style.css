@@ -41,15 +41,16 @@ h4 {
   background-color: #3b8686;
   padding: 10px 0 10px 10px;
   margin: 5px 0 5px 0;
-  font-family: Verdana;
+  font-family: Rockwell;
+    font-size: 16px;
 }
 
  .whiteback {
   padding: 5px 0 5px 5px;
   background-color: white;
   display: block;
-  font-family: Verdana;
-  font-size: 12px;
+  font-family: Rockwell;
+  font-size: 14px;
    /* max-height is the attribute that controls the show/hide of the panel */
   /* max-height: 0; */
   /* -webkit-transition: 0.15s ease-in-out; */
