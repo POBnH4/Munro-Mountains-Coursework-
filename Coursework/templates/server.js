@@ -1,178 +1,169 @@
-/**
- * Created by 1603232 on 09/04/2018.
- */
-
-// server.js
-
-/*
-var express = require('express');
-var app = express();
-*/
-
-//Required packages
-const MongoClient = require('mongodb').MongoClient; //npm install mongodb@2.2.32
-const url = "mongodb://localhost:27017/munrospotter";
-const express = require('express'); //npm install express
-const session = require('express-session'); //npm install express-session
-const bodyParser = require('body-parser'); //npm install body-parser
+const MongoClient = require('mongodb').MongoClient;
+const url = "mongodb://localhost:27017/users";
+const express = require('express');
+const session = require('express-session');
+const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
 const app = express();
+const USER_DOES_NOT_EXIST = 0, USER_EXISTS = 1;
 
-//tell express to use sessions
-app.use(session({secret: 'example'}));
+const USERNAME_VALIDITY = new RegExp("[a-zA-Z]");
+const EMAIL_VALIDITY = new RegExp("^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$");
+const PASSWORD_VALIDITY = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,20})");
+//the password must contain at least one lowercase letter,
+// one uppercase letter, one digit, and be between 8 and 20 characters;
 
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
 
-// set the view engine to ejs
+app.use(session({ secret: 'example'}));
+app.use(express.static(__dirname + "/public"));
+app.use(bodyParser.urlencoded({ extended: true}));
 app.set('view engine', 'ejs');
-
-//Set folder for static files (css/js/json/img)
-app.use(express.static("public"));
 
 var db;
 
-//Connection to MongoDB - sets the variable db as our database
 MongoClient.connect(url, function(err, database) {
-    if (err) throw err;
-    db = database;
-    app.listen(8080);
-    console.log('listening on 8080');
+  if (err) throw err;
+  db = database;
+  app.listen(8080);
+  console.log('listening....');
 });
 
-
-/*
------
----------- ROUTES ----------
------
-*/
-
-// use res.render to load ejs view file
-
-// index page - root route
 app.get('/', function(req,res) {
-    res.render('pages/index');
+  res.render('index')
 });
 
-// map page
-app.get('/munromap', function(req,res) {
 
-    /*
-    //if user not logged in - don't show "bagged" marker
-    if (!req.session.loggedin) {
-        res.redirect('')
+// ----- - - - - - - - - - LOGIN --- - - - - - - -- - - - --  - --
+
+app.post('/userDetails', function(req,res) {
+  // db.collection("users").findOne({"email": req.body.email, "password" : req.body.password}, function(err, result) {
+  //   if (err) throw err;
+  //   console.log(result.name lo);
+  //   db.close();
+  // });
+    db.collection('users').count({"email": req.body.email, "password" : req.body.password}).then((occurences) => {
+         if(occurences >= USER_EXISTS){
+             req.session.loggedin = true;
+             console.log(req.body.email + ' logged in');
+             // login in information....
+         }else{
+           console.log('You username or password is incorrect');
+         }
+    });
+});
+
+
+//- - - - - -  -- - - -  - -LOGOUT - - -- - - - -- - - - - - -
+
+app.get('/logout', function(req,res){
+  req.session.loggedin = false;
+  req.session.destroy();
+  res.redirect('/')
+});
+
+
+//- - - -- - - -- - - - REGISTER  - - - - - - - - - - - - - -  --
+
+
+
+
+       app.post('/registerDetails', function (req,res){
+         db.collection('users').count({"email":req.body.email, "password": req.body.password}).then((occurences) => {
+             if(occurences == USER_DOES_NOT_EXIST){
+
+               if(PASSWORD_VALIDITY.test(req.body.password)){
+
+                 var info = {
+                   "email": req.body.email,
+                   "name":req.body.name,
+                   "password": req.body.password
+                 };
+                 db.collection('users').save(info, function(err, result) {
+                   if (err) throw err;
+                   console.log('Saved to database');
+                   res.redirect('/');
+                 })
+
+               }else{
+                 console.log("Password should contain: 1 lowercase,1 uppercase, 1 digit, between 8 and 20 characters");
+               }
+            }else{
+              console.log("User already exists with that email!");
+              res.redirect('/');
+            }
+          });
+        });
+
+// - - - - - -  - -  -  SEND AN EMAIL WITH A NEW PASSWORD -   -   -   -   -   -   -
+
+
+function getRandomPassword(){
+
+  const LENGTH_OF_PASSWORD = 14;
+  const CHANCE_OF_A_NUMBER = 20;
+  const MAKE_THE_NUMBER_IN_HALF = 2;
+  const MAKE_CHANCE_SMALLER = 4;
+
+  var alphabet = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+  var numbers = "0123456789";
+  var newPassword;
+
+  //if the gate number is more than half of the password's length
+  //add a random number(character) to the newPassword string;
+  //else add a random lowercase/Uppercase letter to the newPassword string;
+  while(true){
+   newPassword = "";
+   for(var i = 0; i < LENGTH_OF_PASSWORD; i++){
+     var gate = Math.floor(Math.random() * CHANCE_OF_A_NUMBER);
+     if(gate >= (CHANCE_OF_A_NUMBER / MAKE_THE_NUMBER_IN_HALF) + MAKE_CHANCE_SMALLER){
+       var randomNumber = Math.floor(Math.random() * numbers.length);
+       newPassword += numbers.charAt(randomNumber);
+     }else{
+       var randomLetter = Math.floor(Math.random() * alphabet.length);
+       newPassword += alphabet.charAt(randomLetter);
+     }
+   }
+   if(PASSWORD_VALIDITY.test(newPassword)){ break;}
+  }
+  return newPassword;
+}
+
+app.get('/forgottenPasswordDetails', function(req,res) {
+  var newPassword = getRandomPassword();
+  console.log(newPassword + " the new password for the user");
+  var transporter = nodemailer.createTransport({
+    service: '',
+    auth: {
+      user: '',
+      pass: ''
     }
+  });
 
-    */
-/*
-    db.collection('munros').find().toArray(function(err,result,session) {
-        if (err) throw err;
-        res.render('pages/map', {
-            usession: session
-        })
-    });
-*/
+  var mailOptions = {
+    from: 'munrospotter@yahoo.com',
+    to: req.body.email,
+    subject: 'MunroSpotter new password',
+    text: 'Greetings, Mr/Mrs.+ ' + 'Your new password is: ' + newPassword
+     // get a person's name from the database and add it after Mr/Mrs.
+  }
 
-    // session.loggedin = true;
-/*
-    // db.collection('munros').find().toArray(function(err,result) {
-    //     if (err) throw err;
-        // console.log(result);
-        // res.send(result);
-        res.render('pages/map', {
-            usession: session
-        })
-    });
-*/
-
-    //db.collection('munros').find({},function(err,result){
-     //   res.send(result);
-   // });
-
-    var userSession = req.session;
-    userSession.username = "genericuser033";
-
-    var mTest;
-/*
-    db.collection('munros').find({"name": "Ben Nevis"}).toArray(function(err,result){
-        mTest = JSON.stringify(result);
-    });
-    */
-
-    // console.log(mTest);
-
-    db.collection('users').update({"username":userSession.username},{$addToSet: {"bagged": {$each :["Ben Nevis","Ben Hope","Ben Lomond"]}}});
-
-
-    userSession.loggedin = true;
-
-
-    // res.render('pages/map', {
-    //     usession: userSession
-    // });
-
-
-    res.render('pages/map');
-
-
-
-
+  db.collection('users').count({"email":req.body.email}).then((occurrences) => {
+      if(occurrences >= USER_EXISTS){
+        transporter.sendMail(mailOptions, function(error, info){
+          if (error) {
+            console.log(error);
+          } else {
+            console.log('Email sent: ' + info.response);
+          }
+        });
+      }else{
+        console.log('connection not established!');
+      }
+  });
+        // var user = {}
+        // var newValues = {$set: {}};
+        // db.collection('users').updateOne(user,newValues, function(err,result){
+        //   if(err) throw err;
+        //   res.redirect('/');
+        // });
 });
-
-
-app.get('/getsession', function(req,res) {
-    var sess = req.session.loggedin;
-    res.send(sess);
-});
-
-
-
-app.get('/munros', function(req,res) {
-    db.collection('munros').find().toArray(function(err,result) {
-        // console.log(result);
-        res.send(result);
-    });
-});
-
-app.get('/usermunros', function(req,res) {
-
-    // console.log(req.session.username);
-    var uName = req.session.username;
-    // console.log(uName);
-
-    db.collection('users').findOne({"username":uName},function(err, result) {
-        if (err) throw err;
-        console.log(result.bagged);
-        res.send(result.bagged);
-        // console.log(result);
-        // console.log(result.username);
-        // console.log(result.bagged);
-    });
-
-});
-
-
-
-
-
-// list page
-app.get('/munrolist', function(req,res) {
-    res.render('pages/list');
-});
-
-// info page
-app.get('/information', function(req,res) {
-    res.render('pages/info');
-});
-
-// contact page
-app.get('/contact', function(req,res) {
-    res.render('pages/contact');
-});
-
-// login page
-app.get('/login', function(req,res) {
-    res.render('pages/login');
-});
-
-// app.listen(8080);
