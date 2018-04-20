@@ -17,7 +17,7 @@ const PASSWORD_VALIDITY = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,2
 app.use(session({ secret: 'example'}));
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({ extended: true}));
-app.set('views/pages engine', 'ejs');
+app.set('view engine', 'ejs');
 
 var db;
 
