@@ -161,8 +161,8 @@
     "gridReference": "NH100332"
  },
  {
-    "description": "An Stùc is the steepest and sharpest of the Ben Lawers range. It sits in the middle of 5 Munros that form an arc around the head of Lawers Burn, and is usually climbed with the Munros Meall Garbh and Ben Lawers.",
-    "name": "An Stùc",
+    "description": "An Stuc is the steepest and sharpest of the Ben Lawers range. It sits in the middle of 5 Munros that form an arc around the head of Lawers Burn, and is usually climbed with the Munros Meall Garbh and Ben Lawers.",
+    "name": "An Stuc",
     "region": "Loch Rannoch to Loch Tay",
     "height": "1118m (approx 3668ft)",
     "latitude": "56.56014",
@@ -242,7 +242,7 @@
    "gridReference": "NN386851"
  },
  {
-   "description": "",
+   "description": "Beinn a'Chlachair is the highest of a group of three Munros in the Ardverikie Forest south of Loch Laggan. The mountain has a spacious plateau but presents a forbidding wall to remote An Lairig to the south, whilst on all other sides it is very steep.",
    "name": "Beinn a'Chlachair",
    "region": "Fort William to Loch Ericht",
    "height": "1087m (approx 3566ft)",
@@ -251,304 +251,274 @@
    "gridReference": "NN471781"
  },
  {
-   "description": "",
+   "description": "Beinn a'Chleibh only just makes Muntos status and is overshadowed by its far more celebrated neigbour Ben Lui, with which it is usually climbed. It presents forbiddingly steep slopes to Glen Lochay.",
    "name": "Beinn a'Chleibh",
    "region": "Firth of Clyde to Strathtay",
    "height": "916m (approx 3005ft)",
    "latitude": "56.390226",
    "longitude": "-4.836569",
-   "gridReference": "NN250256",
-   "difficulty": ""
+   "gridReference": "NN250256"
  },
  {
-   "description": "",
+   "description": "Beinn a'Chochuill is somewhat hidden away behind the more celebrated Ben Cruachan range. It has a long, almost level summit rannge providing good views both of Cruachsn, and over Glen Kinglas and Loch Etive to the north. It is usually climbed in conjunction with Munro Beinn Eunaich.",
    "name": "Beinn a'Chochuill",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "979m (approx 3212ft)",
    "latitude": "56.44939",
    "longitude": "-5.069835",
-   "gridReference": "NN109328",
-   "difficulty": ""
+   "gridReference": "NN109328"
  },
  {
-   "description": "",
+   "description": "Beinn a'Chreachain is the easternmost of the four Bridge of Orchy Munros and its summit looks out over the immense flatness of Rannoch Moor. It is normally climbed in conjunction with Beinn Achaladair.",
    "name": "Beinn a'Chreachain",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1081m (approx 3547ft)",
    "latitude": "56.559754",
    "longitude": "-4.649042",
-   "gridReference": "NN373440",
-   "difficulty": ""
+   "gridReference": "NN373440"
  },
  {
-   "description": "",
+   "description": "Beinn a'Chroin is a surprisingly rocky little mountain to the south of Crianiarich. It is normally climbed with An Caisteal.",
    "name": "Beinn a'Chroin",
    "region": "Firth of Clyde to Strathay",
    "height": "940m (approx 3084ft)",
    "latitude": "56.332514",
    "longitude": "-4.599293",
-   "gridReference": "NN394186",
-   "difficulty": ""
+   "gridReference": "NN394186"
  },
  {
-   "description": "",
+   "description": "Beinn Achaladair is perhaps the finest of the four Bridge of Orchy Munros. It presents an impressive north face to the wonderful pinewoods of the Black Wood of Rannoch, and its view over Loch Tulla and Rannoch Moor to the Black Mount and Glencoe is superb. It is normally climbed with Beinn a'Chreachain.",
    "name": "Beinn Achaladair",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1038m (approx 3406ft)",
    "latitude": "56.551561",
    "longitude": "-4.695661",
-   "gridReference": "NN344432",
-   "difficulty": ""
+   "gridReference": "NN344432"
  },
  {
-   "description": "",
+   "description": "Although far less known than its neighbour Beinn Dorain, Beinn an Dothaidh is the finer viewpoint, the cairn on the edge of the steep northern side having a magnificent aerial panorama over Loch Tulia and Rannoch Moor. It is usually climbed in conjunction with Beinn Dorain.",
    "name": "Beinn an Dothaidh",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1004m (approx 3294ft)",
    "latitude": "56.529563",
    "longitude": "-4.715241",
-   "gridReference": "NN331408",
-   "difficulty": ""
+   "gridReference": "NN331408"
  },
  {
-   "description": "",
+   "description": "Almost always climbed with its great parent mountain Ben Alder, remote Beinn Bheoil is a straightforward ridge running high above Loch Ericht.",
    "name": "Beinn Bheoil",
    "region": "Fort William to Loch Ericht",
    "height": "1019m (approx 3343ft)",
    "latitude": "56.813121",
    "longitude": "-4.432586",
-   "gridReference": "NN516717",
-   "difficulty": ""
+   "gridReference": "NN516717"
  },
  {
-   "description": "",
+   "description": "Beinn Bhreac is a lowly Munro by Cairngorms standards, rising at the southern end of a vast boggy moorland. It enjoys a fine setting high above beautiful Glen Derry and is usually climbed in conjunction with Beinn a'Chaorainn.",
    "name": "Beinn Bhreac",
    "region": "The Cairngorms",
    "height": "931m (approx 3055ft)",
    "latitude": "57.055363",
    "longitude": "-3.554654",
-   "gridReference": "NO058971",
-   "difficulty": ""
+   "gridReference": "NO058971"
  },
  {
-   "description": "",
+   "description": "Beinn Bhrotain is a huge, sprawling mountain rising in an extremely remote location on the west side of Glen Dee. Its northern side falls precipitously down to the great trench of Glen Geusachan. It is normally climbed in conjnction with Monadh Mor.",
    "name": "Beinn Bhrotain",
    "region": "The Cairgorms",
    "height": "1157m (approx 3796ft)",
    "latitude": "57.00912",
    "longitude": "-3.723993",
-   "gridReference": "NN954922",
-   "difficulty": ""
+   "gridReference": "NN954922"
  },
  {
-   "description": "",
+   "description": "Beinn Bhuidhe is a neglected Munro, being shyly hidden away between Glens Shira and Fyne at the head of Loch Fyne. Its uppermost ridge is surprisingly steep and rocky and is a tremendous viewpoint.",
    "name": "Beinn Bhuidhe",
    "region": "Firth of Clyde to Strathtay",
    "height": "948m (approx 3110ft)",
    "latitude": "56.326551",
    "longitude": "-4.907879",
-   "gridReference": "NN203187",
-   "difficulty": ""
+   "gridReference": "NN203187"
  },
  {
-   "description": "",
+   "description": "Beinn Chabhair rises steeply above Inverarnan just to the north of Loch Lomond. This rocky peak is both accessible and popular; the summit is a fine viewpoint, with a good vista down Loch Long.",
    "name": "Beinn Chabhair",
    "region": "Firth of Clyde to Strathtay",
    "height": "933m (approx 3061ft)",
    "latitude": "56.325309",
    "longitude": "-4.642479",
-   "gridReference": "NN367179",
-   "difficulty": ""
+   "gridReference": "NN367179"
  },
  {
-   "description": "",
+   "description": "Beinn Dearg is a remote dome of pink granite rising above the surrounding moorlands in the remote area north of Blair Atholl.",
    "name": "Beinn Dearg (Blair Atholl)",
    "region": "Forest of Atholl to Braemar and Blairgowrie",
    "height": "1008m (approx 3307ft)",
    "latitude": "56.876505",
    "longitude": "-3.885268",
-   "gridReference": "NN852777",
-   "difficulty": ""
+   "gridReference": "NN852777"
  },
  {
-   "description": "",
+   "description": "Beinn Dearg is a big hill and dominates everything in the surrounding area. It is a fine dome-shaped mountain, high above deep and atmospheric corries. It is normally climbed in conjunction with Cona Mheall, Meall nan Ceapraichean and Eidigh nan Clach Geala.",
    "name": "Beinn Dearg (Ullapool)",
    "region": "Ullapool to the Moray Firth",
    "height": "1084m (approx 3556ft)",
    "latitude": "57.785699",
    "longitude": "-4.930093",
-   "gridReference": "NH259811",
-   "difficulty": ""
+   "gridReference": "NH259811"
  },
  {
-   "description": "",
+   "description": "Beinn Dorsin is one of the more familiar landmark hills of the Highlands, a graceful, steep grassy pyramid revealed on the drive north from Tyndrum. It is normally climbed with Beinn an Dothaidh.",
    "name": "Beinn Dorain",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1076m (approx 3530ft)",
    "latitude": "56.502428",
    "longitude": "-4.723051",
-   "gridReference": "NN325378",
-   "difficulty": ""
+   "gridReference": "NN325378"
  },
  {
-   "description": "",
+   "description": "Beinn Dubhchraig, usually climbed together with its neighbour Ben Oss, is part of the Ben Lui range of mountains. It is considerably smaller in height than its surrounding neighbours, however, it makes up for this in the bulk of the hill.",
    "name": "Beinn Dubhchraig",
    "region": "Firth of Clyde to Strathtay",
    "height": "978m (approx 3209ft)",
    "latitude": "56.390508",
    "longitude": "-4.744222",
-   "gridReference": "NN307254",
-   "difficulty": ""
+   "gridReference": "NN307254"
  },
  {
-   "description": "",
+   "description": "Beinn Eibhinn is a steep sided ridge curving around Coire a'Charra Mhoir. Part of the Geal Charn ridge system north of Ben Alder, it requires a long walk to reach it from any direction. It is usually climbed in conjunction with Cairn Dearg, Geal Charn and Aonach Beag.",
    "name": "Beinn Eibhinn",
    "region": "Fort William to Loch Ericht",
    "height": "1102m (approx 3615ft)",
    "latitude": "56.825295",
    "longitude": "-4.543194",
-   "gridReference": "NN449733",
-   "difficulty": ""
+   "gridReference": "NN449733"
  },
  {
-   "description": "",
+   "description": "Beinn Eunaich rises above the foor of Glen Strae and its slopes of grass and broken rock are steep and strenuous. It is usually climbed with neighbouring Beinn a'Chochuill.",
    "name": "Beinn Eunaich",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "989m (approx 3245ft)",
    "latitude": "56.450425",
    "longitude": "-5.027715",
-   "gridReference": "NN135328",
-   "difficulty": ""
+   "gridReference": "NN135328"
  },
  {
-   "description": "",
+   "description": "Beinn Fhada has a sprawling summit plateau with steep, craggy sides and several grand corries. It is well seen in the view from Morvich near the head of Loch Duich.",
    "name": "Beinn Fhada",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1032m (approx 3386ft)",
    "latitude": "57.220591",
    "longitude": "-5.284443",
-   "gridReference": "NH018192",
-   "difficulty": ""
+   "gridReference": "NH018192"
  },
  {
-   "description": "",
+   "description": "Beinn Fhionnlaidh is a long, broad and undulating ridge running between Glen Etive and Loch Creran. It can be climbed from either direction but the route from Loch Creran avoids the worst of the forestry and gives good views out over the sea. It is easy enough to combine Beinn Fhionnlaidh with Sgor na h-Ulaidh in Glencoe to make a longer day out, but is equally impressive if climbed on its own.",
    "name": "Beinn Fhionnlaidh",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "959m (approx 3146ft)",
    "latitude": "56.600435",
    "longitude": "-5.1049",
-   "gridReference": "NN095497",
-   "difficulty": ""
+   "gridReference": "NN095497"
  },
  {
-   "description": "",
+   "description": "Beinn Fhionnlaidh is a frustrating Munro for baggers, being out on the inaccessible ridge running north from Carn Eige. Loch Mullardoch guards the foot of the ridge so most baggers have to climb over Carn Eige twice to get out and back from this peak. Beinn Fhionnlaidh is usually climbed with Carn Eige and Mam Sodhall.",
    "name": "Beinn Fhionnlaidh (Carn Eige)",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1005m (approx 3297ft)",
    "latitude": "57.305413",
    "longitude": "-5.130907",
-   "gridReference": "NH115282",
-   "difficulty": ""
+   "gridReference": "NH115282"
  },
  {
-   "description": "",
+   "description": "Beinn Ghlas is a little known Munro but one of the most frequently climbed, the reason being that it is visited on the usual path used en route to Ben Lawers. Almost never climbed in its own right. Beinn Ghlas supports a wonderful arctic flora and is part of the Ben Lawers National Nature Reserve.",
    "name": "Beinn Ghlas",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1103m (approx 3619ft)",
    "latitude": "56.535493",
    "longitude": "-4.237467",
-   "gridReference": "NN625404",
-   "difficulty": ""
+   "gridReference": "NN625404"
  },
  {
-   "description": "",
+   "description": "Beinn Heasgarnich is a wide and expansive hill with large corries to the west and north which have a tradition of holding snow well into the string. It is normally climbed in conjunction with Creag Mhor.",
    "name": "Beinn Heasgarnich",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1078m (approx 3537ft)",
    "latitude": "56.509966",
    "longitude": "-4.580547",
-   "gridReference": "NN413383",
-   "difficulty": ""
+   "gridReference": "NN413383"
  },
  {
-   "description": "",
+   "description": "Beinn Ime is the highest of the Arrochar Alps. Usually ascended by its broad southern slopes from the Bealach a'Mhaim, the other sides of the mountain are much steeper and more rugged. It is usually climbed with Beinn Narnain.",
    "name": "Beinn Ìme",
    "region": "Firth of Clyde to Strathtay",
    "height": "1011m (approx 3317)",
    "latitude": "56.236067",
    "longitude": "-4.817087",
-   "gridReference": "-4.817087",
-   "difficulty": ""
+   "gridReference": "-4.817087"
  },
  {
-   "description": "",
+   "description": "Beinn Iutharn Mhor is a steep sided mountain in the otherwise rolling wild area of the Mounth. It is usually accessed via the long Glen Ey from the north. It is normally climbed with Carn Bhac.",
    "name": "Beinn Iutharn Mhor",
    "region": "Forest of Atholl to Braemar and Blairgowrie",
    "height": "1045m (approx 3428ft)",
    "latitude": "56.894352",
    "longitude": "-3.569302",
-   "gridReference": "NO045792",
-   "difficulty": ""
+   "gridReference": "NO045792"
  },
  {
-   "description": "",
-   "name": "Beinn Liath Mhòr",
+   "description": "Beinn Liath Mhor is a long, multiple-summited sandstone ridge with steep flanks and a summit sprinkled with white quartzite. It offers interesting views over the Coulin Forest and into Torridon.",
+   "name": "Beinn Liath Mhor",
    "region": "Loch Carron to Loch Maree",
    "height": "926m (approx 3038ft)",
    "latitude": "57.511449",
    "longitude": "-5.400759",
-   "gridReference": "NG964519",
-   "difficulty": ""
+   "gridReference": "NG964519"
  },
  {
-   "description": "",
-   "name": "Beinn Liath Mhòr Fannaich",
+   "description": "Beinn Liath Mhor Fannaich is a bulky Munro situated just to the north of the main Fannichs ridge. It offers good views both of the neighbouring and over to the Beinn Dearf=g range. It is usually climbed with Sgurr Mor.",
+   "name": "Beinn Liath Mhor Fannaich",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "954m (approx 3130ft)",
    "latitude": "57.706088",
    "longitude": "-4.990816",
-   "gridReference": "NH219724",
-   "difficulty": ""
+   "gridReference": "NH219724"
  },
  {
-   "description": "",
+   "description": "Beinn Mhanach is an undistinguished Munro, a rounded lump when seen from any direction. It is smaller than its neighbours, a lot less accessible and lacks many of the features which make the others so great. It is for this reason it is really only visited by Munro baggers.",
    "name": "Beinn Mhanach",
    "region": "Loch Rannoch to Loch Tay",
    "height": "953m (approx 3127ft)",
    "latitude": "56.533728",
    "longitude": "-4.647224",
-   "gridReference": "NN373411",
-   "difficulty": ""
+   "gridReference": "NN373411"
  },
  {
-   "description": "",
+   "description": "Beinn Mheadhoin lies at the remote heart of the Cairngorms range, its summit plateau strewn with some spectacular granite tors. If starting from Linn of Dee, the route passes through the Derry pinewoods before returning over Derry Cairngorm.",
    "name": "Beinn Mheadhoin",
    "region": "The Cairngorms",
    "height": "1182m (approx 3878ft)",
    "latitude": "57.095063",
    "longitude": "-3.612436",
-   "gridReference": "NJ024016",
-   "difficulty": ""
+   "gridReference": "NJ024016"
  },
  {
-   "description": "",
+   "description": "Beinn na Lap is a rounded hill in the heart of the wild area to the northeast of Rannoch Moor.",
    "name": "Beinn na Lap",
    "region": "Fort William to Loch Ericht",
    "height": "936m (approx 3071ft)",
    "latitude": "56.788701",
    "longitude": "-4.660256",
-   "gridReference": "NN376695",
-   "difficulty": ""
+   "gridReference": "NN376695"
  },
  {
-   "description": "",
+   "description": "Beinn nan Aighenan is an isolated summit and quite a tricky Munro to reach. It is the most southerly of the Glen Etive Munros and can be climbed with Ben Starav and Glas Bheinn Mhor, or on its own.",
    "name": "Beinn nan Aighenan",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "960m (approx 3150ft)",
    "latitude": "56.52002",
    "longitude": "-5.012127",
-   "gridReference": "NN148405",
-   "difficulty": ""
+   "gridReference": "NN148405"
  },
  {
    "description": "",
