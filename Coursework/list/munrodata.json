@@ -521,34 +521,31 @@
    "gridReference": "NN148405"
  },
  {
-   "description": "",
+   "description": "One of the Arrochar Alps, Beinn Narnain's location means it is often one of the first Munros to be tackled. It is a very rocky little mountain with some scrambling and serveral false summits. Beinn Narnain can be combined with Beinn Ime and Ben Vane to make a great day out on the hills.",
    "name": "Beinn Narnain",
    "region": "Firth of Clyde to Strathtay",
-   "height": "927m (approx 3041ft)",
+   "height": "926m (approx 3038ft)",
    "latitude": "56.220499",
    "longitude": "-4.790131",
-   "gridReference": "NN271066",
-   "difficulty": ""
+   "gridReference": "NN271066"
  },
  {
-   "description": "",
+   "description": "Beinn Sgrithreall has one of the finest situations of any of the Munros, towering above the tiny village of Arnisdale on Loch Hourn. Its ascent is unrelentingly steep but the views from the summit are amongst the finest in Scotland. It is the most northern Munro in this region and stands on its own separate from any other Munros.",
    "name": "Beinn Sgritheall",
    "region": "Glen Shiel to Glenfinnan",
    "height": "974m (approx 3196ft)",
    "latitude": "57.153136",
    "longitude": "-5.581167",
-   "gridReference": "NG835126",
-   "difficulty": ""
+   "gridReference": "NG835126"
  },
  {
-   "description": "",
+   "description": "With its coastal position Beinn Sgulaird has a reputation as a magnificent viewpoint. It is well deserved but the steep slopes and undulating ridge makes for a much more arduous walk than its position close to the road would suggest. Beinn Sgulaird is usually climbed on its own in a circular route.",
    "name": "Beinn Sgulaird",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "937m (approx 3074ft)",
    "latitude": "56.56552",
    "longitude": "-5.17042",
-   "gridReference": "NN053460",
-   "difficulty": ""
+   "gridReference": "NN053460"
  },
  {
    "description": "",
