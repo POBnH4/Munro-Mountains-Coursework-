@@ -1,4 +1,4 @@
-{"munros": [{
+[{
     "description": "A'Bhuidheanach Bheag sits on a large summit plateau to the east of the pass of Drumochter. It is normally climbed in conjuction with Carn na Caim, which sits at the opposite end of the plateau.",
     "name": "A'Bhuidheanach Bheag",
     "region": "Loch Ericht to Glen Tromie and Glen Garry",
@@ -2536,4 +2536,4 @@
    "longitude": "-5.582894",
    "gridReference": "NG859601"
  }
-]}
+]
