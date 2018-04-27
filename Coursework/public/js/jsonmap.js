@@ -77,7 +77,7 @@ $(document).ready(function() {
 
 /* Layer Groups for Pins */
 var smrLocations = L.layerGroup([]);
-var munroMountains = L.layerGroup([]); //Testing Only
+var baggedMunros = L.layerGroup([]); //Testing Only
 
 var munroEasy = L.layerGroup([]);
 var munroMedium = L.layerGroup([]);
@@ -202,6 +202,7 @@ function getMunros(list,session) {
     $.ajax({
         type: "GET",
         url: '/munros',
+        data: "Unknown",
         context: document.body,
         success: function(result)
         {
@@ -247,7 +248,7 @@ function getMunros(list,session) {
 
                 if (session && $.inArray(munros[i].name, list) != -1) {
                     marker.setIcon(blueIcon);
-                    munroMountains.addLayer(marker);
+                    baggedMunros.addLayer(marker);
                 }
                 else {
                     if (height > 1000) {
@@ -289,7 +290,7 @@ $(document).ready(function() {
                     "Munros > 914m": munroEasy.addTo(mymap),
                     "Munros > 950m": munroMedium.addTo(mymap),
                     "Munros > 1000m": munroHard.addTo(mymap),
-                    "Bagged Munros": munroMountains.addTo(mymap)
+                    "Bagged Munros": baggedMunros.addTo(mymap)
                 };
                 //Add map filter features overlays to map
                 L.control.layers(null,mapOverlays,{collapsed:false}).addTo(mymap);
@@ -721,6 +722,49 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 };
+
+// var listName = "Ben Nevis";
+// var listHeight = 1345;
+
+// Show marker of chosen Munro from List
+function getMarker(listM) {
+
+    var m;
+    var group;
+
+    //Get correct layerGroup
+    getSession(function(sessdata){
+        if (sessdata) {
+            group = baggedMunros;
+        }
+        else if (listHeight > 1000) {
+            group = munroHard;
+        }
+        else if (listHeight > 950) {
+            group = munroMedium;
+        }
+        else {
+            group = munroEasy;
+        }
+
+        //Find correct marker to open tooltip
+        group.eachLayer(function(mLayer) {
+            if (mLayer.mName == listName) {
+                mLayer.openTooltip();
+            }
+        })
+
+    });
+}
+
+
+// NOTES
+/*
+List > Map
+Munro Link > Map Marker
+
+ */
+
 
 
 // Attempt at getting marker attribute - Unsuccessful
