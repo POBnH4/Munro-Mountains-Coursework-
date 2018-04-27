@@ -1285,7 +1285,7 @@
    "gridReference": "NH147621"
  },
  {
-   "description": "",
+   "description": "Gairich is a distinctive solitary Munro on the south side of Loch Quioch. Nearly always climbed from the Loch Quioch Dam, it gives a fine outing. Gairich is normally climbed on its own.",
    "name": "Gairich",
    "region": "Glen Shiel to Glenfinnan",
    "height": "919m (approx 3015ft)",
@@ -1294,107 +1294,97 @@
    "gridReference": "NN025995"
  },
  {
-   "description": "",
+   "description": "Garbh Chioch Mhor is an extremely rough and rocky ridge of immense character on the edge of Knoydart. Garbh Chioch Mhor is usually climbed in conjunction with the other Munros of the South Loch Quoich ridge, which are Sgurr na Ciche and Sgurr nan Coireachan, which is a demanding route in itself. Combine this with the remoteness of these Munros, and an overneight expedition is often required.",
    "name": "Garbh Chioch Mhor",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1013m (approx 3323ft)",
    "latitude": "57.00861",
    "longitude": "-5.445315",
-   "gridReference": "NM909961",
-   "difficulty": ""
+   "gridReference": "NM909961"
  },
  {
-   "description": "",
+   "description": "Geal Charn is a rather sprawling mountain in the Beinn a'Chlachair group. Its most notable feature is the summit, with a very fine cairn and cylindrical trig point atop a graceful little cone. Geal Charn is normally climbed in conjunction with Creag Pitridh. You can also add Beinn a'Chlachair to your outing if you are fit, but it does involve a fairly large descent and re-ascent.",
    "name": "Geal Charn",
    "region": "Fort William to Loch Ericht",
    "height": "1049m (approx 3442ft)",
    "latitude": "56.897105",
    "longitude": "-4.457751",
-   "gridReference": "NN504811",
-   "difficulty": ""
+   "gridReference": "NN504811"
  },
  {
-   "description": "",
+   "description": "Geal Charn is separated from the other Monadhliath Munros by several miles of rolling moorland and bogs, and is usually climbed on its own from wither Garva Bridge or the Spey dam. The hill does not boast the best features and from most angles is seen as a large lump rising above undistinguished moorland. Its eastern cone however is craggy and is definitely the hill's best feature.",
    "name": "Geal Charn (Monadhliath)",
    "region": "Spean Bridge to Elgin",
    "height": "926m (approx 3038ft)",
    "latitude": "57.056883",
    "longitude": "-4.374296",
-   "gridReference": "NN561987",
-   "difficulty": ""
+   "gridReference": "NN561987"
  },
  {
-   "description": "",
+   "description": "This is the highest of several Munros by the name of Geal Charn. A very remote peak, it is in the centre of a great ridge between Ben Alder and the Loch Laggan area; its finest feature is the Lancet Edge, a dramatic ridge plunging down to Culra. Geal Charn can climbed in conjunction with Cairn Dearg, Aonach Beag and Beinn Eibhinn.",
    "name": "Geal-charn (Alder)",
    "region": "Fort William to Loch Ericht",
    "height": "1132m (approx 3714ft)",
    "latitude": "56.837626",
    "longitude": "-4.511237",
-   "gridReference": "NN469746",
-   "difficulty": ""
+   "gridReference": "NN469746"
  },
  {
-   "description": "",
+   "description": "Geal-Charn is one of a group of four Munros that lie west of the Drumochter Pass. It is a rounded dome which can be quickly reached from Balsporran Cottages, and formerly had a line of very prominent cairns some distance short of its summit. Geal-Charn can be combined with the three other Munros in the group, which are A'Mharconaich, Sgairneach Mhor and Beinn Udlamain, as they are all connected by a ridge system.",
    "name": "Geal-charn (Drumochter)",
    "region": "Loch Ericht to Glen Tromie and Glen Garry",
    "height": "917m (approx 3009ft)",
    "latitude": "56.873952",
    "longitude": "-4.305244",
-   "gridReference": "NN596782",
-   "difficulty": ""
+   "gridReference": "NN596782"
  },
  {
-   "description": "",
+   "description": "Glas Bheinn Mhor is a peaked summit to the east of mighty Ben Starav in the range on the south side of Glen Etive. Glas Bheinn Mhoe is normally climbed with Ben Starav and Beinn nan Aighenan, but can also be climbed on its own.",
    "name": "Glas Bheinn Mhor",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "997m (approx 3271ft)",
    "latitude": "56.541749",
    "longitude": "-5.005719",
-   "gridReference": "NN153429",
-   "difficulty": ""
+   "gridReference": "NN153429"
  },
  {
-   "description": "",
+   "description": "Glas Maol is the highest of a group of four Munros to the east of the Cairnwell Pass, and has been developed for skiing. The road gives a high level starting point and eases the ascent of these rounded domes. Glas Maol can be combined with Creag Leacach.",
    "name": "Glas Maol",
    "region": "Braemar to Montrose",
    "height": "1068m (approx 3504ft)",
    "latitude": "56.872457",
    "longitude": "-3.368214",
-   "gridReference": "NO167765",
-   "difficulty": ""
+   "gridReference": "NO167765"
  },
  {
-   "description": "",
+   "description": "Glas Tulaichean is a big dome-shaped mountain usually climbed from the Spittal of Glenshee. It is an interesting and complex Munro as it is bitten into from all directions by corries resulting in a fine array of summit ridges. Glas Tulaichean is normally climbed in conjunction with its neighbouring Munro Carn an Righ.",
    "name": "Glas Tulaichean",
    "region": "Forest of Atholl to Braemar and Blairgowrie",
    "height": "1051m (approx 3448ft)",
    "latitude": "56.865738",
    "longitude": "-3.558261",
-   "gridReference": "NO051760",
-   "difficulty": ""
+   "gridReference": "NO051760"
  },
  {
-   "description": "",
+   "description": "Gleouraich is a very fine mountain on the north side of Loch Quioch. It has grand corries and is part of an excellent ridgewalk, but perhaps the most interesting feature is an amazing stalkers path up the southwest ridge. Gleouraich is normally climbed in conjunction with Spidean Mialach.",
    "name": "Gleouraich",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1035m (approx 3396ft)",
    "latitude": "57.096829",
    "longitude": "-5.238798",
-   "gridReference": "NH039053",
-   "difficulty": ""
+   "gridReference": "NH039053"
  },
  {
-   "description": "",
+   "description": "Gulvain is a fine, remote peak with two summits, the highest mountain in the wild area between Loch Eil and Loch Arkaig. Gulvain is normally climbed on its own.",
    "name": "Gulvain",
    "region": "Glen Shiel to Glenfinnan",
-   "height": "986m (approx 3235ft)",
+   "height": "987m (approx 3238ft)",
    "latitude": "56.935597",
    "longitude": "-5.28564",
-   "gridReference": "NN002875",
-   "difficulty": ""
+   "gridReference": "NN002875"
  },
  {
-   "description": "",
+   "description": "The Inaccessible Pinnacle (often abbreviated to the In Pinn) is the second highest summit in the Skye Cuillin. It is notorious as the most difficult of the Munros, requiring a rock climb and an abseil (and suitable experience or help from an expert) to complete the ascent. It rises from the summit of Sgurr Dearg.",
    "name": "Inaccessible Pinnacle",
    "region": "Isle of Skye",
    "height": "985m (approx 3232ft)",
@@ -1403,37 +1393,34 @@
    "gridReference": "NG444215"
  },
  {
-   "description": "",
+   "description": "Deep in the wild Knoydart peninsula, Ladhar Bheinn usually requires an overnight stay. It is a truly magnificent mountain with a perfect position right on the most dramatic parts of the West Highlands seaboard. Dramatic ridges, multiple summits and an awesome corrie. Like most of the Knoydart hills, Ladhar Bheinn is a truly remote hill with a long walk in from any direction.",
    "name": "Ladhar Bheinn",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1020m (approx 3346ft)",
    "latitude": "57.074568",
    "longitude": "-5.593394",
-   "gridReference": "NG823039",
-   "difficulty": ""
+   "gridReference": "NG823039"
  },
  {
-   "description": "",
+   "description": "Lochnagar is one of the most celebrated of the Munros, a pointed summit rising high above one of Scotland's most beautiful corries. Lochnagar and the rest of the hills of the White Mounth, which are Carn a'Choire Bhoidheach, Carn an t-Sagairt Mor, Cairn Bannoch and Broad Cairn, can be climbed in one outing, however this would inevitably involve an ascent from the west robbing you of the best views of Lochnagar. Please check the avalanche forecast before venturing out as Lochnagar is prone to avalanches and has been the site of several fatalities over the years.",
    "name": "Lochnagar",
    "region": "Braemar to Montrose",
    "height": "1155m (approx 3789ft)",
    "latitude": "56.959982",
    "longitude": "-3.246435",
-   "gridReference": "NO243861",
-   "difficulty": ""
+   "gridReference": "NO243861"
  },
  {
-   "description": "",
+   "description": "Luinne Bheinn (known to some Gaelic pronunciation-challenged walkers as Loony Bin) is a very rocky and rough mountain in the heart of the Knoydart peninsula, and a superb viewpoint. This is a remote Munro that will involve a lon walk in from any direction.",
    "name": "Luinne Bheinn",
    "region": "Glen Shiel to Glenfinnan",
    "height": "939m (approx 3081ft)",
    "latitude": "57.048027",
    "longitude": "-5.514948",
-   "gridReference": "NG869007",
-   "difficulty": ""
+   "gridReference": "NG869007"
  },
  {
-   "description": "",
+   "description": "Lurg Mhor is one of the remotest of all Munross. It lacks the grandeur of neighbouring Bidein a'Choire Sheasgaich, but nonetheless enjoys a wild atmosphere, and looks grand when seen from the east. Lurg Mhor is normally climbed with Bidein a'Choire Sheasgaich.",
    "name": "Lurg Mhor",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "986m (approx 3235ft)",
@@ -1442,207 +1429,187 @@
    "gridReference": "NH065404"
  },
  {
-   "description": "",
+   "description": "Mam Sodhail is a twin to the neighbouring Carn Eige, the two highest peaks north of the Great Glen. It is supported by fine ridges high above the shores of the beautiful Loch Affric. Mam Sodhail can be climbed in conjunction with Carn Eige and Beinn Fhionnlaidh.",
    "name": "Mam Sodhail",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1181m (approx 3875ft)",
    "latitude": "57.279607",
    "longitude": "-5.120416",
-   "gridReference": "NH120253",
-   "difficulty": ""
+   "gridReference": "NH120253"
  },
  {
-   "description": "",
+   "description": "Maoile Lunndaidh is a very remote mountain at the head of Loch Monar, though it is usually ascended from Glencarron. It takes the form of a spacious plateau with several steep corries. Maoile Lunndaidh is usually climbed on its own.",
    "name": "Maoile Lunndaidh",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "1007m (approx 3304ft)",
    "latitude": "57.4641",
    "longitude": "-5.111115",
-   "gridReference": "NH135458",
-   "difficulty": ""
+   "gridReference": "NH135458"
  },
  {
-   "description": "",
+   "description": "Maol Chean-dearg is a dramatic, steep-sided dome of Torridonian sandstone in the wonderful Coulin Forest between Torridon and Strathcarron. On the north side it plunges in crags down to a lochan and has an awe-inspiring outlook over the Torridon peaks.",
    "name": "Maol Chean-dearg",
    "region": "Loch Carron to Loch Maree",
    "height": "933m (approx 3061ft)",
    "latitude": "57.491702",
    "longitude": "-5.465699",
-   "gridReference": "NG924499",
-   "difficulty": ""
+   "gridReference": "NG924499"
  },
  {
-   "description": "",
+   "description": "Maol Chinn-dearg is one of the seven Munros on the South Cluanie Ridge. The long ridge to the northeast offers an escape to the glen. Maol Chinn-dearg is normally climbed in conjunction with the other six Munros, which are Creag a'Mhaim, Druim Shionnach, Aonach Air Chrith, Sgurr an Doire Leathain, Sgurr an Lochain and Creag nan Damh, in one long and extremely rewarding day.",
    "name": "Maol Chinn-dearg",
    "region": "Glen Shiel to Glenfinnan",
    "height": "981m (approx 3219ft)",
    "latitude": "57.127024",
    "longitude": "-5.253007",
-   "gridReference": "NH032087",
-   "difficulty": ""
+   "gridReference": "NH032087"
  },
  {
-   "description": "",
+   "description": "Mayar is a bunp-like summit on the southern part of the Angus/Mounth plateau. It is usually ascended with its near neighbour, Driesh. Due to the impressive northern faces of these two hills, they make for a fantastic day out on the hills.",
    "name": "Mayar",
    "region": "Braemar to Montrose",
    "height": "928m (approx 3045ft)",
    "latitude": "56.848563",
    "longitude": "-3.247648",
-   "gridReference": "NO240737",
-   "difficulty": ""
+   "gridReference": "NO240737"
  },
  {
-   "description": "",
+   "description": "Meall a'Bhuiridh is the highest of the Black Mount and has a good position on the edge of Rannoch Moor, making it a grand viewpoint. Meall a'Bhuiridh is normally climbed with Creise via a fantastic craggy col with brilliant scrambling opportunities between the two.",
    "name": "Meall a'Bhuiridh",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "1108m (approx 3635ft)",
    "latitude": "56.611861",
    "longitude": "-4.853176",
-   "gridReference": "NN250503",
-   "difficulty": ""
+   "gridReference": "NN250503"
  },
  {
-   "description": "",
+   "description": "Meall a'Choire Leith is an outlier of the Ben Lawers group. A vast, flat-topped dome, it is not the most distinctive of the group. Meall a'Choire Leith is normally climbed in conjunction with Meall Corranaich via its long southern ridge.",
    "name": "Meall a'Choire Leith",
    "region": "Loch Rannoch to Loch Tay",
    "height": "926m (approx 3038ft)",
    "latitude": "56.566531",
    "longitude": "-4.26046",
-   "gridReference": "NN612439",
-   "difficulty": ""
+   "gridReference": "NN612439"
  },
  {
-   "description": "",
+   "description": "Meall a'Chrasgaidh is a minro, rounded summit just off the ridge between Sgurr Mor and Sgurr nan Clach Geala. It lacks any distinguishing features and is very much overshadowed by its more illustrious neighbours. Meall a'Chrasgaidh can be climbed in conjunction with Sgurr nan Clach Geala and Sgurr nan Each.",
    "name": "Meall a'Chrasgaidh",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "934m (approx 3064ft)",
    "latitude": "57.712761",
    "longitude": "-5.050144",
-   "gridReference": "NH184733",
-   "difficulty": ""
+   "gridReference": "NH184733"
  },
  {
-   "description": "",
+   "description": "Meall Buidhe is a north-south ridge in an area of wide moorlands, though the Glas Choire on its eastern side does add some character. It is one of the easiest and quickest Munros to climb from Loch an Daimh.",
    "name": "Meall Buidhe (Glen Lyon)",
    "region": "Loch Rannoch to Loch Tay",
    "height": "932m (approx 3058ft)",
    "latitude": "56.616876",
    "longitude": "-4.449285",
-   "gridReference": "NN498499",
-   "difficulty": ""
+   "gridReference": "NN498499"
  },
  {
-   "description": "",
+   "description": "Meall Buidhe is an incredibly rough and rocky mountain, one of the three magnificent Munros on the Knoydart peninsula. Whichever route is chosen, the ascent requires considerable effort. Meall Buidhe is normally climbed in conjunction with its better known neighbour Luinne Bheinn to the north which is connected by a long craggu ridge to Meall Bhuidhe's east top.",
    "name": "Meall Buidhe (Knoydart)",
    "region": "Glen Shiel to Glenfinnan",
    "height": "946m (approx 3104ft)",
    "latitude": "57.030959",
    "longitude": "-5.54631",
-   "gridReference": "NM849989",
-   "difficulty": ""
+   "gridReference": "NM849989"
  },
  {
-   "description": "",
+   "description": "This undistinguished hill hidden up a glen near Dalwhinnie offers one of the shorter and more straightforward ascents amongst the Munros. The usual approach follows some hydro-electric scheme works before an ascent up a broad dome. However, the position gives it great views over Badenoch.",
    "name": "Meall Chuaich",
    "region": "Loch Ericht to Glen Tromie and Glen Garry",
    "height": "951m (approx 3120ft)",
    "latitude": "56.963612",
    "longitude": "-4.113377",
-   "gridReference": "NN716878",
-   "difficulty": ""
+   "gridReference": "NN716878"
  },
  {
-   "description": "",
+   "description": "Meall Corranaich is part of the Ben Lawers range, and well seen from the Lawers visitor centre. It can be climbed from there up a steep ridge, but is more often ascended from the northwest, starting from the summit of the pass. Meall Corranaich is normally climbed in conjunction with Meall a'Choire Leith.",
    "name": "Meall Corranaich",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1069m (approx 3507ft)",
    "latitude": "56.540586",
    "longitude": "-4.254033",
-   "gridReference": "NN615410",
-   "difficulty": ""
+   "gridReference": "NN615410"
  },
  {
-   "description": "",
+   "description": "Meall Dearg is the central summit on the celebrated Aonach Eagach ridge. Usually reached as part of the hard scramble along the ridge en route to Sgorr nam Fiannaidh, it can be ascended on its own by vertigo sufferers by an approach from the north side.",
    "name": "Meall Dearg (Aonach Eagach)",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "953m (approx 3127ft)",
    "latitude": "56.680226",
    "longitude": "-5.003684",
-   "gridReference": "NN161583",
-   "difficulty": ""
+   "gridReference": "NN161583"
  },
  {
-   "description": "",
+   "description": "Meall Garbh is one of the Ben Lawers range, exactly the same height as neighbouring An Stuc. It is part of the fine round of the corrie containing Lochan nan Cat. Meall Garbh can be climbe in conjunction with Meall Greigh and An Stuc.",
    "name": "Meall Garbh (Ben Lawers)",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1118m (approx 3668ft)",
    "latitude": "56.564773",
    "longitude": "-4.20827",
-   "gridReference": "NN644436",
-   "difficulty": ""
+   "gridReference": "NN644436"
  },
  {
-   "description": "",
-   "name": "Meall Garbh (Càrn Mairg)",
+   "description": "Meall Garbh is one of the group of four rounded Munros on the north side of Glen Lyon, usually climbed with its neighbours. It lacks any distinctive form. As mentioned, Meall Garbh is normally climbed in conjunction with three other Munros, which are Carn Gorm, Carn Mairg and Meall nan Aighean.",
+   "name": "Meall Garbh (Carn Mairg)",
    "region": "Loch Rannoch to Loch Tay",
    "height": "968m (approx 3176ft)",
    "latitude": "56.637576",
    "longitude": "-4.20763",
-   "gridReference": "NN647517",
-   "difficulty": ""
+   "gridReference": "NN647517"
  },
  {
-   "description": "",
+   "description": "Meall Ghaordaidh is not a particularly distinguished peak. The usual ascent from Glen Lochay reveals it is a featureless lump. It does look finer from Glen Lyon to the north, supported by two buttresses. Meall Ghaordaidh is normally climbed on its own via its eastern ridge.",
    "name": "Meall Ghaordaidh",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1039m (approx 3409ft)",
    "latitude": "56.525831",
    "longitude": "-4.417387",
-   "gridReference": "NN514397",
-   "difficulty": ""
+   "gridReference": "NN514397"
  },
  {
-   "description": "",
+   "description": "Meall Glas is a fairly undistinguished Munro between Glen Dochart and Glen Lochay. The ascent is possible from either glen. Meall Glas is normally climbed in conjunction with Sgiath Chuil to take in a round of two Munros.",
    "name": "Meall Glas",
    "region": "Loch Rannoch to Loch Tay",
    "height": "959m (approx 3146ft)",
    "latitude": "56.454923",
    "longitude": "-4.547595",
-   "gridReference": "NN431321",
-   "difficulty": ""
+   "gridReference": "NN431321"
  },
  {
-   "description": "",
+   "description": "Meall Gorm is on the Fannichs ridge. It occupies a fine position, with four fine corries along its northeastern side, each holding its own lochan. Meall Gorm is nirmally climbed in conjunction with An Coileachan.",
    "name": "Meall Gorm",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "949m (approx 3114ft)",
    "latitude": "57.681051",
    "longitude": "-4.985396",
-   "gridReference": "NH221696",
-   "difficulty": ""
+   "gridReference": "NH221696"
  },
  {
-   "description": "",
+   "description": "The easternmost of the Lawers range, Meall Greigh is fairly shapeless and sprawling, usually traversed en route to Meall Garbh. With no higher pwaks through the eastern ark, it does enjoy extensive views. Meall Greigh can be climbed on its own or broken into a smaller day by combining it with Meall Garbh via its western ridge.",
    "name": "Meall Greigh",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1001m (approx 3284ft)",
    "latitude": "56.567425",
    "longitude": "-4.159591",
-   "gridReference": "NN674438",
-   "difficulty": ""
+   "gridReference": "NN674438"
  },
  {
-   "description": "",
+   "description": "Meall na Teanga is a steep dome, one of the two Loch Lochy Munros, rising above the forestry as seen from the opposite side of the loch. Its rounded summit has several satellite peaks, divided by scooped coires. Meall na Teanga is normally climbed in conjunction with Sron a'Choire Garbh.",
    "name": "Meall na Teanga",
    "region": "Glen Shiel to Glenfinnan",
    "height": "918m (approx 3012ft)",
    "latitude": "56.988454",
    "longitude": "-4.931339",
-   "gridReference": "NN220924",
-   "difficulty": ""
+   "gridReference": "NN220924"
  },
  {
-   "description": "",
+   "description": "Meall nan Aighean (named Creag Mhor on older maps) is one of a group of four rounded Munros on the north side of Glen Lyon. Meall nan Aighean is normally climbed in conjunction with neighbouring Munros Carn Gorm, Meall Garbh and Carn Mairg.",
    "name": "Meall nan Aighean (Creag Mhor)",
    "region": "Loch Rannoch to Loch Tay",
    "height": "981m (approx 3219ft)",
@@ -1651,114 +1618,103 @@
    "gridReference": "NN694496"
  },
  {
-   "description": "",
+   "description": "Meall nan Ceapraichean is a stony summit to the north of Beinn Dearg. It is usually traversed together with its neighbours and has particularly good views to the northwest. As mentioned, Meall nan Ceapraichean is usually climbed with its neighbours, which are Beinn Dearg, Cona' Mheall and Eididh nan Clach Geala.",
    "name": "Meall nan Ceapraichean",
    "region": "Ullapool to the Moray Firth",
    "height": "977m (approx 3205ft)",
    "latitude": "57.79818",
    "longitude": "-4.934472",
-   "gridReference": "NH257825",
-   "difficulty": ""
+   "gridReference": "NH257825"
  },
  {
-   "description": "",
+   "description": "Meall nan Eun is a dome-like Munro with a very rounded summit but extremely steep sides. The plateau-like top of the mountain unfortunately robs the views of any depth. Meall nan Eun is normally climbed in conjunction with Stob Coir'an Albannaich.",
    "name": "Meall nan Eun",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "928m (approx 3045ft)",
    "latitude": "56.56121",
    "longitude": "-4.943775",
-   "gridReference": "NN192449",
-   "difficulty": ""
+   "gridReference": "NN192449"
  },
  {
-   "description": "",
+   "description": "Meall nan Tarmachan is the only Munro summit on the Tarmachan ridge. It can be climbed quickly from Lochain na Lairige, but is usually enjoyed as part of a very enjoyable and rocky scramble along the whole ridge. The ridge is very prominent form Killin.",
    "name": "Meall nan Tarmachan",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1044m (approx 3425ft)",
    "latitude": "56.521738",
    "longitude": "-4.301689",
-   "gridReference": "NN585390",
-   "difficulty": ""
+   "gridReference": "NN585390"
  },
  {
-   "description": "",
+   "description": "Monadh Mor is a vast plateau in the very heart of the wild Cairngorms. Its ascent - usually combined with Beinn Bhrotain - requires a great deal of effort, whether approached across the vast plateaux from Glen Feshie, or via the more obvious route past White Bridge and the Linn of Dee, or up Glen Geusachan.",
    "name": "Monadh Mor",
    "region": "The Cairngorms",
    "height": "1115m (approx 3658ft)",
    "latitude": "57.026713",
    "longitude": "-3.751169",
-   "gridReference": "NN938942",
-   "difficulty": ""
+   "gridReference": "NN938942"
  },
  {
-   "description": "",
+   "description": "Moruisg is a very prominent mountain rising like a beached whale above upper Glen Carron. Unfortunately, the usual ascent route is up a wide and soggy slope with few feature to break the effort. Moruisg does not get the best press in comparison to its more well known neighbours, but despite its height, possesses a lot of nice little features and, if combined with Sgurr nan Ceannaichean, makes a fine day out.",
    "name": "Moruisg",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "928m (approx 3045ft)",
    "latitude": "57.499463",
    "longitude": "-5.170892",
-   "gridReference": "NH101499",
-   "difficulty": ""
+   "gridReference": "NH101499"
  },
  {
-   "description": "",
+   "description": "Mount Keen is the most easterly of the Munros, a cone-shaped summit rearing above the great sea of the Mounth plateau. It can be climbed quickly from Glen Esk, or more scenically via Glen Tanar. The hill is rounded with an elongated summit running north to south. All slopes are easy and mainly grassy offering many different approach routes.",
    "name": "Mount Keen",
    "region": "Braemar to Montrose",
    "height": "939m (approx 3081ft)",
    "latitude": "56.969589",
    "longitude": "-2.9737",
-   "gridReference": "NO409869",
-   "difficulty": ""
+   "gridReference": "NO409869"
  },
  {
-   "description": "",
+   "description": "Mullach an Rathain is the westernmost of the two Munros on the ridge of Liathach, one of the very finest in the Highlands. It offers tremendous views down Loch Torridon and the sea as a reward for the tackling of its extremely steep slopes. Mullach an Rathain can be climbed in conjuncton with neighbouring Munro Spidean a'Choire Leith.",
    "name": "Mullach an Rathain (Liathach)",
    "region": "Loch Carron to Loch Maree",
    "height": "1023m (approx 3356ft)",
    "latitude": "57.561085",
    "longitude": "-5.492367",
-   "gridReference": "NG912577",
-   "difficulty": ""
+   "gridReference": "NG912577"
  },
  {
-   "description": "",
+   "description": "Mullach Clach a'Bhlair has an insignificant summit towards the southern end of the great plateau that stretches northwards to Sgor Gaoith and eastwards to Cairn Toul. Its finest features are seen on the approach from beautifully-wooded Glen Feshie, with Coire Garbhlach.",
    "name": "Mullach Clach a'Bhlair",
    "region": "The Cairngorms",
    "height": "1019m (approx 3343ft)",
    "latitude": "57.011945",
    "longitude": "-3.841059",
-   "gridReference": "NN883927",
-   "difficulty": ""
+   "gridReference": "NN883927"
  },
  {
-   "description": "",
+   "description": "Mullach Coire Mhic Fhearchair is an extremely remote Munro in the Fisherfield Forest or Great Wilderness. Added to the length of the approach from any direction is the difficulty of walking along the ridge, which is covered in angular quartzite boulders. Mullach Coire Mhic Fhearchair can be climbed in conjunction with Sgurr Ban, Beinn Tarsuinn, A'Mhaighdean and Ruadh Stac Mor.",
    "name": "Mullach Coire Mhic Fhearchair",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "1019m (approx 3343ft)",
    "latitude": "57.709028",
    "longitude": "-5.271494",
-   "gridReference": "NH052735",
-   "difficulty": ""
+   "gridReference": "NH052735"
  },
  {
-   "description": "",
+   "description": "Mullach Fraoch-Choire may be hidden from Cluanie but it is one of the finest mountains of the region. Approached from A'Chralaig, the final ridge is riven into a series of exposed pinnacles, and the summit views over Glen Affric are superb.",
    "name": "Mullach Fraoch-choire",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1102m (approx 3615ft)",
    "latitude": "57.205023",
    "longitude": "-5.155522",
-   "gridReference": "NH095171",
-   "difficulty": ""
+   "gridReference": "NH095171"
  },
  {
-   "description": "",
+   "description": "Mullach nan Coirean is the westernmost of the Mamores. It is a fine grassy ridge but lacks the distinctive pointed summit of many of the other peaks in the range. Mullach nan Coirean is normally climbed in conjunction with Stob Ban to the east.",
    "name": "Mullach nan Coirean",
    "region": "Fort William to Loch Ericht",
    "height": "939m (approx 3081ft)",
    "latitude": "56.749546",
    "longitude": "-5.073025",
-   "gridReference": "NN122662",
-   "difficulty": ""
+   "gridReference": "NN122662"
  },
  {
    "description": "",
