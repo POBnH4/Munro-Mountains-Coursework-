@@ -1717,227 +1717,205 @@
    "gridReference": "NN122662"
  },
  {
-   "description": "",
+   "description": "Mullach nan Dheiragain is one of the more awkward Munros to reach. It is situated on a very long ridge extending north from the much higher mountain of Sgurr nan Ceathreamhnan; usually after visiting it steps are retraced over the parent mountain. Mullach nan Dheiragain is normally climbed in conjunction with Sgurr nan Ceathreamhnan, and An Socach can also be added to the walk.",
    "name": "Mullach nan Dheiragain",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "981m (approx 3219ft)",
    "latitude": "57.283325",
    "longitude": "-5.187123",
-   "gridReference": "NH080259",
-   "difficulty": ""
+   "gridReference": "NH080259"
  },
  {
-   "description": "",
+   "description": "Na Gruagaichean is a fine peak on the main ridge of the Mamores, with views down over Kinlochleven. The mountain has a pair of summits, separated by a steep little bealach. Na Gruagaichean can be combined with Binnein Mor to make a superb ridgewalk.",
    "name": "Na Gruagaichean",
    "region": "Fort William to Loch Ericht",
    "height": "1056m (approx 3465ft)",
    "latitude": "56.743766",
    "longitude": "-4.940052",
-   "gridReference": "NN203652",
-   "difficulty": ""
+   "gridReference": "NN203652"
  },
  {
-   "description": "",
-   "name": "Ruadh Stac Mòr",
+   "description": "Ruadh Stac Mor, together with neighbouring A'Mhaighdean, is perhaps the remotest Munro in Britain. It is in the heart of the Fisherfield Forest and is a truly stunning viewpoint - steep mountains rise abruptly from the surrounding lochs and bogs whilst a huge sweep of the sea is over to the west. Ruadh Stac Mor can be climbed in conjunction with its neighbour A'Mhaighdean.",
+   "name": "Ruadh Stac Mor",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "918m (approx 3012ft)",
    "latitude": "57.726373",
    "longitude": "-5.330187",
-   "gridReference": "NH018756",
-   "difficulty": ""
+   "gridReference": "NH018756"
  },
  {
-   "description": "",
+   "description": "Ruadh-stac Mor is a steep-sided dome off to the north of the main ridge, high above Coire Mhic Fhearchair, one of the finest corries in the country. Ruadh-stac Mor can be climbed in conjunction with Spidean Coire nan Clach.",
    "name": "Ruadh-stac Mor (Beinn Eighe)",
    "region": "Loch Carron to Loch Maree",
    "height": "1010m (approx 3314ft)",
    "latitude": "57.593356",
    "longitude": "-5.430172",
-   "gridReference": "NG951611",
-   "difficulty": ""
+   "gridReference": "NG951611"
  },
  {
-   "description": "",
+   "description": "Sail Chaorainn is a rather forgotten peak amongst the Kintail Munros, being situated out of sight behind Sgurr nan Conbhairean. It's position on the ridge extending north from that peak makes it fairly remote. Sail Chaorainn can be climbed in conjunction with Carn Ghluasaid and Sgurr nan Conbhairean.",
    "name": "Sail Chaorainn",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1002m (approx 3287ft)",
    "latitude": "57.191337",
    "longitude": "-5.091439",
-   "gridReference": "NH133154",
-   "difficulty": ""
+   "gridReference": "NH133154"
  },
  {
-   "description": "",
+   "description": "Saileag is a rather insignificant summit on the North Kintail Ridge. Saileag is usually climbed in conjunction with Sgurr a'Bhealaich Dheirg and Aonach Meadhoin.",
    "name": "Saileag",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "956m (approx 3136ft)",
    "latitude": "57.181087",
    "longitude": "-5.28259",
-   "gridReference": "NH017148",
-   "difficulty": ""
+   "gridReference": "NH017148"
  },
  {
-   "description": "",
+   "description": "Schiehallion is one of the most familiar and best known mountains in Scotland. A whaleback ridge from most viewpoints, it appears as a perfect cone when seen from across Loch Rannoch. Contour lines were invented on the mountain as part of an experiment to determine the mass of the earth.",
    "name": "Schiehallion",
    "region": "Loch Rannoch to Loch Tay",
    "height": "1083m (approx 3553ft)",
    "latitude": "56.666371",
    "longitude": "-4.101601",
-   "gridReference": "NN713547",
-   "difficulty": ""
+   "gridReference": "NN713547"
  },
  {
-   "description": "",
+   "description": "One of the more remote Munros, Seana Bhraigh is situated on the very edge of an undulating plateau, dramatically poised above the stunning Luchd Choire. The main summit ridge is a wide plateau running northwest to southeast with easier slopes on the southern side. The plateau becomes wider the further south you go before eventually connecting up with the summit ridge of the nearest neighbouring Munro Eididh nan Clach Geala and the rest of the main Beinn Dearg group.",
    "name": "Seana Bhraigh",
    "region": "Ullapool to the Moray Firth",
    "height": "926m (approx 3038ft)",
    "latitude": "57.846653",
    "longitude": "-4.897964",
-   "gridReference": "NH281878",
-   "difficulty": ""
+   "gridReference": "NH281878"
  },
  {
-   "description": "",
-   "name": "Sgairneach Mhòr",
+   "description": "Sgairneach Mhor is a very rounded mountain on the west side of the Drumochter Pass. Sgairneach Mhor can be climbed in conjunction with Beinn Udlamain, A'Mharconaich and Geal Charn.",
+   "name": "Sgairneach Mhor",
    "region": "Loch Ericht to Glen Tromie and Glen Garry",
    "height": "989m (approx 3245ft)",
    "latitude": "56.828233",
    "longitude": "-4.299155",
-   "gridReference": "NN598731",
-   "difficulty": ""
+   "gridReference": "NN598731"
  },
  {
-   "description": "",
+   "description": "Sgiath Chuil is an unspectacular mountain between Glen Dochart and Glen Lochay, its summit atop a small crag when seen from the south. It can be climbed from wither, usually in combination with neighbouring Meall Glas, but the bealach between is low and steep-sided.",
    "name": "Sgiath Chuil",
    "region": "Loch Rannoch to Loch Tay",
    "height": "921m (approx 3022ft)",
    "latitude": "56.452354",
    "longitude": "-4.497111",
-   "gridReference": "NN462317",
-   "difficulty": ""
+   "gridReference": "NN462317"
  },
  {
-   "description": "",
+   "description": "Sgor an Lochain Uaine (also known as Angel's Peak) is an extremely remote mountain at the heart of the Cairngorms. The fine summit, a twin to Cairn Toul, overlooks the magnificent Garbh Choire. Sgor an Lochain Uaine can be climbed in conjunction with The Devil's Point, CAirn Toul and Braeriach.",
    "name": "Sgor an Lochain Uaine",
    "region": "The Cairngorms",
    "height": "1258m (approx 4127ft)",
    "latitude": "57.057608",
    "longitude": "-3.72624",
-   "gridReference": "NN954976",
-   "difficulty": ""
+   "gridReference": "NN954976"
  },
  {
-   "description": "",
+   "description": "Sgor Gaibhre is a remote Munro above Loch Ossian in the heart of the Highlands. It is usually climbed either from Rannoch or Corrour stations on the West Highland railway line. Sgor Gaibhre is normally climbed in conjunction with Carn Dearg.",
    "name": "Sgor Gaibhre",
    "region": "Fort William to Loch Ericht",
    "height": "955m (approx 3133ft)",
    "latitude": "56.772177",
    "longitude": "-4.547782",
-   "gridReference": "NN444674",
-   "difficulty": ""
+   "gridReference": "NN444674"
  },
  {
-   "description": "",
+   "description": "Sgor Gaoith is a distinctive peaked summit on the eastern edge pf an area of vast, rolling plateaux. It has an amazingly dramatic location right on the edge of a huge wall of broken crags which collapse down to Loch Einich, and makes for one of the finest shorter hillwalks in the Cairngorms.",
    "name": "Sgor Gaoith",
    "region": "The Cairngorms",
    "height": "1118m (approx 3668ft)",
    "latitude": "57.06807",
    "longitude": "-3.812498",
-   "gridReference": "NN902989",
-   "difficulty": ""
+   "gridReference": "NN902989"
  },
  {
-   "description": "",
+   "description": "The forgotten mountain of Glen Coe, Sgor na h-Ulaidh is hidden from view and sees far fewer ascents than other peaks in the glen. It is exceptionally steep, but the view is an unfamiliar aspect to the better known peaks around it. Sgor na h-Ulaidh can be climbed in conjunction with Beinn Fhionnlaidh.",
    "name": "Sgor na h-Ulaidh",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "994m (approx 3261ft)",
    "latitude": "56.619922",
    "longitude": "-5.080412",
-   "gridReference": "NN111518",
-   "difficulty": ""
+   "gridReference": "NN111518"
  },
  {
-   "description": "",
+   "description": "Sgorr Dhearg is the highest of the two Munros on Beinn a'Bheithir, and is the termination of a grscefully arched ridge from the Top of Sgorr Bhan. It is a tremendous mountain and looks very fine from the north side of Loch Leven. Sgorr Dhearg can be climbed in conjunction with Sgorr Dhonuill.",
    "name": "Sgorr Dhearg (Beinn a'Bheithir)",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "1024m (approx 3360ft)",
    "latitude": "56.653553",
    "longitude": "-5.172915",
-   "gridReference": "NN056558",
-   "difficulty": ""
+   "gridReference": "NN056558"
  },
  {
-   "description": "",
+   "description": "Sgorr Dhonuill is the western Munro of Beinn a'Bheithir, a magnificent peak and a superb viewpoint with fine mountains, long lochs and the sea all prominent. Sgorr Dhinuill can be climbed in conjunction with Sgorr Dhearg.",
    "name": "Sgorr Dhonuill (Beinn a'Bheithir)",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "1001m (approx 3284ft)",
    "latitude": "56.650195",
    "longitude": "-5.198743",
-   "gridReference": "NN040555",
-   "difficulty": ""
+   "gridReference": "NN040555"
  },
  {
-   "description": "",
+   "description": "Sgorr nam Fiannaidh is the western summit of the Aonach Eagach. Usually it is reached as part of the classic, hard scramble along the ridge, taking in Meall Dearg as well, but for non-scramblers it is possible to climb it via the path to the bealach with the Pap of Glencoe.",
    "name": "Sgorr nam Fiannaidh (Aonach Eagach)",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "967m (approx 3173ft)",
    "latitude": "56.679395",
    "longitude": "-5.037911",
-   "gridReference": "NN140583",
-   "difficulty": ""
+   "gridReference": "NN140583"
  },
  {
-   "description": "",
+   "description": "Sgorr Ruadh is one of the fine sandstone monolihs of the Couilin Forest. It has a magnificent face above Coire Lair, but the south and west sides are much less impressive. The mountain is often climbed on its own via its steep but soggy southern slopes, or more interestingly from the bealach linking with Beinn Liath Mhor.",
    "name": "Sgorr Ruadh",
    "region": "Loch Carron to Loch Maree",
    "height": "961m (approx 3153ft)",
    "latitude": "57.498671",
    "longitude": "-5.407918",
-   "gridReference": "NG959505",
-   "difficulty": ""
+   "gridReference": "NG959505"
  },
  {
-   "description": "",
+   "description": "Sgurr a'Bhealaich Dheirg is the highest and finest mountain on the Brothers Ridge - the eastward extension of the Five Sisters of Kintail. The true summmit is on a narrow spur to the north of the ridge and is marked by a well-built cairn. Sgurr a'Bhealaich can be climbed in conjunction with Saileag and Aonach Meadhoin.",
    "name": "Sgurr a'Bhealaich Dheirg",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1036m (approx 3399ft)",
    "latitude": "57.177377",
    "longitude": "-5.252468",
-   "gridReference": "NH035143",
-   "difficulty": ""
+   "gridReference": "NH035143"
  },
  {
-   "description": "",
+   "description": "Sgurr a'Chaorachain is usually climbed together with neighbouring Munro Sgurr Choinnich. Both mountains are tucked away up the glen of the Allt a'Chonais from the main route through Glen Carron.",
    "name": "Sgurr a'Chaorachain",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "1053m (approx 3455ft)",
    "latitude": "57.452237",
    "longitude": "-5.190145",
-   "gridReference": "NH087447",
-   "difficulty": ""
+   "gridReference": "NH087447"
  },
  {
-   "description": "",
+   "description": "The highest of the Glen Strathfarrar Munros, Sgurr a'Choire Ghlais is a grand peak at the centre of the range, topped with two fine cairns. Sgurr a'Choire Ghlais is normally climbed with the other three Glen Strathfarrar Munros, which are Sgurr na Ruaidhe, Carn nan Gobhar and Sgurr Fhuar-thuill.",
    "name": "Sgurr a'Choire Ghlais",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "1083m (approx 3553ft)",
    "latitude": "57.443909",
    "longitude": "-4.902693",
-   "gridReference": "NH259430",
-   "difficulty": ""
+   "gridReference": "NH259430"
  },
  {
-   "description": "",
+   "description": "Sgurr a'Ghreadaidh is the highest point on the central part of the Cuillin ridge. It has two summits, separated by the narrowest arête in the British Isles - sharp as a razor. Sgurr a'Ghreadaidh is normally climbed in conjunction with Sgurr a'Mhadaidh to the north.",
    "name": "Sgurr a'Ghreadaidh",
    "region": "Isle of Skye",
-   "height": "972m (approx 3189ft)",
+   "height": "973m (approx 3192ft)",
    "latitude": "57.228067",
    "longitude": "-6.235008",
-   "gridReference": "NG445232",
-   "difficulty": ""
+   "gridReference": "NG445232"
  },
  {
-   "description": "",
+   "description": "Sgurr a'Mhadaidh has four summits on one of the trickier sections of the Cuillin Ridge - the highest one, which is the only Munro, is the only one that can be ascended without rockclimbing. The usual ascent is via An Dorus, but there is an easier option which leaves the gully before reaching the bealach. Sgurr a'Mhadaidh can be climbed in conjunction with Sgurr a'Ghreadaidh.",
    "name": "Sgurr a'Mhadaidh",
    "region": " Isle of Skye",
    "height": "918m (approx 3012ft)",
@@ -1946,197 +1924,178 @@
    "gridReference": "NG446235"
  },
  {
-   "description": "",
+   "description": "Sgurr a'Mhaim is on a projecting spur to the north of the main Mamores ridge. The summit is covered in quartzite sometimes mistaken for snow from Glen Nevis. The link to the Mamores is along the airy 'Devil's Ridge'. Sgurr a'Mhaim is normally climbed from the north in Glen Nevis either on is own, or by combining it with the rest of the peaks in the Ring of Steall, which are An Gearanach, Stob Coire a'Chairn and An Bodach.",
    "name": "Sgurr a'Mhaim",
    "region": "Fort William to Loch Ericht",
    "height": "1099m (approx 3606ft)",
    "latitude": "56.755704",
    "longitude": "-5.004802",
-   "gridReference": "NN164667",
-   "difficulty": ""
+   "gridReference": "NN164667"
  },
  {
-   "description": "",
+   "description": "Sgurr a'Mhaoraich is a solitary Munro on the north side of Loch Quoich between Kintail and Knoydart. It is a fine viewpoint, particularly looking down Loch Hourn.",
    "name": "Sgurr a'Mhaoraich",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1027m (approx 3369ft)",
    "latitude": "57.10517",
    "longitude": "-5.332034",
-   "gridReference": "NG983065",
-   "difficulty": ""
+   "gridReference": "NG983065"
  },
  {
-   "description": "",
+   "description": "Sgurr Alasdair is the highest mountain in Britain outwith the mainland. It has perhaps the smallest summit of any of the Skye Cuillin and is an amazing viewpoint with the sweeping Cuillin Ridge, tremendous cliffs, lochs, the sea and scattered islands in all directions.",
    "name": "Sgurr Alasdair",
    "region": "Isle of Skye",
-   "height": "991m (approx 3251ft)",
+   "height": "992m (approx 3255ft)",
    "latitude": "57.205949",
    "longitude": "-6.224185",
-   "gridReference": "NG450207",
-   "difficulty": ""
+   "gridReference": "NG450207"
  },
  {
-   "description": "",
+   "description": "Sgurr an Doire Leathain is one of the seven Munros on the South Cluanie ridge; the summit is actually a short distance north of the ridge on a projecting spur. As mentioned, Sgurr an Doire Leathain is one of seven Munros and can be climbed in conjunction with the other six Munros, which are Creag a'Mhaim, Druim Shionnach, Aonach Air Chrith, Maol Chinn-dearg, Sgurr an Lochain and Creag nan Damh, in one long and extremely rewarding day.",
    "name": "Sgurr an Doire Leathain",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1010m (approx 3314ft)",
    "latitude": "57.137055",
    "longitude": "-5.281994",
-   "gridReference": "NH015099",
-   "difficulty": ""
+   "gridReference": "NH015099"
  },
  {
-   "description": "",
+   "description": "Sgurr an Lochain is perhaps the finest of the seven Munros on the South Glen Shiel Ridge. Its fine peaked summit rises above the craggy corrie, which holds the lochan giving the mountain its name. As mentioned, Sgurr an Lochain is one of seven Munros and can be climbed in conjunction with the other six Munros, which are Creag a'Mhaim, Druim Shionnach, Aonach Air Chrith, Maol Chinn-dearg, Sgurr an Doire Leathain and Creag nan Damh, in one long and extremely rewarding day",
    "name": "Sgurr an Lochain",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1004m (approx 3294ft)",
    "latitude": "57.141106",
    "longitude": "-5.298888",
-   "gridReference": "NH005104",
-   "difficulty": ""
+   "gridReference": "NH005104"
  },
  {
-   "description": "",
+   "description": "Sgurr Ban is an extremely remote Munro in the Fisherfield Forest region. It can be reached during an epic walk from Kinlochewe, or approached via Loch a'Bhraoin, but is more usually ascended from Shenavail bothy. Sgurr Ban can be climbed in conjunction with Mullach Coire Mhic Fhearchair, Beinn Tarsuinn, A'Mhaighdean and Ruadh Stac Mor.",
    "name": "Sgurr Ban",
    "region": "Loch Maree to Loch Broom and Garve",
-   "height": "987m (approx 3238ft)",
+   "height": "989m (approx 3245ft)",
    "latitude": "57.718125",
    "longitude": "-5.267276",
-   "gridReference": "NH055745",
-   "difficulty": ""
+   "gridReference": "NH055745"
  },
  {
-   "description": "",
+   "description": "Together with its neighbour A'Chailleach, Sgurr Breac is one of the western Fannichs, and it shows a very steep face to the north. Sgurr Breac is normally climbed in conjunction with A'Chailleach, which lies immediately west of it along a broad connecting ridge.",
    "name": "Sgurr Breac",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "999m (approx 3278ft)",
    "latitude": "57.69197",
    "longitude": "-5.092034",
-   "gridReference": "NH158711",
-   "difficulty": ""
+   "gridReference": "NH158711"
  },
  {
-   "description": "",
+   "description": "Sgurr Choinnich is nearly always ascended together with its higher neighbour Sgurr a'Chaorachain. Sgurr Choinnich may be lower but it is the finer peak of the pair, with plenty of crags buttressing its elegant summit ridge. ",
    "name": "Sgurr Choinnich",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "999m (approx 3278ft)",
    "latitude": "57.450875",
    "longitude": "-5.208368",
-   "gridReference": "NH076446",
-   "difficulty": ""
+   "gridReference": "NH076446"
  },
  {
-   "description": "",
+   "description": "A fine pyramidal peak, Sgurr Choinnich Mor is the westernmost of the Grey Corries; its fine arête requires a long approach from any direction. Sgurr Choinnich Mor is normally climbed with the other three Munros that make up the Grey Corries, which are Stob Coire Claurigh, Stob Coire an Laoigh and Stob Ban.",
    "name": "Sgurr Choinnich Mor",
    "region": "Fort William to Loch Ericht",
    "height": "1094m (approx 3589ft)",
    "latitude": "56.800313",
    "longitude": "-4.905163",
-   "gridReference": "NN227714",
-   "difficulty": ""
+   "gridReference": "NN227714"
  },
  {
-   "description": "",
+   "description": "Sgurr Dubh Mor is a dramatic rock peak situated just off the main Cuillin Ridge and usually reached by baggers via tricky and hard to find scramble from the rest of the range. Sgurr Dubh Mor can be climbed in conjunction with Sgurr nan Eag.",
    "name": "Sgurr Dubh Mor",
    "region": "Isle of Skye",
    "height": "944m (approx 3097ft)",
    "latitude": "57.204546",
    "longitude": "-6.212425",
-   "gridReference": "NG457205",
-   "difficulty": ""
+   "gridReference": "NG457205"
  },
  {
-   "description": "",
+   "description": "Sgurr Eilde Mor is an eastern outlier of the Mamores, a steep cone of scree and rock giving an unforgiving ascent above Coire an Lochain. Its steep sides permit views of great depth. Sgurr Eilde Mor can be climbed in conjunction with Binnein Beag.",
    "name": "Sgurr Eilde Mor",
    "region": "Fort William to Loch Ericht",
    "height": "1010m (approx 3314ft)",
    "latitude": "56.749285",
    "longitude": "-4.896312",
-   "gridReference": "NN230657",
-   "difficulty": ""
+   "gridReference": "NN230657"
  },
  {
-   "description": "",
+   "description": "Sgurr Fhuar-thuill is a slender, grassy ridge with some dramatic corries. To the northeast is Fhuar-thuill Mor with a fine lochan, whilst to the south is Loch Toll a'Mhuic nestled beneath the slabby crags of Sgurr na Muice, an outlying summit of the mountain. Sgurr Fhuar-thuill is part of group of four Munros that can be climbed together. The other three Munros are Sgurr na Ruaidhe, Carn nan Gobhar and Sgurr a'Choire Ghlais.",
    "name": "Sgurr Fhuar-thuill",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "1049m (approx 3442ft)",
    "latitude": "57.449262",
    "longitude": "-4.94313",
-   "gridReference": "NH235437",
-   "difficulty": ""
+   "gridReference": "NH235437"
  },
  {
-   "description": "",
+   "description": "Sgurr Fhuaran is the central and highest peak of the renowned Five Sisters of Kintail. A perfect cone, its west ridge is perhaps the longest continuous ascent route in Scotland - but usually Sgurr Fhuaran is approached over its neighbours. Sgurr Fhuaran can be climbed in conjunction with Sgurr na Ciste Duibhe and Sgurr na Carnach.",
    "name": "Sgurr Fhuaran",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1067m (approx 3501ft)",
    "latitude": "57.195527",
    "longitude": "-5.348455",
-   "gridReference": "NG978166",
-   "difficulty": ""
+   "gridReference": "NG978166"
  },
  {
-    "description": "",
+    "description": "Sgurr Fiona is the finer of the two Munro summits on the magnificent ridge of An Teallach. It is a perfect pyramid of rock and guards the beginning of the trickiest part of the traverse. Sgurr Fiona can be climbed in conjunction with Bidein a'Ghlas Thuill.",
     "name": "Sgurr Fiona (An Teallach)",
     "region": "Loch Maree to Loch Broom and Garve",
     "height": "1060m (approx 3478ft)",
     "latitude": "57.801018",
     "longitude": "-5.25962",
-    "gridReference": "NH064837",
-    "difficulty": ""
+    "gridReference": "NH064837"
  },
  {
-   "description": "",
+   "description": "Sgurr Mhic Choinnich is a wedge-shaped ridge of rock above the back of Coire Lagan. For non-climbers it is probably one of the more difficult Cuillin Munros, the ridge from the bealach having one particularly exposed climb up.",
    "name": "Sgurr Mhic Choinnich",
    "region": "Isle of Skye",
    "height": "948m (approx 3110ft)",
    "latitude": "57.208636",
    "longitude": "-6.224493",
-   "gridReference": "NG450210",
-   "difficulty": ""
+   "gridReference": "NG450210"
  },
  {
-   "description": "",
+   "description": "Sgurr Mhor is the very fine main summit of Beinn Alligin, taking the form of a graceful dome. It is a truly spectacular viewpoint, both for Skye across the sea and for the Horns and Liathach inland. Sgurr Mhor can be climbed in conjunction with Tom na Gruagaich.",
+   "name": "Sgurr Mhor (Beinn Alligin)",
+   "region": "Loch Carron to Loch Maree",
+   "height": "986m (approx 3235ft)",
+   "latitude": "57.591165",
+   "longitude": "-5.573936",
+   "gridReference": "NG865613"
+ },
+ {
+   "description": "Sgurr Mor is the highest of the Fannichs and easily recognised from afar due to its perfect and improbable cone-like shape. It is a wonderful viewpoint for the northwest Highlands and the highlight of any ridgewalk in the Fannichs. Sgurr Mor can be climbed in conjunction with Beinn Liath Mhor Fannaich, Meall Gorm and An Coileachan.",
    "name": "Sgurr Mor",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "1110m (approx 3642ft)",
    "latitude": "57.700069",
    "longitude": "-5.017179",
-   "gridReference": "NH203718",
-   "difficulty": "Moderate"
+   "gridReference": "NH203718"
  },
  {
-   "description": "",
-   "name": "Sgùrr Mor (Beinn Alligin)",
-   "region": "Loch Carron to Loch Maree",
-   "height": "986m (approx 3235ft)",
-   "latitude": "57.591165",
-   "longitude": "-5.573936",
-   "gridReference": "NG865613",
-   "difficulty": ""
- },
- {
-   "description": "",
+   "description": "Sgurr Mor is big, steep and rocky mountain and is amongst the most remote Munros to reach, rising between Loch Quoich and lonely Glen Kingie. It is most usually climbed from Strathan at the head of Loch Arkaig, a route involving a climb over an intervening pass on both the way out and back. Sgurr Mor can be climbed in conjunction with Sgurr an Fhuarain.",
    "name": "Sgurr Mor (Loch Quoich)",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1003m (approx 3291ft)",
    "latitude": "57.028151",
    "longitude": "-5.354805",
-   "gridReference": "NM965980",
-   "difficulty": ""
+   "gridReference": "NM965980"
  },
  {
-   "description": "",
+   "description": "Sgurr na Banachdich is one of the easiest Munros in the Skye Cuillin, if climbed via Coir nan Eich. Nonetheless it has a fine pointed summit and magnificent views, lying at the meeting point of three great scramblers' ridges. Sgurr na Banachdich can be climbed on its own or combined with other Munros connected to it on the main Cuillin Ridge.",
    "name": "Sgurr na Banachdich",
    "region": "Isle of Skye",
    "height": "965m (approx 3166ft)",
    "latitude": "57.220621",
    "longitude": "-6.242443",
-   "gridReference": "NG440224",
-   "difficulty": ""
+   "gridReference": "NG440224"
  },
  {
-   "description": "",
+   "description": "Sgurr na Carnach is one of the Five Sisters of Kintail, and became a separate Munro in the 1997 revision to Munro's tables. It is a steep rocky cone. Sgurr na Carnach can be climbed in conjunction with Sgurr na Ciste Duibhe and Sgurr Fhuaran.",
    "name": "Sgurr na Carnach",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1002m (approx 3287ft)",
@@ -2146,483 +2105,435 @@
    "difficulty": ""
  },
  {
-   "description": "",
-   "name": "Sgrr na Ciche",
+   "description": "Sgurr na Ciche is one of the most shapely mountains in the Highlands, seen as a fine cone from most directions. It is set in remote, wild country on the edge of Knoydart and commands a wonderful view down the length of Loch Nevis. Sgurr na Ciche can be climbed in conjunction with Sgurr nan Coireachan and Garbh Chioch Mhor.",
+   "name": "Sgurr na Ciche",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1040m (approx 3412ft)",
    "latitude": "57.012776",
    "longitude": "-5.457236",
-   "gridReference": "NM902966",
-   "difficulty": ""
+   "gridReference": "NM902966"
  },
  {
-   "description": "",
+   "description": "Sgurr na Ciste Duibhe is southernmost of the Five Sisters of Kintail and offers magnificent views down Loch Duich. Its finest feature is the elegant eastern ridge over the Top of Sgurr nan Spainteach. Sgurr na Ciste Duibhe can be climbed in conjunction with Sgurr na Carnach and Sgurr Fhuaran.",
    "name": "Sgurr na Ciste Duibhe",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1027m (approx 3369ft)",
    "latitude": "57.180545",
    "longitude": "-5.337166",
-   "gridReference": "NG984149",
-   "difficulty": ""
+   "gridReference": "NG984149"
  },
  {
-   "description": "",
+   "description": "Sgurr na Lapaich is the highest of the huge and very remote range of mountains on the north side of Loch Mullardoch. On fine days it is prominent in views from the Kessock Bridge and Inverness. Sgurr na Lapaich can be climbed in conjunction with Carn nan Gobhar, An Riabhachan and An Socach.",
    "name": "Sgurr na Lapaich",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "1150m (approx 3773ft)",
    "latitude": "57.369143",
    "longitude": "-5.061475",
-   "gridReference": "NH160351",
-   "difficulty": ""
+   "gridReference": "NH160351"
  },
  {
-   "description": "",
+   "description": "One of the four Glen Strathfarrar Munros, Sgurr na Ruaidhe is a fairly featureless pudding-shaped hill of spongy mosses. Its redeeming feature is the view east over to the Cromarty and Beauly Firths. Sgurr na Ruaidhe can be climbed in conjunction with Carn nan Gobhar, Sgurr a'Choire Ghlais and Sgurr Fhuar-thuill.",
    "name": "Sgurr na Ruaidhe",
    "region": "Kyle of Lochalsh to Inverness, North of Loch Mullardoch",
    "height": "992m (approx 3255ft)",
    "latitude": "57.441423",
    "longitude": "-4.854159",
-   "gridReference": "NH288426",
-   "difficulty": ""
+   "gridReference": "NH288426"
  },
  {
-   "description": "",
+   "description": "Sgurr na Sgine may not rival the grandeur of its neighbour The Saddle, but it is a fine peak nonetheless and its top Faochag (the whelk) looks improbably steep and cone-like from higher up Glen Shiel. Sgurr na Sgine can be climbed in conjunction with The Saddle.",
    "name": "Sgurr na Sgine",
    "region": "Glen Shiel to Glenfinnan",
    "height": "945m (approx 3100ft)",
    "latitude": "57.146577",
    "longitude": "-5.396949",
-   "gridReference": "NG946113",
-   "difficulty": ""
+   "gridReference": "NG946113"
  },
  {
-   "description": "",
+   "description": "Sgurr nan Ceathreamhnan is a magnificent mountain, the culminating point of a series of fine ridges. It is at the very heart of the wild area at the head of Glen Affric - making it one of the remotest peaks in Scotland - and most walkers will need an overnight stay to make the ascent. Sgurr nan Ceathreamhnan can be climbed in conjunction with Mullach nan Dheiragain and An Socach.",
    "name": "Sgurr nan Ceathreamhnan",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1151m (approx 3776ft)",
    "latitude": "57.25455",
    "longitude": "-5.222783",
-   "gridReference": "NH057228",
-   "difficulty": ""
+   "gridReference": "NH057228"
  },
  {
-   "description": "",
+   "description": "Sgurr nan Clach Geala is a magnificent mountain, a fine north-south ridge with a stunning east face, a long wall of broken crags. The approach is normally made via the foot of Loch a'Bhraoin. Sgurr nan Clach Geala can be climbed with Meall a'Chrasgaidh and Sgurr nan Each.",
    "name": "Sgurr nan Clach Geala",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "1093m (approx 3586ft)",
    "latitude": "57.696615",
    "longitude": "-5.048785",
-   "gridReference": "NH184715",
-   "difficulty": ""
+   "gridReference": "NH184715"
  },
  {
-   "description": "",
+   "description": "Sgurr nan Coireachan is a steep mixture of grassy and rocky slopes, giving a tough ascent from Glen Dessary. If the ridge is followed to its termination on Sgurr na Ciche, however, it is merely the warm-up for the exertions to follow. Sgurr nan Coireachan can be climbed with Garbh Chioch Mhor and Sgurr na Ciche.",
    "name": "Sgurr nan Coireachan (Glenn Dessary)",
    "region": "Glen Shiel to Glenfinnan",
    "height": "953m (approx 3127ft)",
    "latitude": "57.007",
    "longitude": "-5.405623",
-   "gridReference": "NM933958",
-   "difficulty": ""
+   "gridReference": "NM933958"
  },
  {
-   "description": "",
+   "description": "Sgurr nan Coireachan is one of a pair of Munros at the head of Glen Finnan. Both are fine, rocky peaks with great views and some of the character of neighbouring Knoydart. Sgurr nan Coireachan can be climbed with Sgurr Thuilm.",
    "name": "Sgurr nan Coireachan (Glenfinnan)",
    "region": "Glen Shiel to Glenfinnan",
    "height": "956m (approx 3136ft)",
    "latitude": "56.935659",
    "longitude": "-5.450091",
-   "gridReference": "NM902880",
-   "difficulty": ""
+   "gridReference": "NM902880"
  },
  {
-   "description": "",
+   "description": "Sgurr nan Conbhairean is a shy, dome-shaped mountain above Loch Cluanie but set back too far to be seen from the road. It is the highest of a group of three Munros that make an enjoyable round. As mentioned, Sgurr nan Conbhairean can be climbed with the other two Munros, which are Carn Ghluasaid and Sail Chaorainn.",
    "name": "Sgurr nan Conbhairean",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1109m (approx 3638ft)",
    "latitude": "57.176822",
    "longitude": "-5.096846",
-   "gridReference": "NH129138",
-   "difficulty": ""
+   "gridReference": "NH129138"
  },
  {
-   "description": "",
+   "description": "Sgurr nan Each is a Munro on the south ridge of Sgurr nan Clach Geala. It takes the form of an elegant 's'-shaped ridge with steep flanks. Sgurr nan Each can be climbed with Meall a'Chrasgaidh and Sgurr nan Clach Geala.",
    "name": "Sgurr nan Each",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "923m (approx 3028ft)",
    "latitude": "57.68047",
    "longitude": "-5.047429",
-   "gridReference": "NH184697",
-   "difficulty": ""
+   "gridReference": "NH184697"
  },
  {
-   "description": "",
+   "description": "The southernmost peak in the Cuillin, Sgurr nan Eag is on one of the more straightforward sections of ridge though it does still require scrambling skills. This section of the ridge continues out to the terminal peak of Gars-bheinn and its position above the sea gives it stupendous views. Sgurr nan Eag can be climbed with Sgurr Dubh Mor.",
    "name": "Sgurr nan Eag",
    "region": "Isle of Skye",
    "height": "924m (approx 3032ft)",
    "latitude": "57.195587",
    "longitude": "-6.211403",
-   "gridReference": "NG457195",
-   "difficulty": ""
+   "gridReference": "NG457195"
  },
  {
-   "description": "",
+   "description": "Sgurr nan Gillean is commonly regarded as the finest of the Skye Cuillin. A magnificent pyramidal peak, it has three main ridges. The easiest is open to keen scramblers only whilst the other two ridges are graded rock-climbs. Sgurr nan Gillean can be climbed with Am Basteir and Bruach na Frithe.",
    "name": "Sgurr nan Gillean",
    "region": "Isle of Skye",
    "height": "964m (approx 3163ft)",
    "latitude": "57.247428",
    "longitude": "-6.194098",
-   "gridReference": "NG471252",
-   "difficulty": ""
+   "gridReference": "NG471252"
  },
  {
-   "description": "",
+   "description": "Sgurr Thuilm is one of the two Glenfinnan Munros. A fine rocky peak of great character, the views are magnificent with lochs and steep mountains in all directions. Sgurr Thuilm can be climbed with Sgurr nan Coireachan.",
    "name": "Sgurr Thuilm",
    "region": "Glen Shiel to Glenfinnan",
    "height": "963m (approx 3159ft)",
    "latitude": "56.936423",
    "longitude": "-5.389314",
-   "gridReference": "NM939879",
-   "difficulty": ""
+   "gridReference": "NM939879"
  },
  {
-   "description": "",
+   "description": "Slioch is one of the most familiar mountains in the Highlands, with the view of the mountain across Loch Maree adorning countless calendars and brochures. It is also a fine viewpoint over the Fisherfield Forest to the north.",
    "name": "Slioch",
    "region": "Loch Maree to Loch Broom and Garve",
    "height": "981m (approx 3219ft)",
    "latitude": "57.66657",
    "longitude": "-5.348182",
-   "gridReference": "NH004690",
-   "difficulty": ""
+   "gridReference": "NH004690"
  },
  {
-   "description": "",
+   "description": "Spidean a'Choire Leith is the highest summit of mighty Liathach. The mountain is exceptionally well defended by cliffs and buttresses and there are very few possible routes of ascent - and even these are steep and scrambly. The ridge on both sides of the summit is nothing short of magnificent. Spidean a'Choire Leith can be climbed with Mullach an Rathain.",
    "name": "Spidean a'Choire Leith (Liathach)",
    "region": "Loch Carron to Loch Maree",
    "height": "1055m (approx 3461ft)",
    "latitude": "57.56366",
    "longitude": "-5.464177",
-   "gridReference": "NG929579",
-   "difficulty": ""
+   "gridReference": "NG929579"
  },
  {
-   "description": "",
+   "description": "Spidean Coire nan Clach was promoted to Munro status in 1997 to become Beinn Eighe's second Munro. Spidean Coire nan Clach can be climbed with Ruadh-stac Mor",
    "name": "Spidean Coire nan Clach (Beinn Eighe)",
    "region": "Loch Carron to Loch Maree",
    "height": "993m (approx 3258ft)",
    "latitude": "57.58148",
    "longitude": "-5.403919",
-   "gridReference": "NG966597",
-   "difficulty": ""
+   "gridReference": "NG966597"
  },
  {
-   "description": "",
+   "description": "Spidean Mialach is one of a pair of Munros on the north side of Loch Quoich. They make an excellent walk with fine stalkers paths on their lower slopes. Spidean Mialach can be climbed with Gleouraich.",
    "name": "Spidean Mialach",
    "region": "Glen Shiel to Glenfinnan",
    "height": "996m (approx 3268ft)",
    "latitude": "57.089002",
    "longitude": "-5.193535",
-   "gridReference": "NH066043",
-   "difficulty": ""
+   "gridReference": "NH066043"
  },
  {
-   "description": "",
+   "description": "Sron a'Choire Ghairbh is the higher of the two Munros on the north side of Loch Lochy, rising above the forestry as seen from the south side of the loch. Its rounded summit has steep flanks and corries. Sron a'Choire Ghairbh can be climbed with Meall na Teanga.",
    "name": "Sron a'Choire Ghairbh",
    "region": "Glen Shiel to Glenfinnan",
    "height": "937m (approx 3074ft)",
    "latitude": "57.007372",
    "longitude": "-4.929533",
-   "gridReference": "NN222945",
-   "difficulty": ""
+   "gridReference": "NN222945"
  },
  {
-   "description": "",
+   "description": "A twin to neighbouring Stob Coire Easain, Stob a'Choire Mheadhoin is part of a huge north-south ridge. It looks a fine pyramid when seen from around Moy its central position and height makes it a good viewpoint. Stob a'Choire Mheadhoin can be climbed with Stob Coire Easain.",
    "name": "Stob a'Choire Mheadhoin",
    "region": "Fort William to Loch Ericht",
    "height": "1106m (approx 3629ft)",
    "latitude": "56.82336",
    "longitude": "-4.76106",
-   "gridReference": "NN316736",
-   "difficulty": ""
+   "gridReference": "NN316736"
  },
  {
-   "description": "",
+   "description": "Stob a'Choire Odhair may not be well-known by name, but it is a familiar sight as the dome-shaped mountain rising behind the lochs in the frequently-photographed view across Rannoch Moor. It is a fine viewpoint for looking out over the vast, wild emptyness of the moor. Stob a'Choire Odhair can be climbed with Stob Ghabhar.",
    "name": "Stob a'Choire Odhair",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "945m (approx 3100ft)",
    "latitude": "56.57264",
    "longitude": "-4.838821",
-   "gridReference": "NN257459",
-   "difficulty": ""
+   "gridReference": "NN257459"
  },
  {
-   "description": "",
+   "description": "Stob Ban is a fine cone-shaped mountain almost hidden behind the much higher Grey Corries range.",
    "name": "Stob Ban (Grey Corries)",
    "region": "Fort William to Loch Ericht",
    "height": "975m (approx 3199ft)",
    "latitude": "56.809858",
    "longitude": "-4.841996",
-   "gridReference": "NN266723",
-   "difficulty": ""
+   "gridReference": "NN266723"
  },
  {
-   "description": "",
+   "description": "Stob Ban is a very steep and sharply peaked Munro, one of the finest peaks in the Mamores. It is well seen from many points in lower Glen Nevis. Stob Ban can be climbed with Mullach nan Coirean.",
    "name": "Stob Ban (Mamores)",
    "region": "Fort William to Loch Ericht",
    "height": "999m (approx 3278ft)",
    "latitude": "56.743369",
    "longitude": "-5.031625",
-   "gridReference": "NN147654",
-   "difficulty": ""
+   "gridReference": "NN147654"
  },
  {
-   "description": "",
+   "description": "Stob Binnein is joined to its slightly higher twin Ben More and seldom thought of on its own; however it is actually the finer of the two summits. It can be approached separately from the south as well as the more usual combination from the north. Stob Binnein can be climbed with Ben More.",
    "name": "Stob Binnein",
    "region": "Firth of Clyde to Strathtay",
    "height": "1165m (approx 3822ft)",
    "latitude": "56.370653",
    "longitude": "-4.537109",
-   "gridReference": "NN434227",
-   "difficulty": ""
+   "gridReference": "NN434227"
  },
  {
-   "description": "",
+   "description": "Stob Choire Claurigh is the highest of the Grey Corries, and its fine peak appears covered in scree in distant views. The range actually makes for a classic ridgewalk. Stob Choire Claurigh can be climbed with Stob Coire an Laoigh, Sgurr Choinnich Mor and Stob Ban.",
    "name": "Stob Choire Claurigh",
    "region": "Fort William to Loch Ericht",
    "height": "1177m (approx 3862ft)",
    "latitude": "56.823167",
    "longitude": "-4.849561",
-   "gridReference": "NN262738",
-   "difficulty": ""
+   "gridReference": "NN262738"
  },
  {
-   "description": "",
+   "description": "Stob Coir' an Albannaich is one of the fine range of mountains on the south side of Glen Etive. It has a very fine summit right on the edge of a steep crag and it gives an enjoyable traverse. Stob Coir'an Albannaich can be climbed with Meall nan Eun.",
    "name": "Stob Coir'an Albannaich",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "1044m (approx 3425ft)",
    "latitude": "56.554935",
    "longitude": "-4.980722",
-   "gridReference": "NN169443",
-   "difficulty": ""
+   "gridReference": "NN169443"
  },
  {
-   "description": "",
+   "description": "Stob Coire a'Chairn has a fine situation where the airy An Gearanach ridge meets the main spine of the Mamores. This area has some of the best ridgewalking in Scotland. Stob Coire a'Chairn can be climbed with An Gearanach, Am Bodach and Sgurr a'Mhaim.",
    "name": "Stob Coire a'Chairn",
    "region": "Fort William to Loch Ericht",
    "height": "980m (approx 3215ft)",
    "latitude": "56.750247",
    "longitude": "-4.970008",
-   "gridReference": "NN185660",
-   "difficulty": ""
+   "gridReference": "NN185660"
  },
  {
-   "description": "",
+   "description": "Stob Coire an Laoigh is the second of the Grey Corries peaks, set on a magnificent ridgewalk. The approaches to this peak are long and the Grey Corries traverse is not to be taken lightly. Stob Coire an Laoigh can be climbed with Stob Coire Claurigh, Sgurr Choinnich Mor and Stob Ban.",
    "name": "Stob Coire an Laoigh",
    "region": "Fort William to Loch Ericht",
    "height": "1116m (approx 3661ft)",
    "latitude": "56.810638",
    "longitude": "-4.886298",
-   "gridReference": "NN239725",
-   "difficulty": ""
+   "gridReference": "NN239725"
  },
  {
-   "description": "",
+   "description": "A twin to neighbouring Stob a'Choire Mheadhoin, Stob Coire Easain shows a steep face to the northeast. This lengthy ridge lies between the deep trench of Loch Treig - traversed by the West Highland railway line - and the Lairig Leacach pass. Stob Coire Easain can be climbed with Stob a'Choire Mheadhoin.",
    "name": "Stob Coire Easain",
    "region": "Fort William to Loch Ericht",
    "height": "1116m (approx 3661ft)",
    "latitude": "56.817685",
    "longitude": "-4.773754",
-   "gridReference": "NN308730",
-   "difficulty": ""
+   "gridReference": "NN308730"
  },
  {
-   "description": "",
+   "description": "Stob Coire Raineach - the northern summit of Buachaille Etive Beag - became a Munro in its own right in 1997. Its broad summit has great views of the Aonach Eagach. Stob Coire Raineach can be climbed with Stob Dubh.",
    "name": "Stob Coire Raineach (Buachaille Etive Beag)",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "925m (approx 3035ft)",
    "latitude": "56.649995",
    "longitude": "-4.952326",
-   "gridReference": "NN179535",
-   "difficulty": ""
+   "gridReference": "NN179535"
  },
  {
-   "description": "",
+   "description": "Stob Coire Sgreamhach is really part of the Bidean nam Bian massif but became a Munro in its own right in 1997. This fine summit is situated where the Beinn Fhada ridge joins the main ridge across the back of Bidean. Beinn Fhada is tricky terrain - particularly in descent - and the Lost Valley is the route usually used, involving a steep and eroded climb up scree. Stob Coire Sgreamhach can be climbed with Bidean nam Bian.",
    "name": "Stob Coire Sgreamhach",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "1072m (approx 3517ft)",
    "latitude": "56.637784",
    "longitude": "-5.011726",
-   "gridReference": "NN154536",
-   "difficulty": ""
+   "gridReference": "NN154536"
  },
  {
-   "description": "",
+   "description": "Stob Coire Sgriodain is a steep sided ridge high above the glacial trench of Loch Treig. It is usually climbed in combination with neighbouring Chno Dearg.",
    "name": "Stob Coire Sgriodain",
    "region": "Fort William to Loch Ericht",
    "height": "978m (approx 3209ft)",
    "latitude": "56.831073",
    "longitude": "-4.69605",
-   "gridReference": "NN356743",
-   "difficulty": ""
+   "gridReference": "NN356743"
  },
  {
-   "description": "",
+   "description": "Stob Daimh (misspelt Diamh on some OS maps) is a fine peak, but is normally ascended as part of a circuit around Coire Cruachan with its majestic neighbour, Ben Cruachan.",
    "name": "Stob Daimh",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "998m (approx 3274ft)",
    "latitude": "56.430844",
    "longitude": "-5.092674",
-   "gridReference": "NN094308",
-   "difficulty": ""
+   "gridReference": "NN094308"
  },
  {
-   "description": "",
-   "name": "Stob Dearg (Buachaille Etive Mòr)",
+   "description": "Stob Dearg is the highest and finest peak of Buachaille Etive Mor, and one of the most famous sights of the Highlands. The mountain presents a remarkable pyramid of rock to travellers along the A82 across Rannoch Moor. Stob Dearg can be climbed with Stob na Broige.",
+   "name": "Stob Dearg (Buachaille Etive Mor)",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "1021m (approx 3350ft)",
    "latitude": "56.645799",
    "longitude": "-4.901421",
-   "gridReference": "NN222542",
-   "difficulty": ""
+   "gridReference": "NN222542"
  },
  {
-   "description": "",
+   "description": "The higher of the two Munros on Buachaille Etive Beag, Stob Dubh is a fine summit on a grand section of ridge, overlooking Loch Etive. Stob Dubh can be climbed with Stob Coire Raineach.",
    "name": "Stob Dubh (Buachaille Etive Beag)",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "958m (approx 3143ft)",
    "latitude": "56.637866",
    "longitude": "-4.970952",
-   "gridReference": "NN179535",
-   "difficulty": ""
+   "gridReference": "NN179535"
  },
  {
-   "description": "",
+   "description": "Stob Ghabhar is the finest peak of the Black Mount range, with narrow rocky ridges, steep cliffs and deep corries. It is a familiar sight seen across the lochans of Rannoch Moor from the A82. Stob Ghabhar can be climbed with Stob a'Choire Odhair.",
    "name": "Stob Ghabhar",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "1090m (approx 3576ft)",
    "latitude": "56.568041",
    "longitude": "-4.882436",
-   "gridReference": "NN230455",
-   "difficulty": ""
+   "gridReference": "NN230455"
  },
  {
-   "description": "",
-   "name": "Stob na Bròige (Buachaille Etive Mòr)",
+   "description": "Stob na Broige is the summit at the Glen Etive end of Buachaille Etive Mor. It was promoted to become a separate Munro in 1997 when means that most baggers now traverse the whole ridge. Stob na Broige can be climbed with Stob Dearg.",
+   "name": "Stob na Broige (Buachaille Etive Mor)",
    "region": "Loch Leven to Connel Bridge and Glen Lochy",
    "height": "956m (approx 3136ft)",
    "latitude": "56.62932",
    "longitude": "-4.952341",
-   "gridReference": "NN190525",
-   "difficulty": ""
+   "gridReference": "NN190525"
  },
  {
-   "description": "",
+   "description": "Stob Poite Coire Ardair is a ridge on the opposite side of the Window from Creag Meagaidh. It offers fine views across the spectacular cliffs of Coire Ardair, and has steep broken crags on its southern flanks. Stob Poite Coire Ardair can be climbed with Carn Liath and Creag Meagaidh.",
    "name": "Stob Poite Coire Ardair",
    "region": "Spean Bridge to Elgin",
    "height": "1054m (approx 3458ft)",
    "latitude": "56.963693",
    "longitude": "-4.587169",
-   "gridReference": "NN428888",
-   "difficulty": ""
+   "gridReference": "NN428888"
  },
  {
-   "description": "",
+   "description": "Stuc a'Chroin is a steep and rocky peak, involving a scramble when ascended from neighbouring Ben Vorlich.",
    "name": "Stuc a'Chroin",
    "region": "Firth of Clyde to Strathtay",
    "height": "974m (approx 3196ft)",
    "latitude": "56.32878",
    "longitude": "-4.238294",
-   "gridReference": "NN617174",
-   "difficulty": ""
+   "gridReference": "NN617174"
  },
  {
-   "description": "",
+   "description": "Stuchd an Lochain is an enjoyable mountain with a fine northern corrie enclosing the almost circular Lochan nan Cat. It is usually climbed via a very short route from Loch an Daimh to the north but can also be approached from Pubil in upper Glen Lyon",
    "name": "Stuchd an Lochain",
    "region": "Loch Rannoch to Loch Tay",
    "height": "960m (approx 3150ft)",
    "latitude": "56.570617",
    "longitude": "-4.470714",
-   "gridReference": "NN483448",
-   "difficulty": ""
+   "gridReference": "NN483448"
  },
  {
-   "description": "",
+   "description": "The Cairnwell is a prominent cone-shaped mountain when seen from the south on the drive up the Cairnwell Pass. It is a great viewpoint, but the summit has been ruined by the construction of communications masts whilst its slopes are scattered with skiing impedimentia. The Cairnwell can be climbed with Carn Aosda and Carn a'Gheoidh.",
    "name": "The Cairnwell",
    "region": "Forest of Atholl to Braemar and Blairgowrie",
    "height": "933m (approx 3061ft)",
    "latitude": "56.879037",
    "longitude": "-3.422608",
-   "gridReference": "NO134773",
-   "difficulty": ""
+   "gridReference": "NO134773"
  },
  {
-   "description": "",
+   "description": "The Devil's Point is a bare pyramid of rock which guards the entrance to the Lairig Ghru from the south. From other directions its true nature as the southern termination of Cairn Toul is more apparent. The Devil's Point can be climbed with Cairn Toul, Sgor an Lochain Uaine and Braeriach.",
    "name": "The Devil's Point",
    "region": "The Cairgorms",
    "height": "1004m (approx 3294ft)",
    "latitude": "57.035654",
    "longitude": "-3.688965",
-   "gridReference": "NN976951",
-   "difficulty": ""
+   "gridReference": "NN976951"
  },
  {
-   "description": "",
+   "description": "The Saddle (An Diollaid in Gaelic) is the finest mountain in Kintail. Its fine summit has a whole batch of magnificent ridges, the pick of them all being the celebrated Forcan Ridge, one of the airiest scrambles in the Highlands. The Saddle can be climbed with Sgurr na Sgine.",
    "name": "The Saddle",
    "region": "Glen Shiel to Glenfinnan",
    "height": "1010m (approx 3314ft)",
    "latitude": "57.16227",
    "longitude": "-5.414935",
-   "gridReference": "NG936131",
-   "difficulty": ""
+   "gridReference": "NG936131"
  },
  {
-   "description": "",
+   "description": "Toll Creagach is an undistinguished dome-like summit between Glen Affric and Loch Mullardoch, with shallow corries on its flanks. Toll Creagach can be climbed with a'Choinich.",
    "name": "Toll Creagach",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1054m (approx 3458ft)",
    "latitude": "57.308607",
    "longitude": "-4.999969",
-   "gridReference": "NH194282",
-   "difficulty": ""
+   "gridReference": "NH194282"
  },
  {
-   "description": "",
+   "description": "Tolmount looks a fine cone-like peak when seen from Loch Callater; otherwise it is a twin to its close neighbour Tom Buidhe - a simple rounded dome-like upthrust on the wide Mounth plateau. Tolmount can be climbed wih Tom Buidhe.",
    "name": "Tolmount",
    "region": "Braemar to Montrose",
    "height": "958m (approx 3143ft)",
    "latitude": "56.904644",
    "longitude": "-3.29878",
-   "gridReference": "NO210800",
-   "difficulty": ""
+   "gridReference": "NO210800"
  },
  {
-   "description": "",
+   "description": "Tom a'Choinich is an eastward extension of the Carn Eige range, an 'e'-shaped junction of three ridges above Glen Affric. It is a far finer peak than its lumpy neighbour Toll Creagach. Tom a'Choinich can be climbed with Toll Creagach.",
    "name": "Tom a'Choinich",
    "region": "Loch Duich to Loch Ness, South of Loch Mullardoch",
    "height": "1113m (approx 3652ft)",
    "latitude": "57.299337",
    "longitude": "-5.049027",
-   "gridReference": "NH164273",
-   "difficulty": ""
+   "gridReference": "NH164273"
  },
  {
-   "description": "",
+   "description": "Tom Buidhe is a featureless dome-like upswelling on the vast Mounth plateau, looking nothing like a mountain from any direction. It is nearly always climbed with its neighbour Tolmount, and can be ascended from Glen Callater, Glen Doll or from the Cairnwell Pass.",
    "name": "Tom Buidhe",
    "region": "Braemar to Montrose",
    "height": "957m (approx 3140ft)",
    "latitude": "56.893019",
    "longitude": "-3.293452",
-   "gridReference": "NO213787",
-   "difficulty": ""
+   "gridReference": "NO213787"
  },
  {
-   "description": "",
+   "description": "Tom na Gruagaich, formerly a Top, was promoted to become the second Munro of Beinn Alligin in 1997. It has sensational views over the sea to Skye and for most walkers is the start of the sensational traverse of the mountain. Tom na Gruagaich can be climbed with Sgurr Mhor.",
    "name": "Tom na Gruagaich (Beinn Alligin)",
    "region": "Loch Carron to Loch Maree",
    "height": "922m (approx 3025ft)",
    "latitude": "57.580123",
    "longitude": "-5.582894",
-   "gridReference": "NG859601",
-   "difficulty": ""
+   "gridReference": "NG859601"
  }
 ]}
